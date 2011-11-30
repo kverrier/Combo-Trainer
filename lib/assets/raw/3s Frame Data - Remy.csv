@@ -1,0 +1,71 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,4,3,4,3,3,3,30,H+L,3,O,O,O
+Strong,7,4,8,1,2,3,70,H,7,X,O,O
+Fierce,6,6,8,1,3,5,120,H(H+L),9(5),X,O,O
+Far Jab,4,3,3,4,4,4,20,H+L,3,O,X,X
+Far Strong,7,2,12,1,2,3,60,H,9,X,X,X
+Far Fierce,10,4,18,-2,0,2,110,H,7,X,X,X
+Crouching Jab,5,1,7,2,2,2,20,H+L,3,O,O,O
+Crouching Strong,5,4,11,-2,-1,0,55,H+L,5,X,O,O
+Crouching Fierce,9,4,18,-5,Down,Down,100,H+L,9,X,X,X
+Jumping Jab,4,19,,,,,40,H,7,X,X,X
+Jumping Strong,5,13,,,,,70,H,11,X,X,X
+Jumping Fierce,9,4,,,,,125,H,15,X,X,X
+Short,2,4,7,0,0,0,35,H+L,5,X,O,O
+Forward,4,5,11,1,3,5,90,H,9,X,O,O
+Roundhouse,8,1*4,13,3,5,7,80+60,H,7+9,X,O+X,O+X
+Far Short,3,4,4,2,2,2,30,H+L,3,X,X,X
+Far Forward,8,4,14,-3,-2,-1,80,H,7,X,O,O
+Far Roundhouse,10,2,23,-9,-7,-5,130,H,11,X,X,X
+Crouching Short,3,3,7,0,0,0,30,L,3,X,X,X
+Crouching Forward,8,4,18,-9,-8,-7,60,L,3,X,X,X
+Crouching Roundhouse,9,1*4,21,-11,Down,Down,100+110,L,3+3,X,X,X
+Jumping Short,4,13,,,,,50,H,5,X,X,X
+Jumping Forward,6,3,,,,,90,H,9,X,X,X
+Jumping Roundhouse,10,3,,,,,120,H,13,X,X,X
+Towards + Forward,18,2,20,-7,,,80,H,3,X,X,X
+Neutral Throw,2,1,21,,,,30+20+70,,3+3+9,X,X,X
+Throw,2,1,21,,,,130,,5,X,X,X
+Universal Overhead,16 ~ 25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,40,H,3,X,X,X
+Taunt,,130,,,,,0,,,X,X,X
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Light of Virtue (Jab),Hold B...F + Jab,9,1,22,5,60,H,3,O
+Light of Virtue (Strong),Hold B...F + Strong,10,1,22,5,60,H,3,O
+Light of Virtue (Fierce),Hold B...F + Fierce,11,1,22,5,60,H,3,O
+Light of Virtue (EX High),Hold B...F + 2 Punches,8,1,23,4,60,H,3,O
+Light of Virtue (EX Low),Hold B...F + 2 Punches,9,1,23,4,60,H+L,3,O
+Light of Virtue (Short),Hold B...F + Short,11,1,26,1,60,H,3,O
+Light of Virtue (Forward),Hold B...F + Forward,12,1,26,1,60,H,3,O
+Light of Virtue (RH),Hold B...F + RH,13,1,26,1,60,H,3,O
+Light of Virtue (EX High),Hold B...F + 2 Kicks,9,1,27,0,60,H,3,O
+Light of Virtue (EX Low),Hold B...F + 2 Kicks,8,1,27,0,60,H+L,3,O
+Rising Rage Flash (Short),Hold D...U + Short,3,2,32,-17,120,H+L,9,X
+Rising Rage Flash (Forward),Hold D...U + Forward,4,2,39,-23,130,H+L,7,X
+Rising Rage Flash (RH),Hold D...U + RH,5,3,44,-26,140,H+L,7,X
+Rising Rage Flash (EX),Hold D...U + 2 Kicks,6,3,41,-21,120+70,H+L,7+7,O+X
+Cold Blue Kick (Short),QCB + Short,17,9,10,-4,120,H,7,X
+Cold Blue Kick (Forward),QCB + Forward,18,9,10,-4,120,H,7,X
+Cold Blue Kick (RH),QCB + RH,19,11,10,-6,120,H,7,X
+Cold Blue Kick (EX),QCB + 2 Kicks,18,8,10,-2,90+70,H,7+5,X
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Light of Justice,QCF x 2 + Punch,2,1x7,24,3,55x7,H,3x7
+Supreme Rising Rage Flash,QCF x 2 + Kick,1,1,,,100,H+L,9
+,,,1,,,40,H+L,0
+,,,1,,,40,H+L,0
+,,16,1,,,60,H+L,7
+,,,1,,,30,H+L,0
+,,,1,,,30,H+L,0
+,,20,1,,,40,H+L,0
+,,,1,,,40,H+L,0
+,,,1,,,40,H+L,0
+,,,3,53,-29,80,H+L,0
+Blue Nocturne,QCF x 2 + Kick,1
+,,2~23,2,,,80
+,,10,3,,,60
+,,11,2,,,60
+,,9,1,,,60
+,,7,1,,,60,H
+,,7,2,,,60,H
+,,15,3,39,,190,H

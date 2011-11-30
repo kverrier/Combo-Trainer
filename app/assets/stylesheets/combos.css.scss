@@ -1,0 +1,24 @@
+// Place all the styles related to the Combos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#character_gif {
+	
+}
+
+#combo_string {
+	font-size: 16px;
+}
+
+#add_move {
+	img { display:inline-block; width:50%; margin:auto; }
+
+	a {
+		display:inline-block;
+
+		color: blue; text-decoration: none; 
+		&:active { color: red; text-decoration: none }
+		&:visited { color: blue; text-decoration: none }
+		&:hover { color: blue; text-decoration: underline }
+	}
+}

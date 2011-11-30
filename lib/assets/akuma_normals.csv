@@ -1,0 +1,33 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,3,2,5,3,3,3,30,H+L,3,X,O,O
+Strong,5,3,10,1,2,3,115,H,7,X,O,O
+Fierce,4,3,17,-4,-2,0,135(100),H,15(13),X,O,O
+Far Jab,4,2,4,4,4,4,20,H+L,3,O,O,O
+Far Strong,5,3,9,4,5,5,105,H,11,X,O,O
+Far Fierce,8,4,22,-6,-4,-2,140,H,15,X,X,X
+Crouching Jab,4,2,5,3,3,3,20,H+L,3,O,O,O
+Crouching Strong,5,3,7,3,4,5,95,H+L,7,X,O,O
+Crouching Fierce,5,4,19,-8,-6,-4,135,H+L,11,X,O,O
+Neutral Jumping Fierce,6,2,-,-,-,-,130,H,13,X,X,X
+Jumping Jab,5,-,-,-,-,-,40,H,5,X,X,X
+Jumping Strong,5,4,-,-,-,-,90,H,9,X,X,X
+Jumping Fierce,6,3,-,-,-,-,130,H,13,X,X,X
+Short,4,3,7,2,2,2,40,H+L,3,X,X,X
+Forward,4,4,11,2,4,6,115,H,9,X,O,O
+Far Forward,5,4,17,-7,-6,-5,95,H,7,X,X,X
+Roundhouse,9,2*4,19,-6,-4,-2,120+80(40),H,13+11,X,X,X
+Far Roundhouse,9,4,20,-7,-5,-3,145,H,11,X,X,X
+Crouching Short,5,2,7,1,1,1,20,L,3,O,O,O
+Crouching Forward,6,4,16,-3,-2,-1,90,L,3,X,O,O
+Crouching Roundhouse,7,4,25,-15,Down,Down,130,L,3,X,X,X
+Neutral Jumping Forward,5,5,-,-,-,-,80,H,7,X,X,X
+Neutral Jumping Roundhouse,6,4,-,-,-,-,120,H,11,X,X,X
+Jumping Short,5,9,-,-,-,-,40,H,5,X,X,X
+Jumping Forward,5,5,-,-,-,-,80,H,7,X,X,X
+Jumping Roundhouse,6,3,-,-,-,-,120,H,11,X,X,X
+Towards + Strong,14,1*1,22,-1,-,-,40+50,H,9+7,X,X,X
+Dive Kick,9,-,3,-,-,-,90,H,11,X,X,X
+Throw,2,1,21,-,-,-,110,-,9,X,X,X
+Back + Throw,2,1,21,-,-,-,110,-,15,X,X,X
+Universal Overhead,16,7,7,-5 ~ 0,0 ~ +7,+1 ~ +8,40,H,3,X,X,X
+Taunt,-,65,-,-,-,-,-,-,-,X,X,X

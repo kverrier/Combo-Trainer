@@ -1,0 +1,6 @@
+<tr>
+  <td class="portrait">
+    <%= link_to image_tag("portraits/#{character.name.downcase}-face.gif"), character_path(character.id)%>
+    <span class="character_link"><%= link_to character.name.capitalize, character_path(character.id) %></span>
+  </td>
+</tr>

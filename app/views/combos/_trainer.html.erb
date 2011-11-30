@@ -1,0 +1,107 @@
+<div class="Msg">Press j to begin practicing your combo!</div>
+
+
+	<%= coffee_script_tag do %>
+		$(document).ready ->
+			###
+			CONSTANTS
+			###
+			FRAMES = 16.666666 # 1/60 of a second
+			jKey = 106 
+
+			frameSymbol = '*'
+			breakSymbol = '|'
+
+
+
+			###
+			INTIALIZATIONS
+			###
+			keyFrame = new Date
+			elasped = 0
+			state = "NEUTRAL"
+
+			# [first start-time, first connect-time, ...,]
+			startUpPeriods    = <%= @combo_items.map{|c| c.move.startUp + c.move.hit}[0...-1] %>
+			connectionPeriods = <%= @combo_items.map{|c| c.move.recovery}[0...-1] %>
+
+			startUpTime = startUpPeriods[0] * FRAMES
+			connectTime = connectionPeriods[0] * FRAMES
+			i = 1
+
+
+			###
+			Database Test Values
+			###
+
+
+			setInterval(
+				( ->
+					$('.Timer').text(elasped / 1000 + " Seconds")
+
+					switch state
+						when "NEUTRAL"
+							return
+
+						when "STARTUP"
+							elasped = new Date - keyFrame
+
+							if elasped > startUpTime
+									keyFrame = new Date
+									state = "LINK"
+									$('.Msg').append('<br>LINK<br>')
+							else
+									$('.Msg').append(frameSymbol)
+							return
+
+						when "LINK"			        
+							elasped = new Date - keyFrame
+
+							# check if past link connection time
+							if elasped > connectTime
+								state = "NEUTRAL"
+								$('.Msg').append("<br>FAILED<br>Too slow on move number " + (i+2))
+							else
+								$('.Msg').append(frameSymbol)
+
+							return
+
+
+
+				)
+				, FRAMES
+			)
+
+
+			$(document).keypress (event) ->
+				if event.which is jKey
+					switch state
+						when "NEUTRAL"
+							startUpTime = startUpPeriods[0] * FRAMES
+							connectTime = connectionPeriods[1] * FRAMES
+							i = 0
+							keyFrame = new Date
+
+							state = "STARTUP"
+							$('.Msg').html('START UP<br>')
+
+						when "STARTUP"
+							$('.Msg').append("<br>FAILED<br>Too soon on move number " + (i+2))
+							state = "NEUTRAL"
+
+						when "LINK"
+							i += 1
+							if i >= startUpPeriods.length
+									$('.Msg').append("<br>SUCCESS<br>Press j to try again")
+									state = "NEUTRAL"
+							else
+									$('.Msg').append("<br>START UP<br>")
+
+									startUpTime = startUpPeriods[i] * FRAMES
+									connectTime = connectionPeriods[i] * FRAMES
+									keyFrame = new Date
+									state = "STARTUP"
+
+				return
+
+	<% end %>

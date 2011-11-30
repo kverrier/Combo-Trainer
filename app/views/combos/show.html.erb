@@ -1,0 +1,25 @@
+<h1><%= @character.name %></h1>
+<div id="character_portrait" >
+	<%= link_to image_tag("portraits/#{@character.name.downcase}-face.gif"), character_path(@character) %>
+</div>
+
+<h1><%= "Combo: #{@combo.name}" %></h1>
+	<div>
+		<h2>Instructions</h2>
+		<p>
+			Use the 'j' key to start your combo. As soon as the key is pressed, the combo will begin and when the words "LINK" appear, press the key to simulate the right timing of the combo. Be aware that it might take time to get used to the rhythm. The best thing to do is break down each part and then continue once the timing is understood.
+		</p>	
+	</div>
+	<div>
+		<h2>Combo Sequence</h2>
+		<div id="combo_string">
+			<%= @combo_items.map{|c| c.move.name}.join ' -> ' %>
+		</div>
+
+		<div class="my_button">
+			<%= link_to "Add a move", new_combo_item_path(:character_id => @character, :combo_id => @combo) %>
+		</div>
+	</div>
+	
+	<h2>Practice Room</h2>
+	<%= if (@combo_items.length > 1) then render 'trainer' else "Add more moves to make it a Combo" end %>

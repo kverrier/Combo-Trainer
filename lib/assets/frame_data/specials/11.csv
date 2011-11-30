@@ -1,0 +1,26 @@
+Human Pillar Driver (Jab),HCB + Jab,9,1,29,-15,40+40+70,-,7+7+9,X
+Human Pillar Driver (Strong),HCB + Strong,10,1,29,-15,50+50+70,-,7+7+9,X
+Human Pillar Driver (Fierce),HCB + Fierce,11,1,29,-15,60+60+70,-,7+7+9,X
+Oniyama (Jab),Hold D...U + Jab,6,9,29,-22,140(80(40)),H+L,15(3),O
+Oniyama (Strong),Hold D...U + Strong,6,16,30,-30,160(100(40)),H+L,15(3),O
+Oniyama (Fierce),Hold D...U + Fierce,7,1*1,-,-,120+60,H+L,19+3,O
+3rd hit,-,-,1,-,-,-60,H+L,3,X
+4th hit,-,-,19,33,-38,40,H+L,3,X
+Oniyama (EX),Hold D...U + 2 Punches,5,2*1,-,-,70+60,H+L,15+3,O
+3rd hit,-,-,1,-,-,60,H+L,3,X
+4th hit,-,-,19,43,-48,30,H+L,3,X
+Sun Disk Palm (Jab),Hold B...F + Jab,15,1,27,-6,50,H,7,O
+Sun Disk Palm (Strong),Hold B...F + Strong,15,1,25,-4,50,H,7,O
+Sun Disk Palm (Fierce),Hold B...F + Fierce,13,1,23,-2,60,H,11,O
+Sun Disk Palm (EX Low),Hold B...F + 2 Punches,15,1,27,1,50+50,H,7+7,O
+Sun Disk Palm (EX High),Hold B...F + 2 Punches,20,1,37,1,50+50,H,7+7,O
+Jinchu Nobori (Short),QCF + Short,27*4,2*2,13,-,50+50,H,5+5,X
+Jinchu Nobori (Forward),QCF + Forward,31*4,2*2,13,-,60+60,H,5+5,X
+Jinchu Nobori (RH),QCF + RH,35*4,2*2,13,-,70+60,H,5+5,X
+Jinchu Nobori (EX),QCF + 2 Kicks,31*3*2,5*2*2,13,-,65+65+75,H,5+5+5,X
+Air Jinchu Nobori,QCF + Kick (Air),8*3,2*2,-,-,40+40,H,5+5,X
+3 ~ 4,-,3*9,1*1,-,-,20+20,H,0,X
+5 ~ 8,-,9,1,13,-,20,H,0,X
+Air Jinchu Nobori (EX),QCF + 2 Kicks (Air),8*3,2*2,-,-,45+45,H,5+5,X
+3 ~ 4,-,3*9,1*1,-,-,25+25,H,0,X
+5 ~ 9,-,9,1,13,-,25,H,0,X

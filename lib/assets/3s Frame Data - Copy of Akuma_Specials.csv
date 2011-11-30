@@ -1,0 +1,23 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Hit Advantage,Parry,Stun,Super Cancel
+Gou Hadouken,8,1,38,-11,60,,H,3,O
+Gou Shoryuken (Jab),3,13,26,-24,130(100),,H+L,11(9),O
+Gou Shoryuken (Strong),2,1*4,41,-30,100+50,,H+L,11+3,O+X
+Gou Shoryuken (Fierce),1,1*1*18,35,-34,60+60+60,,H+L,11+3+3,O+O+X
+Ashura Senkuu,20,45/29,9,-,-,,-,-,-
+Zankuu Hadouken,12,1,7,-,60,,H,3,O
+Tatsumaki Zankuu Kyaku (Short),11,1,17,-12,100,,H,7,X
+Tatsumaki Zankuu Kyaku (Forward),2,1,-,-,90,,H,7,O
+-,8*2*3*1,1x4,16,-8,30x4,,H,3x4,X
+Tatsumaki Zankuu Kyaku (RH),2,1,-,-,90,,H,7,O
+-,8*(1*2)x3*1,1x8,10,-5,30x8,,H,3x8,X
+Shakunetsu Hadouken (Jab),14,1,42,-23,50,,H,3,O
+Shakunetsu Hadouken (Strong),19,1,43,-18,50+50,,H,3+3,O
+Shakunetsu Hadouken (Fierce),24,1,44,-15,50+50+50,,H,3+3+3,O
+Air Tatsumaki Zankuu Kyaku (Short),5*3,1*1,9,-,80x2,,H,3+5,O
+Air Tatsumaki Zankuu Kyaku (Forward),5*3x3,(1*1)x2,9,-,80x4,,H,(3+5)x2,O
+Air Tatsumaki Zankuu Kyaku (RH),5*3x7,(1*1)x4,9,-,80x8,,H,(3+5)x4,O
+Hyakki Shuu,-,-,-,-,-,,-,-,X
+-,40,14,13,-11,100,,L,3,X
+-,6,2,17,-,130,,H,13,X
+-,3,-,3,-,100,,H,11,X
+-,10,1,17,-,110,,-,15,X

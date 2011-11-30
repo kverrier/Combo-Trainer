@@ -1,0 +1,34 @@
+Jab,2,1,5,5,5,5,35,H+L,3,X,O,O
+Strong,5,1*1,16,-4,Down,Down,40+40,H,5+5,X,O+O,O+O
+Far Jab,4,1,10,0,0,0,30,H+L,3,X,X,X
+Far Strong,8,3,12,-2,-1,0,80,H,11,X,X,X
+Fierce,17,1*1,19,-5,-3,-1,60+80,H,7+7,X,X,X
+Crouching Jab,4,1,9,1,1,1,30,H+L,3,O,O,O
+Crouching Strong,7,5,12,-5,-4,-3,65,H+L,3,X,O,O
+Crouching Fierce,6,3,18,-2,0,0,120,H+L,11,X,X,O
+Neutral Jumping Jab,3,11,-,-,-,-,60,H,5,X,X,X
+Neutral Jumping Strong,5,5,-,-,-,-,110,H,9,X,X,X
+Neutral Jumping Fierce,7,3,-,-,-,-,140,H,13,X,X,X
+Jumping Jab,7,16,-,-,-,-,60,H,7,X,X,X
+Jumping Strong,10,7,-,-,-,-,100,H,11,X,X,X
+Jumping Fierce,9*5,1*1,-,-,-,-,100+40,H,9+9,X,X,X
+Short,2,1,4,4,4,4,40,H+L,3,X,O,O
+Forward,4,2,15,-5,-4,-3,110,H,11,X,O,O
+Far Short,3,1,8,2,2,2,35,H+L,3,X,O,O
+Far Forward,8,5,12,-5,-4,-3,100,H,13,X,X,X
+Roundhouse,7,3,17,-5,-4,-3,120,H,19,X,X,X
+Crouching Short,4,1,9,1,1,1,20,L,3,X,O,O
+Crouching Forward,6,3,11,0,1,2,80,L,3,X,O,O
+Crouching Roundhouse,10,1,20,-6,Down,Down,100,L,3,X,X,X
+Neutral Jumping Short,2,9,-,-,-,-,60,H,7,X,X,X
+Neutral Jumping Forward,4,7,-,-,-,-,110,H,11,X,X,X
+Neutral Jumping Roundhouse,5,4,-,-,-,-,140,H,15,X,X,X
+Jumping Short,3,12,-,-,-,-,60,H,5,X,X,X
+Jumping Forward,3,5,-,-,-,-,100,H,9,X,X,X
+Jumping Roundhouse,5,2,-,-,-,-,120,H,13,X,X,X
+Towards + Strong,8,1,-,-5,-,-,90,H,13,X,X,X
+Throw,2,1,21,-,-,-,30x6,-,5x6,X,X,X
+Back + Throw,2,1,21,-,-,-,120,-,15,X,X,X
+Air Throw,6,1,-,-,-,-,180,-,15,X,X,X
+Universal Overhead,16 ~ 25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,40,H,3,X,X,X
+7,-,-,-,-,-,-

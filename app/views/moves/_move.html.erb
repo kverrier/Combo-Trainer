@@ -1,0 +1,18 @@
+<tr>
+  <td class="move">
+  <%= link_to move.name, combo_items_path(:combo_id => @combo, :move_id => move.id), :method => :post%>
+
+  </td>
+   <td class="startUp">
+   		<%= move.startUp %>
+  </td>
+  <td class="hit">
+  	<%= move.hit %>
+  </td>
+  <td class="recovery">
+  	<%= move.recovery %>
+  </td>
+  <td class="hitAdv">
+  	<%= move.hitAdv %>
+  </td>
+</tr>

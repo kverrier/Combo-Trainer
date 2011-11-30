@@ -1,0 +1,64 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,4,3,6,2,2,2,35,H+L,3,O,O,O
+Far Jab,6,3,4,4,4,4,30,H+L,3,O,X,X
+Strong,12,4,19,-2,0,2,90,H,9,X,X,X
+Fierce,18,15,23,-23,Down,Down,130,H,15,X,X,X
+Crouching Jab,5,3,4,4,4,4,20,H+L,3,X,X,X
+Crouching Strong,8,4,13,-2,-1,0,90,H+L,9,X,X,X
+Crouching Fierce,14,1,20,-3,-1,1,120,L,5,X,X,X
+Neutral Jumping Jab,2,,,,,,40,H,7,X,X,X
+Jumping Jab,2,,,,,,40,H,7,X,X,X
+Jumping Strong,7,5,,,,,100,H,11,X,X,X
+Jumping Fierce,10,7,,,,,130,H,15,X,X,X
+Short,4,3,8,2,2,2,40,H+L,3,X,X,X
+Forward,7,1,18,-2,0,2,100,H,3,X,O,O
+Far Forward,8,4,14,-1,1,3,110,H,7,X,X,X
+Roundhouse,20,4,28,-12,-10,-8,150,H,9,X,X,X
+Crouching Short,6,4,8,-2,-2,-2,20,L,3,X,X,X
+Crouching Forward,7,2,14,-3,-2,-1,80,L,3,X,X,X
+Crouching Roundhouse,12,7,33,-25,Down,Down,130,L,3,X,X,X
+Jumping Short,4,,,,,,40,H,7,X,X,X
+Jumping Forward,9,7,,,,,90,H,9,X,X,X
+Jumping Roundhouse,17,2,,,,,145,H,13,X,X,X
+Back + Strong,8,3,18,-2,,,100,H,13,X,X,X
+Back + Fierce,13,10,15,-20,,,120,H,15,X,X,X
+Back + Roundhouse,11,6,35,-26,,,140,H+L,3,X,O,O
+Neutral Throw,2,1,21,,,,140,-,13,X,X,X
+Throw,2,1,21,,,,110,-,17,X,X,X
+Universal Overhead,16-25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,40,H,3,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Dashing Head Attack (Jab),Hold B...F+ Jab,13,2,16,-2,120,H,11,O
+Dashing Head Attack (Strong),Hold B...F + Strong,15,2,16,-2,140,H,13,O
+Dashing Head Attack (Fierce),Hold B...F + Fierce,19,3,16,-3,155,H,15,O
+Dashing Head Attack (EX),Hold B...F + 2 Punches,14,2,36,-21,160,H,9,O
+Dashing Head Attack (Jab),Hold B...F+ Jab (Hold),25,2,23,-10,100,H,9,X
+Dashing Head Attack (Strong),Hold B...F+ Strong (Hold),29,2,24,-11,115,H,9,X
+Dashing Head Attack (Fierce),Hold B...F+ Fierce (Hold),33,2,25,-12,130,H,9,X
+Dashing Leg Attack (Short),Hold B...F + Short,25,1,29,-13,110,L,3,X
+Dashing Leg Attack (Forward),Hold B...F + Forward,28,1,30,-14,125,L,3,X
+Dashing Leg Attack (RH),Hold B...F + RH,31,1,31,-15,140,L,3,X
+Dashing Leg Attack (EX),Hold B...F + 2 Kicks,27,1,,-18,90,L,3,O
+2nd hit,,2,1,34,,80,H,5,X
+High Speed Barrage (Jab),QCB + Jab,9,1*1*1,26,-6,50x3,H,3x3,X
+High Speed Barrage (Strong),QCB + Strong,8,1*1*1,28,-9,50x3,H,5*3*5,X
+High Speed Barrage (Fierce),QCB + Fierce,9,1*1*1,28,-8,50x3,H,5*3*5,X
+High Speed Barrage (EX),QCB + 2 Punches,6,1*1*1,,,30*30*40,H,3*5*5,X
+4th hit - 6th hit,,,1*2*1,,,40x3,H,5*5*5,X
+7th hit,,,2,36,-23,50,H,5,X
+Capture and Deadly Blow (Short),HCB + Short,12,1,42,,110,,11,X
+Capture and Deadly Blow (Forward),HCB + Forward,13,1,44,,120,,11,X
+Capture and Deadly Blow (RH),HCB + RH,14,1,46,,130,,11,X
+
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Critical Combo Attack,QCF x 2 + Punch,5*11*11,2*2*2,,,70x3,H,3x3
+4th hit,,11,1,,,70,L,3
+5th hit,,14,3,31,-19,130,H,3
+Deadly Double Combination,QCF x 2 + Punch,2,1,38,-25,150,H+L,5
+2nd hit,,75,1,,,330,H,17
+Total Destruction,QCF x 2 + Punch,19
+Far Grab,QCF + Punch,12,1,39,,350,H+L,24
+Close Grab,QCF + Kick,6,2,59,,470,,21

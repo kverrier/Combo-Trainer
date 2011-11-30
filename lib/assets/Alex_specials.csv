@@ -1,0 +1,26 @@
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Flash Chop (Jab),QCF + Jab,12,1,17,-2,120,H,7,X
+Flash Chop (Strong),QCF + Strong,16,2,19,-1,130,H,9,O
+Flash Chop (Fierce),QCF + Fierce,20,3,17,-1,140,H,15,O
+Flash Chop (EX),QCF + 2 Punches,10,1*1,15,-1,100+100,H,11+3,O
+Power Bomb (Jab),HCB + Jab,7,1,35,-,150,-,19,X
+Power Bomb (Strong),HCB + Strong,8,1,41,-,180,-,19,X
+Power Bomb (Fierce),HCB + Fierce,9,1,44,-,200,-,19,X
+Reverse Power Bomb (Jab),HCB + Jab,7,1,35,-,180,-,21,X
+Reverse Power Bomb (Strong),HCB + Strong,8,1,41,-,200,-,21,X
+Reverse Power Bomb (Fierce),HCB + Fierce,9,1,45,-,230,-,21,X
+Air Knee Smash (Short),DPM + Short,7,5,35,-,120,H,15,X
+Air Knee Smash (Forward),DPM + Forward,8,9,34,-,135,H,15,X
+Air Knee Smash (RH),DPM + RH,9,11,33,-,150,H,15,X
+Air Knee Smash (EX),DPM + 2 Kicks,4,16,34,-,190,H,19,X
+Air Stampede (Short),Hold D...U + Short,24,1,19,-3,120,H,11,X
+Air Stampede (Forward),Hold D...U + Forward,26,1,19,-3,140,H,11,X
+Air Stampede (RH),Hold D...U + RH,27,1,19,-3,160,H,11,X
+Air Stampede (EX),Hold D...U + 2 Kicks,27,1,19,-3,180,H,13,X
+Slash Elbow (Short),Hold B...F + Short,16,1,17,-2,100,H,13,O
+Slash Elbow (Forward),Hold B...F + Forward,19,1,23,-8,120,H,15,O
+Slash Elbow (RH),Hold B...F + RH,21,1,23,-8,140,H,17,O
+Slash Elbow (EX),Hold B...F + 2 Kicks,10,5*1,23,-6,80+80,H,7+11,O
+Spiral D.D.T. (Short),HCB + Short,21,2,8,-,160,-,15,X
+Spiral D.D.T. (Forward),HCB + Forward,24,2,8,-,160,-,15,X
+Spiral D.D.T. (RH),HCB + RH,27,2,8,-,160,-,15,X

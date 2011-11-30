@@ -1,0 +1,12 @@
+Shinkuu Hadouken,QCF x 2 + Punch,4,1,,,70x4,H,-
+5th Hit,,,,49,-12,65,H,-
+Shin Shoryuken,QCF x 2 + Punch,1,1,,,60,H+L,5
+,,9,1,,,200,H+L,5
+,,1,1,,,200,H+L,5
+,,1,9,,-25,140,H+L,5
+Shin Shoryuken (Far),QCF x 2 + Punch,1,1*1(x5),,,40x7,H+L,3x7
+Denjin Hadouken,QCF x 2 + Punch,4~9,1,,,60,H,17
+,,10~33,1,,,60,H,21
+,,34~81,1,,,60,H,21
+,,81~161,1,,,60,H,21
+,,162,1,,,60,H,21

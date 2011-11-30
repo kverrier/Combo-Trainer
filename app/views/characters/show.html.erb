@@ -1,0 +1,20 @@
+<h1><%= @character.name %>
+<div id="character_portrait" >
+	<%= link_to image_tag("portraits/#{@character.name.downcase}-face.gif"), character_path(@character) %>
+</div>
+
+<h2>Select a combo to practice: </h2>
+
+	<table class = "character_combos_table" summary = "Character Combo Selection" >
+		<th class= "combo_name">Combo Name</th>
+		<th class="combo_moves">Moves</th>
+		<th class="combo_submitter">Submitter</th>
+		<th class="combo_votes">Votes</th>
+
+		<%=render @combos %>
+	</table>
+
+<div class="my_button">
+	<%= link_to "New Combo", new_character_combo_path(@character) %>
+</div>
+

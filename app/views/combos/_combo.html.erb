@@ -1,0 +1,14 @@
+<tr>
+  <td class="combo_name">
+    <%= link_to combo.name, character_combo_path(@character, combo)%>
+  </td>
+  <td class="combo_moves">
+    <%= combo.combo_items.map{|c| c.move.name}.join ' -> ' %>
+  </td>
+  <td class="combo_submitter">
+    <%= combo.submitter %>
+  </td>
+  <td class="combo_votes">
+  	<%= combo.votes %>
+  </td>
+</tr>
