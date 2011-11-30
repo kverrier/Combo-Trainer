@@ -1,0 +1,73 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,4,5,6,2,2,2,30,H+L,3,X,O,O
+Strong,8,10,4,6,7,8,80,H,9,X,O,O
+Fierce,8,1,22,-5,-3,-1,150,H,15,X,O,O
+Towards Jab,4,3,8,0,0,0,25,H+L,3,X,O,O
+Towards Strong,9,5,9,2,3,4,85,H,5,X,X,X
+Towards Fierce,16,11,16,-4,-2,0,150,H,13,X,X,X
+* The 2 other hits,8*6,3*14,13,-4,-,-,20+20,H,3+3,X,X,X
+Crouching Jab,5,5,4,3,3,3,20,H+L,3,O,O,O
+Crouching Strong,7,6,11,-1,0,1,70,H+L,5,X,O,O
+Crouching Fierce,10,1,21,-6,Down,Down,100,L,3,X,X,X
+Neutral Jumping Jab,9,16,,-,-,-,50,H,7,X,X,X
+Neutral Jumping Strong,11,9,,-,-,-,80,H,11,X,X,X
+Neutral Jumping Fierce,13,1,,-,-,-,130,H,15,X,X,X
+Jumping Jab,4,20,,-,-,-,50,H,7,X,X,X
+Jumping Strong,11,23,,-,-,-,70,H,11,X,X,X
+Jumping Fierce,10,1,,-,-,-,130,H,15,X,X,X
+Short,4,4,12,-2,-2,-2,40,H+L,3,X,O,O
+Forward,7,4,13,-2,-1,0,90,H+L,7,X,X,X
+Roundhouse,11,8,13,0,2,4,130,H,7,X,X,X
+Towards Short,6,5,13,-5,-5,-5,35,H+L,5,X,X,X
+Towards Forward,17,4,18,-5,-3,-1,100,H,9,X,X,X
+Towards Roundhouse,22,2,25,-11,Down,Down,120,L,5,X,X,X
+Crouching Short,4,5,10,-3,-3,-3,30,L,3,X,O,O
+Crouching Forward,7,7,7,3,4,5,90,H+L,5,X,X,X
+Crouching Roundhouse,10,3,12,2,4,6,130,H,15,X,X,X
+Jumping Short,2,13,,-,-,-,60,H,7,X,X,X
+Jumping Forward,8,12,,-,-,-,90,H,9,X,X,X
+Jumping Roundhouse,6,5,,-,-,-,130,H,11,X,X,X
+Neutral Throw,2,1,21,-,-,-,90,,17,X,X,X
+Back & Towards Throw,2,1,21,-,-,-,30+20+10,,3+3+7,X,X,X
+Universal Overhead,16~25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,40,H,3,X,X,X
+Taunt,80,2,,,,,10,H+L,3,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Hayate,QCF + Punch,6,5,,,100,H,9,X
+Stage 2,,8 ~ 27,5,,,110,H,11,X
+Stage 3,,28 ~ 47,5,,,120,H,13,X
+Stage 4,,48 ~ 67,5,,,130,H,15,X
+Stage 5,,68 ~ 127,5,,,140,H,17,X
+Hayate (Jab),QCF + Jab,6,,,-12,,H
+Hayate (Strong),QCF + Strong,9,,,-12,,H
+Hayate (Fierce),QCF + Fierce,11,,,-12,,H
+Hayate (EX),QCF + 2 Punches,17,5,,2,160,H,17,X
+Fukiage (Jab),DPM + Jab,7,7,26,-,120,H+L,29,O
+Fukiage (Strong),DPM + Strong,10,9,26,-,140,H+L,31,O
+Fukiage (Fierce),DPM + Fierce,14,7,26,-,160,H+L,31,O
+Fukiage (EX),DPM + 2 Punches,11,7,26,-,140,H+L,21,O
+Oroshi (Jab),QCB + Jab,19,6,17,-4,100,H,7,O
+Oroshi (Strong),QCB + Strong,23,6,17,-4,110,H,11,O
+Oroshi (Fierce),QCB + Fierce,28,6,17,0,140,H,13,O
+Oroshi (EX),QCB + 2 Punches,13,6,17,4,160,H,9,O
+Tsurugi (Short),QCB + Short (Air),14,3,8,-,140,H,13,X
+Tsurugi (Forward),QCB + Forward (Air),15,3,8,-,150,H,13,X
+Tsurugi (Roundhouse),QCB + RH (Air),16,3,8,-,160,H,13,X
+Tsurugi (EX),QCB + 2 Kicks (Air),15,1*1,8,-,80+100,H,9+9,X
+Karakusa (Short),HCB + Short,7,2,28,-,30,-,9,X
+Karakusa (Forward),HCB + Forward,8,3,29,-,30,-,9,X
+Karakusa (Roundhouse),HCB + RH,9,3,30,-,30,-,9,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Seichuusen Godanzuki,QCF x2 + Punch,1,2,,,150,H+L,5
+,,39,1,,,40,,5
+,,4,1,,,40,,5
+,,4,1,,,40,,5
+,,30,6,133,-16,300,H,5
+Abare Tosanami,QCF x2 + Kick,15 ~ 19,2,25,,100,H,9
+,,7,4,,,40,H,3
+,,13,1,,,80,H,5
+,,32,6,32,-20,170,H+L,9
+Tanden Renki,QCF x2 + Punch,36,,,-

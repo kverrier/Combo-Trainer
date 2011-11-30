@@ -1,0 +1,33 @@
+Kunai (Jab),(Air) QCF + Jab,9,1,9,-,50,H,3,O
+Kunai (Strong),(Air) QCF + Strong,10,1,11,-,50,H,3,O
+Kunai (Fierce),(Air) QCF + Fierce,11,1,14,-,50,H,3,O
+Kunai (EX),(Air) QCF + 2 Punches,8,1*1,12,-,55+55,H,3,O
+Raida (Jab),HCB + Jab,4,6,28,-5,160,-,9,X
+Raida (Strong),HCB + Strong,5,5,30,-6,170,-,11,X
+Raida (Fierce),HCB + Fierce,6,7,32,-7,180,-,13,X
+Hien (Short),RDP + Short,22*4,3*2,13,-31,40+75,H,7+9,X
+Hien (Forward),RDP + Forward,25*5,3*2,13,-38,40+90,H,7+9,X
+Hien (RH),RDP + RH,29*5,4*2,13,-35,40+110,H,7+9,X
+Hien (EX),RDP + 2 Kicks,26*5,4*2,11,-30,40+150,H,7+9,X
+Kubiori,QCF + Punch,14/15/17,11/12/2014,15/18/19,-16/-16/-19,150,L,15,X
+Kubiori (EX),QCF + 2 Punches,15,10,19,-15,50+60+90,L,7+7+7,X
+Kazekiri (Short),DPM + Short,4,1*1,-,-,40+20,H+L,3+3,O
+-,-,-,10,26,-17,60,H+L,5,O
+Kazekiri (Forward),DPM + Forward,6,1*1,-,-,50+20,H+L,3+3,O
+-,-,-,8,29,-15,75,H+L,7,O
+Kazekiri (RH),DPM + RH,8,1*1,-,-,60+20,H+L,3+3,O
+-,-,-,1*8,29,-17,20+90,H+L,5+9,O
+Kazekiri (EX),DPM + 2 Kicks,4,1*1*1,-,-,60+20+20,H+L,3+3+5,O
+-,-,-,8,5,-21,90,H+L,7,O
+Tsumuji (Short),QCB + Short,11*15,1*1,19,-4,60+50,H,3+3,X
+Hold down for 2nd hit,Hold Down,20,2,30,-,50,L,3,X
+Tsumuji (Forward),QCB + Forward,13*16*16,1*1*1,21,-2,60+50+50,H,3+3+5,X
+Hold down for 2nd hit,Hold Down,21,2,30,-,50,L,3,X
+Tsumuji (Roundhouse),QCB + RH,14*14*16,1*1*1,24,-8,60+50+80,H,3+3+5,X+O+X
+Hold down for 2nd hit,Hold Down,19,2,30,-,70,L,3,X
+Tsumuji (EX),QCB + 2 Kicks,7,1,-,-11,50,H,3,O
+2 ~ 3,-,10,1,-,-,50,H,5,O
+Hold down during 2 ~ 3,Hold Down,15,2,-,-,40,L,3,O
+4,-,11,1,28,-,70,H,3,X
+Hold down during 4,Hold Down,16,2,30,-,60,L,3,X
+Kasumi Gake,QCF + Kick,-,20/22/25,,-,-,-,-,X

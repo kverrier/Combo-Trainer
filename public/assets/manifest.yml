@@ -1,0 +1,105 @@
+---
+character_demo.gif: character_demo-60720b3c9e068f88ad8a0f8142ea23f4.gif
+gifs/index.gif: gifs/index-0489a29601d3bf6783a8703dcd42d0ad.gif
+icons/sf3_kick_hard.png: icons/sf3_kick_hard-5d3ef6ac05698870ec6d9753c8199aee.png
+icons/sf3_kick_light.png: icons/sf3_kick_light-a4283c58e7af4518bbc6b43aa0077b0e.png
+icons/sf3_kick_medium.png: icons/sf3_kick_medium-7f4b0e5c0c2e9213bc7ceba4d35e2e0c.png
+icons/sf3_punch_hard.png: icons/sf3_punch_hard-9f4b7ae9c8af2ba168672a1bbecae295.png
+icons/sf3_punch_light.png: icons/sf3_punch_light-ea610411f473dc9483dc67b8c53e8e81.png
+icons/sf3_punch_medium.png: icons/sf3_punch_medium-a179d15323abcb3256627f26f04e7e67.png
+portraits/akuma-face.gif: portraits/akuma-face-917e70dd4a651e9827113436ae6499f9.gif
+portraits/alex-face.gif: portraits/alex-face-1acd3c86bd053b36d6c281487c78ffbc.gif
+portraits/chun-li-face.gif: portraits/chun-li-face-fc8c37f8f25328567d890f8fc60beeab.gif
+portraits/dudley-face.gif: portraits/dudley-face-0dd649f4adeb0c26a9dc1e069b6d2953.gif
+portraits/elena-face.gif: portraits/elena-face-e390c48082eeac3cec4c299d3d56d57d.gif
+portraits/gill-face.gif: portraits/gill-face-e3a9836092189684ea8cef025bfdae59.gif
+portraits/hugo-face.gif: portraits/hugo-face-fbf84ccd5a1bbea4123552883ef18d5d.gif
+portraits/ibuki-face.gif: portraits/ibuki-face-43b19935684dbc59d7d18ba8f89459c8.gif
+portraits/ken-face.gif: portraits/ken-face-f4f98d2ff7811a3ffa3cf57e28645832.gif
+portraits/makoto-face.gif: portraits/makoto-face-71ac2751497878e753852a0c78e3de90.gif
+portraits/necro-face.gif: portraits/necro-face-c9285cdaa2927fa027fe401d23b4cb8e.gif
+portraits/oro-face.gif: portraits/oro-face-4729b94bd120372330338233190e99d8.gif
+portraits/q-face.gif: portraits/q-face-8656164e3df73c48121ffc2e8dd6ad84.gif
+portraits/remy-face.gif: portraits/remy-face-9858cfd233c58f0bc9c575cdec7d36ef.gif
+portraits/ryu-face.gif: portraits/ryu-face-bcf47705f9af2cd3f06f0a61cdb8ba0c.gif
+portraits/sean-face.gif: portraits/sean-face-b25d649b9d61517cf08f8b8a891b169f.gif
+portraits/twelve-face.gif: portraits/twelve-face-544782a4aa29d5b6bd703c9f2b4f00a7.gif
+portraits/urien-face.gif: portraits/urien-face-2e6be436cd1a46ff08a158e648fc5fe9.gif
+portraits/yang-face.gif: portraits/yang-face-59b6dfa13e97ce57aec71bab0e5d3763.gif
+portraits/yun-face.gif: portraits/yun-face-2576dca579ec649cd6bdb717ae388954.gif
+application.js: application-c50bcd445b0ce9aa7539fa88731030ea.js
+application.css: application-505217a59cdaf499db55cfca508cc41b.css
+normals/1.csv: normals/1-91a7ec4b9ffb7b50f018be1c3855801d.csv
+normals/10.csv: normals/10-7d287b690a492010e0f3ef13d0374fc5.csv
+normals/11.csv: normals/11-0f44cd8e4263bbb96559ee60c47a3548.csv
+normals/12.csv: normals/12-dc1cf03f8f59fe4bb6e31e400201d847.csv
+normals/13.csv: normals/13-eb66f47a91631ecd50eb71eae73aeb03.csv
+normals/14.csv: normals/14-7b2e081ba2aa192bd770397c14c4bfc8.csv
+normals/15.csv: normals/15-c4223dda08d5e31c8e2ae4f17e8a7dc0.csv
+normals/16.csv: normals/16-b5d6c2b1796d1a49ddfd7ed09d0c8878.csv
+normals/17.csv: normals/17-46a042cf0be4808edc09d2eed6328bf9.csv
+normals/18.csv: normals/18-c390582f59b7d0370277523fa7e0cb3e.csv
+normals/19.csv: normals/19-d8052b8a8fb93dd7b6aaac8777d72589.csv
+normals/2.csv: normals/2-40c58e90cdb8d68404a9bdf5a8f70f28.csv
+normals/3.csv: normals/3-6ab103b6ce45558e01dc8827866bd871.csv
+normals/4.csv: normals/4-3f97a43a9916445e688706d7a2557e64.csv
+normals/5.csv: normals/5-3389de641e170c0d9df9fdcded96d1a2.csv
+normals/6.csv: normals/6-155fe62aa085318ad3adc4f35b3e9cc6.csv
+normals/7.csv: normals/7-e3c44f46d6ad46e3d671e7e37d81564b.csv
+normals/8.csv: normals/8-d77dfa46a45dff71552afaf531db579f.csv
+normals/9.csv: normals/9-860e296ad3ef12be0b2ecbbb66e4904a.csv
+specials/1.csv: specials/1-1cc335da507b0a08509bb620b5c38c35.csv
+specials/10.csv: specials/10-f1f60439b566b3d8a5f2d7658836e060.csv
+specials/11.csv: specials/11-aff9235e6765d33cc68b47f21ffba52c.csv
+specials/12.csv: specials/12-27106e9997b8c3ff8fb2405d70cb04b7.csv
+specials/13.csv: specials/13-e44b89c75c09627ca0ee0d13de3d1860.csv
+specials/14.csv: specials/14-16df623d71cd84a48e135c896fb59c78.csv
+specials/15.csv: specials/15-cdcd9effc944fe1470ef9c6a75804790.csv
+specials/16.csv: specials/16-8199d321b1a31935733aaf9b6f560b1f.csv
+specials/17.csv: specials/17-6b81f2ca0edf06afb2ef4df134587041.csv
+specials/18.csv: specials/18-df33e63f487d9c0a2269158055c01e83.csv
+specials/19.csv: specials/19-32d9ea1f95ef6c234715b553194677b8.csv
+specials/2.csv: specials/2-eba65a80a43ff43f2e939c662a56a380.csv
+specials/3.csv: specials/3-a78ebcad0650dafa0ffd7c1af1c0919e.csv
+specials/4.csv: specials/4-b3384986c47e47f226cdcbaaad930d1c.csv
+specials/5.csv: specials/5-2597d8fe77067b51580231321b155e44.csv
+specials/6.csv: specials/6-5f9604071d01af2de2288ee73a55fb8f.csv
+specials/7.csv: specials/7-39c8200bab07e52123e46751e5bbe87c.csv
+specials/8.csv: specials/8-56a5ceb7e757bd36b9862541fb95cbb9.csv
+specials/9.csv: specials/9-5dc58c47fd1345a1fb9bc5f5ce9b6d76.csv
+supers/1.csv: supers/1-427edc62e3bf948e113895d5a16cea5b.csv
+supers/10.csv: supers/10-2a93c581cc405990f7c4338acf9a7dae.csv
+supers/11.csv: supers/11-9744cee8368288333c13ef6fe93aad30.csv
+supers/12.csv: supers/12-a72d23f6a2e7a821d5b3a2effd445a30.csv
+supers/13.csv: supers/13-86eaf5aa9ece146d6e69efa08d9ade8e.csv
+supers/14.csv: supers/14-f156414c19dbf54f5dc17852cf44ef14.csv
+supers/15.csv: supers/15-5cc44136550ac886f43436d5194b4eab.csv
+supers/16.csv: supers/16-81af9c405a53d53cbc8b58cf78bf24a1.csv
+supers/17.csv: supers/17-529570cd1a81a38aa66f33b22f97821a.csv
+supers/18.csv: supers/18-670c11e4ac9111fa428cf82e7eaa4e39.csv
+supers/19.csv: supers/19-172eed18cf96212e6d7b0fd032c67080.csv
+supers/2.csv: supers/2-49c29dec0fa23d1a660db2448680d92c.csv
+supers/3.csv: supers/3-f5c6ef8739ab7287b66972c9659f1d07.csv
+supers/4.csv: supers/4-ed407ceb8cce54089f0eb290671b4b1e.csv
+supers/5.csv: supers/5-78a7759888c38b4beb7bc648465d9754.csv
+supers/6.csv: supers/6-91ed8fa30b1e6856706958609ea9498c.csv
+supers/7.csv: supers/7-d718f6ae1d3702afa9215fc3a3ef9e37.csv
+supers/8.csv: supers/8-4b102a429e855c60aa70aa979fb27714.csv
+supers/9.csv: supers/9-4be5d1e8a1059dec0226b8692edfdc15.csv
+3s Frame Data - Chun.csv: 3s Frame Data - Chun-79788308da2fd155cc488139221461b9.csv
+3s Frame Data - Dudley.csv: 3s Frame Data - Dudley-c842de451decc0e18fd37fff0148795a.csv
+3s Frame Data - Elena.csv: 3s Frame Data - Elena-8aed0fb902727dac4dee75e730c6661a.csv
+3s Frame Data - Hugo.csv: 3s Frame Data - Hugo-1230c53f49f413c74b73b638695a3171.csv
+3s Frame Data - Ibuki.csv: 3s Frame Data - Ibuki-f2cba397b09574ef87fa65c17543a8cc.csv
+3s Frame Data - Ken.csv: 3s Frame Data - Ken-0db8f800f07bcba1defc32f65d3dd100.csv
+3s Frame Data - Makoto.csv: 3s Frame Data - Makoto-10d7df029d13316b4e3768b5f32bc837.csv
+3s Frame Data - Necro.csv: 3s Frame Data - Necro-12cfa74e853baaeb0fae37d8df484f06.csv
+3s Frame Data - Oro.csv: 3s Frame Data - Oro-8dee2034bca1303b570ecf11e456d660.csv
+3s Frame Data - Q.csv: 3s Frame Data - Q-8f38ff3564cc53baf7be20f647308135.csv
+3s Frame Data - Remy.csv: 3s Frame Data - Remy-8efbff399b286b708401dd2cb4ee134f.csv
+3s Frame Data - Ryu.csv: 3s Frame Data - Ryu-20f3c0ea31aae381c3ec85cd19bb84f2.csv
+3s Frame Data - Sean.csv: 3s Frame Data - Sean-2f4ac91167d9f4053aa0e7bf4114292b.csv
+3s Frame Data - Twelve.csv: 3s Frame Data - Twelve-2169f8b73380b553eb42afc220e0d97d.csv
+3s Frame Data - Urien.csv: 3s Frame Data - Urien-c8669818e7e30d4ac69f5725ea37e71e.csv
+3s Frame Data - Yang.csv: 3s Frame Data - Yang-4f69a7953fae6f9269c5cfdaccc6ace1.csv
+3s Frame Data - Yun.csv: 3s Frame Data - Yun-4a75d3948e58b50b4ca3b048ab90b1f3.csv

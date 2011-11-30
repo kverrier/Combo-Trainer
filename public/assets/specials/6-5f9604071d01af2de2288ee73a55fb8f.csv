@@ -1,0 +1,21 @@
+Shootdown Backbreaker (Short),DPM + Short,5,8,30,-,180,-,15,X
+Shootdown Backbreaker (Forward),DPM + Forward,17,9,25,-,200,-,15,X
+Shootdown Backbreaker (RH),DPM + RH,13,11,29,-,220,-,15,X
+Moonsault Press (Jab),360 + Jab,2,1,36,-,240,-,19,X
+Moonsault Press (Strong),360 + Strong,2,1,36,-,255,-,19,X
+Moonsault Press (Fierce),360 + Fierce,2,1,36,-,280,-,19,X
+Meat Squasher (Short),360 + Short,21 ~ 25,1,30,-,160,-,13,X
+Meat Squasher (Forward),360 + Forward,31 ~ 53,1,33,-,160,-,13,X
+Meat Squasher (RH),360 + RH,44 ~ 68,1,36,-,160,-,13,X
+Giant Palm Bomber (Jab),QCB + Jab,17,1,9,11,110,H,15,O
+Giant Palm Bomber (Strong),QCB + Strong,19,1,7,16,125,H,17,O
+Giant Palm Bomber (Fierce),QCB + Fierce,22,1,6,19,140,H,19,O
+Giant Palm Bomber (EX),QCB + 2 Punches,22*2,1*1,-,-,20+60,H,3+3,O
+-,-,2,1,10,10,140,H,9,O
+Monster Lariat (Short),QCF + Short,11,4,-,-8,150,H,11,X
+Monster Lariat (Forward),QCF + Forward,15,4,-,-10,160,H,13,X
+Monster Lariat (RH),QCF + RH,24,4,-,-11,170,H,15,X
+Monster Lariat (EX),QCF + 2 Kick,7 ~ 27,5,-,-22,140,H,13,X
+Ultra Throw (Short),HCB + Short,7,1,36,-,70,-,7,X
+Ultra Throw (Forward),HCB + Forward,7,1,36,-,70,-,7,X
+Ultra Throw (RH),HCB + RH,7,1,36,-,70,-,7,X

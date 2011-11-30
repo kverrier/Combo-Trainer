@@ -1,0 +1,91 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,2,1,5,5,5,5,30,H+L,5,X,O,O
+Strong,6,2,6,6,7,8,70,H,11,X,O,O
+Fierce,9,1*4,15,-3,-1,1,60+70,H,9+7,X,O+X,O+X
+Far Jab,2,2,2,6,6,6,25,H+L,5,X,X,X
+Far Fierce,13,4,14,-1,1,3,70,H,5,X,X,X
+Crouching Jab,3,3,3,5,5,5,20,H+L,3,X,O,O
+Crouching Strong,9,7,9,2,3,4,70,H+L,7,X,X,X
+Crouching Fierce,8,3,18,-3,-1,1,110,H+L,15,X,X,X
+Neutral Jumping Jab,3,-,-,-,-,-,50,H,7,X,X,X
+Neutral Jumping Strong,5,7,-,-,-,-,80,H,11,X,X,X
+Neutral Jumping Fierce,11,5,-,-,-,-,120,H,13,X,X,X
+Jumping Jab,3,19,-,-,-,-,60,H,5,X,X,X
+Jumping Strong,6,13,-,-,-,-,80,H,11,X,X,X
+Jumping Fierce,11,5,-,-,-,-,120,H,13,X,X,X
+Short,4,4,6,1,1,1,20,H+L,3,X,X,X
+Forward,5,4,14,1,2,3,100,H,11,X,O,O
+Roundhouse,5*2,1*6,22,-11,0,0,50+70,H,3+9,X,X,X
+Far Roundhouse,9,3,21,-2,-1,1,110,H,13,X,X,X
+Crouching Short,5,3,5,3,3,3,20,L,3,O,O,O
+Crouching Forward,6,5,11,-2,-1,0,70,L,3,X,X,X
+Crouching Roundhouse,10,2,24,-8,0,0,100,L,3,X,X,X
+Neutral Jumping Short,4,-,-,-,-,-,50,H,5,X,X,X
+Neutral Jumping Forward,5,7,-,-,-,-,70,H,9,X,X,X
+Neutral Jumping Roundhouse,10,3,-,-,-,-,110,H,13,X,X,X
+Jumping Short,3,-,-,-,-,-,40,H,5,X,X,X
+Jumping Forward,7,13,-,-,-,-,70,H,9,X,X,X
+Jumping Roundhouse,10,3,-,-,-,-,110,H,13,X,X,X
+Back + Strong,6,1*6,10,-2,-,-,30+60,H,17,X,O+X,O+X
+Towards + Short,5,4,8,-1,-,-,20,H+L,3,O,X,X
+Towards + Forward,27,3,3,9,-,-,80,H,13,X,X,X
+Back + Forward,13,2,13,-2,-,-,70,H,5,X,X,X
+Down-Towards + Forward,6~16,11,9,-16,-,-,70,H,3,X,X,X
+Towards + Roundhouse,12,1,20,-1,-,-,130,H,17,X,X,X
+Throw,2,1,21,-,-,-,120,-,13,X,X,X
+Universal Overhead,16 ~ 25,10,5,-5 ~ +7,0 ~ +8,+1 ~ +9,50,H,3,X,X,X
+Taunt,15,9,8,-,-,-,0,H+L,7,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Kunai (Jab),(Air) QCF + Jab,9,1,9,-,50,H,3,O
+Kunai (Strong),(Air) QCF + Strong,10,1,11,-,50,H,3,O
+Kunai (Fierce),(Air) QCF + Fierce,11,1,14,-,50,H,3,O
+Kunai (EX),(Air) QCF + 2 Punches,8,1*1,12,-,55+55,H,3,O
+Raida (Jab),HCB + Jab,4,6,28,-5,160,-,9,X
+Raida (Strong),HCB + Strong,5,5,30,-6,170,-,11,X
+Raida (Fierce),HCB + Fierce,6,7,32,-7,180,-,13,X
+Hien (Short),RDP + Short,22*4,3*2,13,-31,40+75,H,7+9,X
+Hien (Forward),RDP + Forward,25*5,3*2,13,-38,40+90,H,7+9,X
+Hien (RH),RDP + RH,29*5,4*2,13,-35,40+110,H,7+9,X
+Hien (EX),RDP + 2 Kicks,26*5,4*2,11,-30,40+150,H,7+9,X
+Kubiori,QCF + Punch,14/15/17,11/12/2014,15/18/19,-16/-16/-19,150,L,15,X
+Kubiori (EX),QCF + 2 Punches,15,10,19,-15,50+60+90,L,7+7+7,X
+Kazekiri (Short),DPM + Short,4,1*1,-,-,40+20,H+L,3+3,O
+-,-,-,10,26,-17,60,H+L,5,O
+Kazekiri (Forward),DPM + Forward,6,1*1,-,-,50+20,H+L,3+3,O
+-,-,-,8,29,-15,75,H+L,7,O
+Kazekiri (RH),DPM + RH,8,1*1,-,-,60+20,H+L,3+3,O
+-,-,-,1*8,29,-17,20+90,H+L,5+9,O
+Kazekiri (EX),DPM + 2 Kicks,4,1*1*1,-,-,60+20+20,H+L,3+3+5,O
+-,-,-,8,5,-21,90,H+L,7,O
+Tsumuji (Short),QCB + Short,11*15,1*1,19,-4,60+50,H,3+3,X
+Hold down for 2nd hit,Hold Down,20,2,30,-,50,L,3,X
+Tsumuji (Forward),QCB + Forward,13*16*16,1*1*1,21,-2,60+50+50,H,3+3+5,X
+Hold down for 2nd hit,Hold Down,21,2,30,-,50,L,3,X
+Tsumuji (Roundhouse),QCB + RH,14*14*16,1*1*1,24,-8,60+50+80,H,3+3+5,X+O+X
+Hold down for 2nd hit,Hold Down,19,2,30,-,70,L,3,X
+Tsumuji (EX),QCB + 2 Kicks,7,1,-,-11,50,H,3,O
+2 ~ 3,-,10,1,-,-,50,H,5,O
+Hold down during 2 ~ 3,Hold Down,15,2,-,-,40,L,3,O
+4,-,11,1,28,-,70,H,3,X
+Hold down during 4,Hold Down,16,2,30,-,60,L,3,X
+Kasumi Gake,QCF + Kick,-,20/22/25,,-,-,-,-,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Kasumi Suzaku,(Air) QCF x 2 + Punch,3,(11*2)x2,-,-,(35x4)x3,H,-
+-,-,(12*2~4)x2,(1*1)x2,-,-,35x4(x1~2),H,-
+Yoroi Doushi,QCF x 2 + Punch,1,1,-,-,435,-,13
+Missed grab (Chi Blast),-,12*2,1*1,-,-,20x2,H+L,-
+-,-,-,1,-,-,40,H+L,-
+-,-,2,1,-,-,30,H+L,-
+-,-,-,1,-,-,20,H+L,-
+-,-,2,1,-,-,30,H+L,-
+-,-,3,1,-,-,40,H+L,-
+-,-,3,1*1,-,-,30x2,H+L,-
+-,-,1*2x2*2,1(x3)*(2*1),65,-54,60x4,H+L,-
+Yami Shigure,QCF x 2 + Punch,2/3/2004,-,-,-10 ~ -6,-,-,-
+"Please do not ask me to explain the Ibuki supers chart, I have no idea how 
+it works either. Also there is no more data available in the book for the 
+Yami Shigure if you were wondering."

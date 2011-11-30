@@ -1,0 +1,72 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,3,1,5,5,5,5,20,H+L,3,O,O,O
+Strong,5,4,10,0,1,2,90,H,9,X,O,O
+Fierce,5,4,15,-4,-2,0,120,H,13,X,O,O
+Far Strong,5,3,13,0,1,2,80,H,11,X,X,X
+Far Fierce,9,3,19,-7,-5,-3,120(100),H,11,X,X,X
+Crouching Jab,4,2,5,3,3,3,20,H+L,3,O,O,O
+Crouching Strong,5,3,7,3,4,5,80,H+L,7,X,O,O
+Crouching Fierce,7,4,17,-9,-7,-5,120,H+L,13,X,O,O
+Neutral Jumping Jab,5,-,-,-,-,-,40,H,7,X,X,X
+Neutral Jumping Strong,6,4,-,-,-,-,90,H,11,X,X,X
+Neutral Jumping Fierce,7,2,-,-,-,-,130,H,15,X,X,X
+Jumping Jab,4,-,-,-,-,-,50,H,7,X,X,X
+Jumping Strong,5,4,-,-,-,-,90,H,9,X,X,X
+Jumping Fierce,6,3,-,-,-,-,130,H,13,X,X,X
+Short,4,3,7,2,2,2,30,H+L,3,X,X,X
+Forward,6,3,15,-2,-1,0,90,H+L,5,X,X,X
+Roundhouse,5,4,10,2,4,6,145,H,11,X,X,X
+Far Roundhouse,7,3,26,-9,-7,-5,120(100),H,11(9),X,X,X
+Crouching Short,5,2,7,1,1,1,20,L,3,O,O,O
+Crouching Forward,7,4,17,-4,-3,-2,70,L,3,X,O,O
+Crouching Roundhouse,8,4,26,-16,Down,Down,120,L,3,X,X,X
+Neutral Jumping Short,5,18,-,-,-,-,50,H,7,X,X,X
+Neutral Jumping Forward,5,5,-,-,-,-,90,H,9,X,X,X
+Neutral Jumping Roundhouse,7,4,-,-,-,-,130,H,13,X,X,X
+Jumping Short,4,9,-,-,-,-,50,H,5,X,X,X
+Jumping Forward,5,5,-,-,-,-,90,H,9,X,X,X
+Jumping Roundhouse,6,3,-,-,-,-,110,H,13,X,X,X
+Towards + Fierce,21,1*4,22,-6,-,-,60+80,H,7+7,X,X,X
+Towards + Roundhouse,15,4,18,-5,-,-,90(70),H,9,X,X,X
+Throw,2,1,21,-,-,-,120,-,11,X,X,X
+Back + Throw,2,1,21,-,-,-,140,-,5,X,X,X
+Universal Overhead,16 ~ 23,7,7,-5 ~ 0,0 ~ +7,+1 ~ +8,40,H,3,X,X,X
+Taunt,31,1,20,-,-,-,5,H,-,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Sean Roll (Jab),QCB + Jab,2,16,9,-,-,-,-,X
+Sean Roll (Strong),QCB + Strong,2,26,9,-,-,-,-,X
+Sean Roll (Fierce),QCB + Fierce,2,40,9,-,-,-,-,X
+Ryuubi Kyaku (Short),QCF + Short,15,7,15,-3,120,H,19,X
+Ryuubi Kyaku (Forward),QCF + Forward,15,7,15,-2,120,H,19,X
+Ryuubi Kyaku (RH),QCF + RH,15,7,15,-3,120,H,19,X
+Ryuubi Kyaku (EX),QCF + 2 Kicks,27,1*1,-,-,60+70,H,7+7,X
+-,-,-,1,15,-1,70,H,7,X
+Tornado Kick (Short),QCB + Short,11*5,1*1,21,-7,50+50,H,5+5,X
+Tornado Kick (Forward),QCB + Forward,14,3,-,-,50,H,5,X
+-,-,7*9,1*1,21,-6,50+50,H,5+5,X
+Tornado Kick (RH),QCB + RH,16,2,-,-,50,H,5,X
+-,-,9*7*7,3*3*1,21,-6,40+40+40,H,5+5+5,X
+Tornado Kick (EX),QCB + 2 Kicks,9,1,-,-,60,H,9,X
+-,-,9*7*7,2*3*1,17,-3,40+40+40,H,5+5+5,X
+Tackle (All Versions),"HCF + Punch, Tap Punch",18/22/26,1,28,-14,100+80,L,11+7,X
+Tackle (EX),"HCF + 2 Punches, Tap Punch",28,1,-,-,40x4,L,7x4,X
+-,-,-,-,28,-14,100,-,7,X
+Dragon Smash (Jab),DPM + Jab,5,5,36,-24,130(90),H+L,11,O
+Dragon Smash (Strong),DPM + Forward,7,7,39,-30,130(90),H+L,11,O
+Dragon Smash (Fierce),DPM + Fierce,9,8,42,-34,130(90),H+L,11,O
+Dragon Smash (EX),DPM + 2 Punches,8,1*10,42,-37,90+90(60),H+L,11,O+X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Hadou Burst,QCF x 2 + Punch,3,1,61,-39,220,H,9
+Shoryuu Cannon,QCF x 2 + Punch,1,1*6,-,-,80+50,H+L,0
+-,-,18,1*1*1,-,-,35+35+40,H+L,0
+-,-,-,1*1*1,-,-,40+40+40,H+L,0
+-,-,-,5*5,36,-43,40+40,H+L,0
+Hyper Tornado,QCF x 2 + Punch,2,13*4*1,53,-31,20+40+60,H+L,0
+-,-,7*8*9,1*1*1,-,-,60+60+60,H+L,3+3+3
+-,-,6*4,1*1,-,-,60+60,H+L,3+3
+-,-,6*4,1*1,-,-,60+60,H+L,3+0
+-,-,10,3*4,22,-,60+100,H,19+3

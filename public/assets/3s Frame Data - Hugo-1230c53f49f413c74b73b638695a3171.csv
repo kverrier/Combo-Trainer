@@ -1,0 +1,65 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,4,3,8,-1,-1,-1,35,H+L,5,O,X,X
+Strong,10,6,12,-5,0,1,120,H,13,X,X,X
+Fierce,16,6,15,-3,-1,1,170,H,21,X,X,X
+Crouching Jab,4,2,8,-1,-1,-1,30,H+L,3,O,O,O
+Crouching Strong,7,4,12,-2,-1,0,90,H+L,3,X,X,X
+Crouching Fierce,13,9,37,-29,Down,Down,110,H+L,13,X,X,X
+Jumping Jab,3,10,-,-,-,-,40,H,9,X,X,X
+Jumping Strong,7,7,-,-,-,-,100,H,13,X,X,X
+Jumping Fierce,13,4,-,-,-,-,150,H,17,X,X,X
+Short,5,3,9,1,1,1,50,H+L,3,X,O,O
+Forward,9,1*3,23,-4,1,3,70+50,H,9+5,X,X,X
+Roundhouse,21,7,28,-13,3,3,150,H,19,X,X,X
+Crouching Short,3,2,7,2,2,2,40,L,3,X,O,O
+Crouching Forward,8,4,17,-5,Down,Down,100,L,3,X,X,X
+Crouching Roundhouse,11,22,-,-43,Down,Down,170,H+L,13,X,X,X
+Jumping Short,3,15,-,-,-,-,60,H,7,X,X,X
+Jumping Forward,5,6,-,-,-,-,100,H,11,X,X,X
+Jumping Roundhouse,11,6,-,-,-,-,130,H,15,X,X,X
+Towards + Fierce,14,3,33,-14,-,-,160,H,21,X,X,X
+Down + Fierce (Air),9,-,-,-,-,-,100,H,17,X,X,X
+Neutral Throw,2,1,21,-,-,-,30x8,-,5x8,X,X,X
+Throw,2,1,21,-,-,-,160,-,13,X,X,X
+Universal Overhead,16 ~ 25,9,5,-5 ~ +7,0 ~ +7,+1 ~ +9,40,H,3,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Shootdown Backbreaker (Short),DPM + Short,5,8,30,-,180,-,15,X
+Shootdown Backbreaker (Forward),DPM + Forward,17,9,25,-,200,-,15,X
+Shootdown Backbreaker (RH),DPM + RH,13,11,29,-,220,-,15,X
+Moonsault Press (Jab),360 + Jab,2,1,36,-,240,-,19,X
+Moonsault Press (Strong),360 + Strong,2,1,36,-,255,-,19,X
+Moonsault Press (Fierce),360 + Fierce,2,1,36,-,280,-,19,X
+Meat Squasher (Short),360 + Short,21 ~ 25,1,30,-,160,-,13,X
+Meat Squasher (Forward),360 + Forward,31 ~ 53,1,33,-,160,-,13,X
+Meat Squasher (RH),360 + RH,44 ~ 68,1,36,-,160,-,13,X
+Giant Palm Bomber (Jab),QCB + Jab,17,1,9,11,110,H,15,O
+Giant Palm Bomber (Strong),QCB + Strong,19,1,7,16,125,H,17,O
+Giant Palm Bomber (Fierce),QCB + Fierce,22,1,6,19,140,H,19,O
+Giant Palm Bomber (EX),QCB + 2 Punches,22*2,1*1,-,-,20+60,H,3+3,O
+-,-,2,1,10,10,140,H,9,O
+Monster Lariat (Short),QCF + Short,11,4,-,-8,150,H,11,X
+Monster Lariat (Forward),QCF + Forward,15,4,-,-10,160,H,13,X
+Monster Lariat (RH),QCF + RH,24,4,-,-11,170,H,15,X
+Monster Lariat (EX),QCF + 2 Kick,7 ~ 27,5,-,-22,140,H,13,X
+Ultra Throw (Short),HCB + Short,7,1,36,-,70,-,7,X
+Ultra Throw (Forward),HCB + Forward,7,1,36,-,70,-,7,X
+Ultra Throw (RH),HCB + RH,7,1,36,-,70,-,7,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Gigas Breaker,720 + Punch,1,1,36,-,-,-,-
+1/2/2011,-,-,-,-,-,180+180,-,7+7
+3,-,-,-,-,-,270,-,7
+Megaton Press,QCF x 2 + Short,3,11,30,-,70,-,11
+-,-,-,-,-,-,380,-,19
+-,QCF x 2 + Forward,5,15,34,-,70,-,11
+-,-,-,-,-,-,380,-,19
+-,QCF x 2 + RH,7,19,36,-,70,-,11
+-,-,-,-,-,-,380,-,19
+Hammer Frenzy,QCF x 2 + Punch,4,4,-,-,80,H+L,7
+-,-,12,2,-,-,90,H+L,5
+-,-,13,5,-,-,80,H,5
+-,-,-,1,-,-,60,H,5
+-,-,20,1,47,-29,120,H+L,7

@@ -1,0 +1,18 @@
+Light of Virtue (Jab),Hold B...F + Jab,9,1,22,5,60,H,3,O
+Light of Virtue (Strong),Hold B...F + Strong,10,1,22,5,60,H,3,O
+Light of Virtue (Fierce),Hold B...F + Fierce,11,1,22,5,60,H,3,O
+Light of Virtue (EX High),Hold B...F + 2 Punches,8,1,23,4,60,H,3,O
+Light of Virtue (EX Low),Hold B...F + 2 Punches,9,1,23,4,60,H+L,3,O
+Light of Virtue (Short),Hold B...F + Short,11,1,26,1,60,H,3,O
+Light of Virtue (Forward),Hold B...F + Forward,12,1,26,1,60,H,3,O
+Light of Virtue (RH),Hold B...F + RH,13,1,26,1,60,H,3,O
+Light of Virtue (EX High),Hold B...F + 2 Kicks,9,1,27,0,60,H,3,O
+Light of Virtue (EX Low),Hold B...F + 2 Kicks,8,1,27,0,60,H+L,3,O
+Rising Rage Flash (Short),Hold D...U + Short,3,2,32,-17,120,H+L,9,X
+Rising Rage Flash (Forward),Hold D...U + Forward,4,2,39,-23,130,H+L,7,X
+Rising Rage Flash (RH),Hold D...U + RH,5,3,44,-26,140,H+L,7,X
+Rising Rage Flash (EX),Hold D...U + 2 Kicks,6,3,41,-21,120+70,H+L,7+7,O+X
+Cold Blue Kick (Short),QCB + Short,17,9,10,-4,120,H,7,X
+Cold Blue Kick (Forward),QCB + Forward,18,9,10,-4,120,H,7,X
+Cold Blue Kick (RH),QCB + RH,19,11,10,-6,120,H,7,X
+Cold Blue Kick (EX),QCB + 2 Kicks,18,8,10,-2,90+70,H,7+5,X

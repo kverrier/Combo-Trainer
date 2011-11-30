@@ -1,0 +1,82 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,5,3,10,0,0,0,40,H+L,5,X,O,O
+Strong,6,1*2,19,-2,-1,0,40+60,H,9+7,X,O+X,O+X
+Fierce,13,3,19,-4,-2,0,140,H,17,X,X,X
+Crouching Jab,4,3,7,-1,-1,-1,40,H+L,5,X,O,O
+Crouching Strong,6,5,10,-3,-2,-1,90,H+L,7,X,O,O
+Crouching Fierce,7,1,23,-7,-5,-3,110,H,17,X,X,X
+Jumping Jab,4,9,-,-,-,-,50,H,7,X,X,X
+Jumping Strong,6,4,-,-,-,-,100,H,13,X,X,X
+Jumping Fierce,6,2,-,-,-,-,120,H,11,X,X,X
+Short,3,3,6,4,4,4,40,H+L,3,X,O,O
+Forward,7,1,17,-7,-1,0,90,H+L,7,X,X,X
+Roundhouse,10,2*3,11,-2,-1,0,130,H,13,X,X,X
+Crouching Short,4,3,8,-2,-2,-2,40,L,3,X,O,O
+Crouching Forward,8,2,13,-3,-2,-1,70,L,3,X,X,X
+Crouching Roundhouse,11,1,26,-9,Down,Down,100,L,3,X,X,X
+Jumping Short,5,7,-,-,-,-,50,H,7,X,X,X
+Jumping Forward,7,5,-,-,-,-,90,H,9,X,X,X
+Jumping Roundhouse,9,1*3,-,-,-,-,40+110,H,3+13,X,X,X
+Towards + Strong,15,3,18,-2,-,-,100,H,13,X,X,X
+Down-Towards + Roundhouse,12,7,24,-14,-,-,100,L,3,X,X,X
+Towards + Forward,11,7,16,-5,-,-,80,H,7,X,X,X
+Back + Roundhouse,12,5,12,4,-,-,140,H,17,X,X,X
+Throw,2,1,21,-,-,-,120,-,13,X,X,X
+Universal Overhead,16 ~ 25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,40,H,3
+Taunt,19*18,1*2,62,-,-,-,5*5,L*H,0
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Scratch Wheel (Short),DPM + Short,6,3,36,-19,130,H+L,13,X
+Scratch Wheel (Forward),DPM + Forward,4,2*1,36,-22,90+60,H+L,13+3,O+X
+Scratch Wheel (RH),DPM + RH,3,1*1*2,40,-27,90+40+40,H+L,13+3+3,O+X+X
+Scratch Wheel (EX),DPM + 2 Kicks,3,1*1,-,-,100+40,H+L,13+3,O
+-,-,-,2*2,42,-30,40+40,H+L,3+3,X
+Rhino Horn (Short),HCF + Short,14,1*1,-,-,40,H+L,3,X
+-,-,-,4,14,-3,140,H+L,19,X
+Rhino Horn (Forward),HCF + Forward,18,2*1,-,-,40,H+L,3,X
+-,-,-,4,15,-4,170,H+L,19,X
+Rhino Horn (RH),HCF + RH,23,2*1,-,-,40,H+L,3,X
+-,-,-,4,17,-6,160,H+L,19,X
+Rhino Horn (EX),HCF + 2 Kicks,11,2*1,-,-,45,H+L,3,X
+-,-,-,4*2,15,-2,100+80,H+L,17+3,X
+Mallet Smash (Jab),HCB + Jab,21,5,-,-,120(80),H,13,X
+-,-,-,1,13,0,40,H,5,X
+Mallet Smash (Strong),HCB + Strong,24,4,-,-,130(90),H,13,X
+-,-,-,1,12,1,40,H,5,X
+Mallet Smash (Fierce),HCB + Fierce,27,5,-,-,140(100),H,13,X
+-,-,-,1,11,4,40,H,5,X
+Mallet Smash (EX),HCB + 2 Punches,21,1,-,-,120,H,13,X
+-,-,-,1,10,4,60,H,5,X
+Spinning Scythe (Short),QCB + Short,15,1*1,18,-,60+60,H,3+3,X
+-,-,-,3*1,40,-2,20+20,H,7+7,X
+Spinning Scythe (Forward),QCB + Forward,16,1*1,22,-,60+65,H,3+3,X
+-,-,-,3*1,47,-6,20+25,H,7+7,X
+Spinning Scythe (RH),QCB + RH,17,1*1,24,-,65+65,H,3+3,X
+-,-,-,3*1,52,-8,25+25,H,7+7,X
+Spinning Scythe (EX),QCB + 2 Kicks,10,1*1*1,-,-,60+60+60,H,3+3+3,X
+-,-,-,1,31,-,40,H,3,O
+-,-,-,3*1,42,-,20+20,H,7+7,X
+-,-,-,3*1,47,-,20+25,H,7+7,X
+-,-,-,3*1,52,-15,25+25,H,7+7,X
+Lynx Tail (Short),RDP + Short,11*9,2*2,35,-17,60+60,L,3+3,X
+Lynx Tail (Forward),RDP + Forward,14*9,2*2,33,-15,70+60,L,3+3,X
+Lynx Tail (RH),RDP + RH,16*9,2*2,-,-,80+10,L,3+3,X
+-,-,25*8,2*2,33,-15,10+40,L,3+3,X
+Lynx Tail (EX),RDP + 2 Kicks,10*5*15,3*3*3,-,-,80+10+10,L,3+3+3,X
+-,-,5*19,3*5,25,-15,10+40,L,3+5,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Spinning Beat,QCF x 2 + Kick,1*17,1*1*2*1,-,-,(50+35)x2,H+L,3x4
+-,-,18,2*1*2,43,-12,(70+80)x2,H+L,3+3+3
+Brave Dance,QCF x 2 + Kick,1,14,-,-,120,H+L,0
+-,-,9,1,-,-,90,H+L,0
+-,-,6,1,-,-,90,H+L,0
+-,-,7*9,1*1,-,-,40+40,H+L,0
+-,-,6,1,-,-,40,H+L,0
+-,-,8,1,-,-,40,H+L,0
+-,-,8,1,-,-,40,H+L,0
+-,-,10,2,-,-,40,H+L,0
+-,-,12,4,29,-30,40,H+L,0
+Healing,QCF x 2 + Kick,20,74,-,-,-,-,-
