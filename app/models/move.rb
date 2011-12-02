@@ -19,7 +19,7 @@ class Move < ActiveRecord::Base
 	def combos_into? next_move
 		case next_move.move_type
   	when 'normal'
-  		combos = isNormal and hitAdv >= next_move.startUp
+  		combos = (isNormal and (hitAdv >= next_move.startUp))
   	when 'special'
 			combos = isSpecialCancelable and next_move.startUp <= recovery
   	when 'super'
