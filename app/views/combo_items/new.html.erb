@@ -1,20 +1,55 @@
 <h1> Select a Move to Add </h1>
 
+<p>
+Every move available here is possible to combo into from the latest move. The only consideration that is missing is a higher level game mechanic that numbers are not publicly shared called hitstun deterioration that is added to prevent infinite combos. With this in mind, be sure to make sure the combo works in the actual game before creating it here.
+</p>
 
-
+<% unless @normals.empty? %>
+<h2> Normals </h2>
 <table class = "moves" summary = "List of Moves" >
 	<tr>
 	  <th>Move Name</th>
 	  <th>Start Up</th>
 	 	<th>Hit</th>
 	 	<th>Recovery</th>
-	 	<th>Hit Advantage</th>
+	 	<th>Hit Adv.</th>
+	 	<th>Special X</th>
+	 	<th>Super X</th>
+
 	</tr>
-	<%= render @character.moves	%>
+	<%= render @normals	%>
 </table>
+<% end %>
+
+<% unless @specials.empty? %>
+<h2> Specials </h2>
+<table class = "moves" summary = "List of Moves" >
+	<tr>
+	  <th>Move Name</th>
+	 	<th>Start Up</th>
+	  <th>Hit</th>
+	 	<th>Recovery</th>
+	 	<th>Special X</th>
+	 	<th>Super X</th>
+	</tr>
+	<%= render @specials	%>
+</table>
+<% end %>
+
+<% unless @supers.empty? %>
+<h2> Supers </h2>
+<table class = "moves" summary = "List of Moves" >
+	<tr>
+	  <th>Move Name</th>
+	  <th>Start Up</th>
+
+	</tr>
+	<%= render @supers	%>
+</table>
+<% end %>
 
 
-<h2>How do I know what to add?</h2>
+<h2>What do these numbers mean?</h2>
 <%= image_tag 'character_demo.gif'%>
 <p>
 

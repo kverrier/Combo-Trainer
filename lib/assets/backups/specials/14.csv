@@ -1,0 +1,21 @@
+Hadouken (Jab),QCF + Jab,10,1,36,-9,60,H,3,O
+Hadouken (Strong),QCF + Strong,10,1,36,-9,60,H,3,O
+Hadouken (Fierce),QCF + Fierce,10,1,36,-9,60,H,3,O
+Hadouken (EX),QCF + 2 Punches,9,1,36,0,60+60,H,3+3,O
+Shoryuken (Jab),DPM + Jab,3,10,29,-24,140(100),H+L,13(9),O
+Shoryuken (Strong),DPM + Strong,3,13,34,-32,155(120),H+L,15(9),O
+Shoryuken (Fierce),DPM + Fierce,3,17,38,-38,170(130),H+L,17(9),O
+Shoryuken (EX),DPM + 2 Punches,2,1*16,38,-37,110+80,H+L,11+3,O+X
+Tatsumaki Senpuu Kyaku (Short),QCB + Short,10,2,22,-12,130,H,15,X
+Tatsumaki Senpuu Kyaku (Forward),QCB + Forward,11,1,19,-8,150,H,15,X
+Tatsumaki Senpuu Kyaku (RH),QCB + RH,11,1,22,-11,170,H,15,X
+Tatsumaki Senpuu Kyaku (EX),QCB + 2 Kicks,10,1*1,,,(50+45)x2,H,(3+5)x2,X
+,,,1,11,-4,35,H,3,X
+Joudan Sokutou Geri (Short),HCF + Short,10,2,28,-12,120,H,17,X
+Joudan Sokutou Geri (Forward),HCF + Forward,13,2,27,-11,140,H,17,X
+Joudan Sokutou Geri (RH),HCF + RH,16,2,26,-10,160,H,17,X
+Joudan Sokutou Geri (EX),HCF + 2 Kicks,13,3,27,-12,120,H,7,X
+Air Tatsumaki Senpuu Kyaku (Short),QCB + Short (Air),7,1,13,,100,H,9,X
+Air Tatsumaki Senpuu Kyaku (Forward),QCB + Forward (Air),7,1,13,,110,H,9,X
+Air Tatsumaki Senpuu Kyaku (RH),QCB + RH (Air),7,1,13,,120,H,9,X
+Air Tatsumaki Senpuu Kyaku (EX),QCB + 2 Kicks (Air),6,1x5,13,,40x6,H,(5+3)x3,X

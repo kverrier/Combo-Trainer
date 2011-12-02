@@ -1,0 +1,25 @@
+Hadouken (Jab),QCF + Jab,11,1,38,-11,60,H,3,O
+Hadouken (Strong),QCF + Strong,11,1,38,-11,60,H,3,O
+Hadouken (Fierce),QCF + Fierce,11,1,38,-11,60,H,3,O
+Hadouken (EX),QCF + 2 Punches,12,1,38,-6,60+60,H,3+3,O
+Shoryuken (Jab),DPM + Jab,2,7,26,-17,150(100(60)),H+L,11,O
+Shoryuken (Strong),DPM + Strong,3,2,,-,110,H+L,11,O
+,,,11,28,-24,55(50),H+L,5,X
+Shoryuken (Fierce),DPM + Fierce,3,1,,-,80,H+L,11,O
+,,,1,,-,60,H+L,3,O
+,,,16,32,-31,50(50),H+L,3,X
+Shoryuken (EX),DPM + 2 Punches,1,1,,-,80,H+L,11,O
+,,,1,,-,50,H+L,3,O
+,,,1*13,38,-36,40+40,H+L,3+3,X
+Tatsumaki Senpuu Kyaku (Short),QCB + Short,6,1*2,14,-5,90+30,H,7+3,O+X
+Tatsumaki Senpuu Kyaku (Forward),QCB + Forward,6,1,,-,60,H,7,O
+,,,1*1*1,15,-6,30x3,H,3x3,X
+Tatsumaki Senpuu Kyaku (RH),QCB + RH,6,1,,-,60,H,7,O
+,,,1*1*1*1,15,-7,30x4,H,3x4,X
+Tatsumaki Senpuu Kyaku (EX),QCB + 2 Kicks,4,1,,-,60,H,3,O
+,,,1*1*1*1,,-,35x4,H,3x4,X
+,,,1,13,-3,30,H,3,X
+Air Tatsumaki Senpuu Kyaku (Short),QCB + Short (Air),7,1x4,12,-,80x4,H,(5+5)x2,X
+Air Tatsumaki Senpuu Kyaku (Forward),QCB + Forward (Air),7,1x6,12,-,80x6,H,(5+5)x3,X
+Air Tatsumaki Senpuu Kyaku (RH),QCB + RH (Air),7,1x8,12,-,80x8,H,(5+5)x4,X
+Air Tatsumaki Senpuu Kyaku (EX),QCB + 2 Kicks (Air),6,1x10,12,-,80x10,H,(5+5)x5,X

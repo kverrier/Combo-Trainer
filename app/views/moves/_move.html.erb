@@ -1,18 +1,32 @@
 <tr>
-  <td class="move">
-  <%= link_to move.name, combo_items_path(:combo_id => @combo, :move_id => move.id), :method => :post%>
 
+
+  <td class="move">
+  	<%= link_to move.name, combo_items_path(:combo_id => @combo, :move_id => move.id), :method => :post%>
   </td>
-   <td class="startUp">
-   		<%= move.startUp %>
+  <td class="startUp">
+   	<%= move.startUp %>
   </td>
+
+  <% if move.move_type != 'super' %>   
   <td class="hit">
   	<%= move.hit %>
   </td>
   <td class="recovery">
   	<%= move.recovery %>
   </td>
-  <td class="hitAdv">
-  	<%= move.hitAdv %>
-  </td>
+
+	  <% if move.move_type == 'normal' %>
+	  <td class="hitAdv">
+	  	<%= move.hitAdv %>
+	  </td>
+	  <% end %>
+	 
+	  <td class="specialCancel">
+	  	<%= move.isSpecialCancelable ? 'x' : ''%>
+	  </td>
+	  <td class="superCancel">
+	  	<%= move.isSuperCancelable  ? 'x' : '' %>
+	  </td> 
+	 <% end %>
 </tr>

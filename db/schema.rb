@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20111128233545) do
   create_table "combo_items", :force => true do |t|
     t.integer  "combo_id"
     t.integer  "move_id"
+    t.integer  "votes",      :default => 0
     t.integer  "position"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -28,7 +29,6 @@ ActiveRecord::Schema.define(:version => 20111128233545) do
   create_table "combos", :force => true do |t|
     t.string   "name"
     t.string   "submitter"
-    t.integer  "votes",        :default => 0
     t.integer  "character_id"
     t.datetime "created_at"
     t.datetime "updated_at"

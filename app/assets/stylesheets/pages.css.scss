@@ -3,19 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html {
-	background-color: #0D4889;
+	height:100%;
+}
+
+body {
+  height: 100%;
+  background: black;
+	padding: 0;
+	margin: 0;
+
 }
 
 #container {
 	margin: 0 auto 0 auto;
-	background-color: #0D4889;
+
 	padding: 10px;
 	color: #E7E7E7;
-}
 
-body {
-	padding: 0;
-	margin: 0;
+	background: -webkit-linear-gradient(top, #0D4889, #000);
+
+
 }
 
 
@@ -23,6 +30,7 @@ body {
 	margin: 0 auto 0 auto;
 	width: 610px;
 	padding: 10px;
+
 } 
 
 #sidebar {
@@ -82,11 +90,11 @@ table#sidebar_charactes {
 }
 
 table.character_combos_table {
+	table-layout:fixed;	
 	text-align:left;
 	border-style:solid;
 	border-width:4px;
-
-	
+	width: 100%;
 
 	td {
 
@@ -112,7 +120,7 @@ table.character_combos_table {
 }
 
 #character_portrait{
-	img {  
+	img {
 		display: block;
 		margin:auto;
 	}
@@ -129,5 +137,47 @@ table.character_combos_table {
 	background:#E7E7E7;	
 	a {
 		color:black;
+	}
+}
+
+.notice {
+	text-align: center;
+	font-size: 20px;
+	padding:20px;
+	margin:10px;
+	border: solid 1px;
+}
+
+form {
+	margin:auto;
+	text-align:center;
+}
+
+.moves {
+	text-align:left;
+	border-style:solid;
+	border-width:4px;
+
+	tr:nth-child(odd)    { background-color:#1114CF; }
+	tr:nth-child(even)    { background-color:#393DFA; }
+
+
+	td {
+
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+
+		.combo_name {
+			width:200px;
+		}
+		.combo_moves {
+			width:500px;
+		}
+		.combo_submitter {
+			width:100px;
+		}	
+		.combo_votes {
+			width:100px;
+		}
 	}
 }

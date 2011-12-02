@@ -1,0 +1,25 @@
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Hayate,QCF + Punch,6,5,,,100,H,9,X
+Stage 2,,8 ~ 27,5,,,110,H,11,X
+Stage 3,,28 ~ 47,5,,,120,H,13,X
+Stage 4,,48 ~ 67,5,,,130,H,15,X
+Stage 5,,68 ~ 127,5,,,140,H,17,X
+Hayate (Jab),QCF + Jab,6,,,-12,,H
+Hayate (Strong),QCF + Strong,9,,,-12,,H
+Hayate (Fierce),QCF + Fierce,11,,,-12,,H
+Hayate (EX),QCF + 2 Punches,17,5,,2,160,H,17,X
+Fukiage (Jab),DPM + Jab,7,7,26,-,120,H+L,29,O
+Fukiage (Strong),DPM + Strong,10,9,26,-,140,H+L,31,O
+Fukiage (Fierce),DPM + Fierce,14,7,26,-,160,H+L,31,O
+Fukiage (EX),DPM + 2 Punches,11,7,26,-,140,H+L,21,O
+Oroshi (Jab),QCB + Jab,19,6,17,-4,100,H,7,O
+Oroshi (Strong),QCB + Strong,23,6,17,-4,110,H,11,O
+Oroshi (Fierce),QCB + Fierce,28,6,17,0,140,H,13,O
+Oroshi (EX),QCB + 2 Punches,13,6,17,4,160,H,9,O
+Tsurugi (Short),QCB + Short (Air),14,3,8,-,140,H,13,X
+Tsurugi (Forward),QCB + Forward (Air),15,3,8,-,150,H,13,X
+Tsurugi (Roundhouse),QCB + RH (Air),16,3,8,-,160,H,13,X
+Tsurugi (EX),QCB + 2 Kicks (Air),15,1*1,8,-,80+100,H,9+9,X
+Karakusa (Short),HCB + Short,7,2,28,-,30,-,9,X
+Karakusa (Forward),HCB + Forward,8,3,29,-,30,-,9,X
+Karakusa (Roundhouse),HCB + RH,9,3,30,-,30,-,9,X

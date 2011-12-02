@@ -22,8 +22,8 @@
 			state = "NEUTRAL"
 
 			# [first start-time, first connect-time, ...,]
-			startUpPeriods    = <%= @combo_items.map{|c| c.move.startUp + c.move.hit}[0...-1] %>
-			connectionPeriods = <%= @combo_items.map{|c| c.move.recovery}[0...-1] %>
+			startUpPeriods    = <%= @startUps %>
+			connectionPeriods = <%= @connections %>
 
 			startUpTime = startUpPeriods[0] * FRAMES
 			connectTime = connectionPeriods[0] * FRAMES
@@ -78,7 +78,7 @@
 					switch state
 						when "NEUTRAL"
 							startUpTime = startUpPeriods[0] * FRAMES
-							connectTime = connectionPeriods[1] * FRAMES
+							connectTime = connectionPeriods[0] * FRAMES
 							i = 0
 							keyFrame = new Date
 
