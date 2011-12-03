@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Trainer </title>
+		<title>Combo Execution Trainer</title>
 		<%= stylesheet_link_tag    "application" %>
 		<%= javascript_include_tag "application" %>
 		<%= csrf_meta_tags %>
@@ -9,11 +9,9 @@
 	<body>
 		<div id="container">
 
-			<div id="header"></div>
+			<div id="header"><%= image_tag '3slogo.jpeg' %></div>
 
-			<div id="sidebar">
-				<%= render 'shared/sidebar'%>
-			</div>
+			<%= render 'shared/sidebar'%>
 
 			<div id="content">
 				<%= yield %>
