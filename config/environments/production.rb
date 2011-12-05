@@ -20,6 +20,9 @@ Trainer::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  config.assets.precompile += ['jquery-ui-1.8.16.custom.min.js']
+
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
