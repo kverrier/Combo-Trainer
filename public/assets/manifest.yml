@@ -29,6 +29,8 @@ portraits/urien-face.gif: portraits/urien-face-2e6be436cd1a46ff08a158e648fc5fe9.
 portraits/yang-face.gif: portraits/yang-face-59b6dfa13e97ce57aec71bab0e5d3763.gif
 portraits/yun-face.gif: portraits/yun-face-2576dca579ec649cd6bdb717ae388954.gif
 application.js: application-c50bcd445b0ce9aa7539fa88731030ea.js
+jquery-1.6.2.min.js: jquery-1.6.2.min-f8896120ab2937b204efdfa4c2172443.js
+jquery-ui-1.8.16.custom.min.js: jquery-ui-1.8.16.custom.min-437b89b0eb0b2483e2484e304070ce4e.js
 application.css: application-b10ab8f71bff785c94d75a398f4cc3f4.css
 ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png: ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40-070728c175bb385436f052a1547cd294.png
 ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png: ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40-149f0f1f12779ce76e2c9ccc01d06475.png
