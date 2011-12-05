@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "Combos" do
-  describe "Add combo" do
+  it "adds combo" do
     
   end
 end

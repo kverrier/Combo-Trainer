@@ -3,7 +3,6 @@ class CreateComboItems < ActiveRecord::Migration
     create_table :combo_items do |t|
     	t.integer :combo_id
     	t.integer :move_id
-    	t.integer :votes, :default => 0
     	t.integer :position
 
       t.timestamps
