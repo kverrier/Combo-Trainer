@@ -7,4 +7,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.hotkeys
+//= require jquery-1.6.2.min
 //= require_self
