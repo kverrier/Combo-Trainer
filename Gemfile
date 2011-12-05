@@ -35,3 +35,5 @@ gem 'pg', :group => [:prodution]
 # Heroku Stuff
 gem 'heroku'
 gem 'thin'
+
+gem 'linguistics'

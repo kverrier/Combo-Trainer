@@ -3,20 +3,10 @@ N.D.L. (Strong),QCF + Strong,15,16,16,-9,60,H+L,3,X
 N.D.L. (Fierce),QCF + Fierce,16,20,20,-13,60,H+L,3,X
 N.D.L. (EX),QCF + 2 Punches,14,15,15,0,50+30,H+L,3+3,X
 A.X.E. (Jab),QCB + Jab,6,2*6,16,-5,30+30,H,5+3,O+X
-A.X.E. (Strong),QCB + Strong,10,2*2*3,,,40+35+35,H,5+3+3,O+X+X
-,,,2,17,-6,35,H,3,X
-A.X.E. (Fierce),QCB + Fierce,14,2*2*3,,,50+40+40,H,5+3+3,O+X+X
-,,,2*2*,18,-7,40+40,H,3+3,X
-A.X.E. (EX),QCB + 2 Punches,8,2*2*3,,,60+40+40,H,5+3+3,O+X+X
-,,,2*2*3,15,-4,40+40+40,H,3+3+3,X
+A.X.E. (Strong),QCB + Strong,10,2*2*3,17,,40+35+35,H,5+3+3,O+X+X
+A.X.E. (Fierce),QCB + Fierce,14,2*2*3,18,,50+40+40,H,5+3+3,O+X+X
+A.X.E. (EX),QCB + 2 Punches,8,2*2*3,15,,60+40+40,H,5+3+3,O+X+X
 Air A.X.E. (Jab),QCB + Jab (Air),9,2*2*3,15,,30+25+25,H,5+3+3,X
 Air A.X.E. (Strong),QCB + Strong (Air),11,2*2*3,,,40+30+30,H,5+3+3,X
-,,,2,15,,30,H,3,X
 Air A.X.E. (Fierce),QCB + Fierce (Air),13,2*2*3,,,50+35+35,H,5+3+3,X
-,,,2*2,15,,35+35,H,3+3,X
 Air A.X.E. (EX),QCB + 2 Punches (Air),6,2*2*3,,,60+35+35,H,5+3+3,X
-,,,2*2*3,15,,35+35+35,H,3+3+3,X
-D.R.A. (Short),QCB + Short (Air),14,-,,,110,H,5,X
-D.R.A. (Forward),QCB + Forward (Air),14,-,,,110,H,5,X
-D.R.A. (RH),QCB + RH (Air),14,-,,,110,H,5,X
-D.R.A. (EX),QCB + 2 Kicks (Air),6,-,20,,70+50,H,5+5,X

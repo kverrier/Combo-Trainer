@@ -85,6 +85,7 @@ GEM
     json_pure (1.6.3)
     launchy (2.0.5)
       addressable (~> 2.2.6)
+    linguistics (1.0.9)
     mail (2.3.0)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -185,6 +186,7 @@ DEPENDENCIES
   haml
   heroku
   jquery-rails
+  linguistics
   pg
   rails (= 3.1.1)
   rspec-rails

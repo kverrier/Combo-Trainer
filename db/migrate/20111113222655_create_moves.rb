@@ -15,7 +15,7 @@ class CreateMoves < ActiveRecord::Migration
     end
 
 
- 		bad_moves = ['-', 'Universal Overhead', 'Taunt']
+ 		bad_moves = ['', '-', 'Universal Overhead', 'Taunt']
 
     require 'csv'
     Dir['lib/assets/frame_data/normals/*.csv'].each do |f|
@@ -31,7 +31,7 @@ class CreateMoves < ActiveRecord::Migration
 			  							:isSpecialCancelable => (row[11] == 'O'),
 			  							:isSuperCancelable   => (row[12] == 'O'))
 			  end
-		  end
+		 	end
 		end
 
 		Dir['lib/assets/frame_data/specials/*.csv'].each do |f|

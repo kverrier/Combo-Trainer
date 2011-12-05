@@ -21,9 +21,9 @@ class Move < ActiveRecord::Base
   	when 'normal'
   		combos = (isNormal and (hitAdv >= next_move.startUp))
   	when 'special'
-			combos = isSpecialCancelable and next_move.startUp <= recovery
+			combos = (isSpecialCancelable and (next_move.startUp <= recovery))
   	when 'super'
-			combos = isSuperCancelable and next_move.startUp <= recovery
+			combos = (isSuperCancelable and (next_move.startUp <= recovery))
   	end
 
 		combos

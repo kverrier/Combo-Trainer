@@ -20,14 +20,7 @@ Kazekiri (RH),DPM + RH,8,1*1,-,-,60+20,H+L,3+3,O
 Kazekiri (EX),DPM + 2 Kicks,4,1*1*1,-,-,60+20+20,H+L,3+3+5,O
 -,-,-,8,5,-21,90,H+L,7,O
 Tsumuji (Short),QCB + Short,11*15,1*1,19,-4,60+50,H,3+3,X
-Hold down for 2nd hit,Hold Down,20,2,30,-,50,L,3,X
 Tsumuji (Forward),QCB + Forward,13*16*16,1*1*1,21,-2,60+50+50,H,3+3+5,X
-Hold down for 2nd hit,Hold Down,21,2,30,-,50,L,3,X
 Tsumuji (Roundhouse),QCB + RH,14*14*16,1*1*1,24,-8,60+50+80,H,3+3+5,X+O+X
-Hold down for 2nd hit,Hold Down,19,2,30,-,70,L,3,X
 Tsumuji (EX),QCB + 2 Kicks,7,1,-,-11,50,H,3,O
-2 ~ 3,-,10,1,-,-,50,H,5,O
-Hold down during 2 ~ 3,Hold Down,15,2,-,-,40,L,3,O
-4,-,11,1,28,-,70,H,3,X
-Hold down during 4,Hold Down,16,2,30,-,60,L,3,X
 Kasumi Gake,QCF + Kick,-,20/22/25,,-,-,-,-,X

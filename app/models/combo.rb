@@ -9,7 +9,7 @@ class Combo < ActiveRecord::Base
   	validates :submitter, :presence => true, :length => { :maximum => 16 }
 
   	def next_moves
-	  	moves = last_move ? character.moves.keep_if{|m| last_move.combos_into? m } : character.moves
+	  	moves = last_move ? character.moves.keep_if{|m| last_move.combos_into?(m) } : character.moves
   	end
 
   	def start_ups

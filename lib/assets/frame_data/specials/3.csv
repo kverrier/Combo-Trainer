@@ -2,22 +2,14 @@ Kikkoken (Jab),HCF + Jab,14,1,45,-17,45,H,3,O
 Kikkoken (Strong),HCF + Strong,13,1,38,-10,50,H,3,O
 Kikkoken (Fierce),HCF + Fierce,11,1,32,-4,60,H,3,O
 Kikkoken (EX),HCF + 2 Punches,16,1,41,-7,80,H,3,O
-Hyakuretsu Kyaku (Short),Short (rapidly),6*3,1*1,,,40+20,H,3+5,X
-,,3*3,1*1,12,3,30+20,H,3+3,X
-Hyakuretsu Kyaku (Forward),Forward (rapidly),6*3,1*1,,,40+20,H,3+5,X
-,,3*3,1*1,13,1,30+20,H,3+3,X
-Hyakuretsu Kyaku (Roundhouse),RH (rapidly),5*2,1*1,,,50+20,H,3+5,X
-,,2*2,1*1,15,-1,40+30,H,3+3,X
-Hyakuretsu Kyaku (EX),2 Kicks (rapidly),3*2,1*1,,,60+40,H,3+5,X
-,,2*2,1*1,17,-3,40+40,H,3+3,X
-Spinning Bird Kick (Short),Hold D...U + Short,12,1*1,,,50+30,H,7+3,X
-,,5*5,1*1,21,-2,30+30,H,3+5,X
-Spinning Bird Kick (Forward),Hold D...U + Forward,14*1*15,1*1*1,,,50+25+25,H,7+3+3,X
-,,5*5*5,1*1*1,22,-2,25+25+25,H,3+3+3,X
-Spinning Bird Kick (Roundhouse),Hold D...U + RH,17*1*4(x5),1*1*1(x5),,,50+25(x6),H,5+3(x6),X
-,,4,1,22,-2,30,H,3,X
-Spinning Bird Kick (EX),Hold D...U + 2 Kicks,12*4*4,1*1*1,,,50+40+50,H,7+3+7,X
-,,4*4,1*1,22,-8,40+50,H,3+7,X
+Hyakuretsu Kyaku (Short),Short (rapidly),6*3,1*1,12,3,40+20,H,3+5,X
+Hyakuretsu Kyaku (Forward),Forward (rapidly),6*3,1*1,13,-1,40+20,H,3+5,X
+Hyakuretsu Kyaku (Roundhouse),RH (rapidly),5*2,1*1,15,-1,50+20,H,3+5,X
+Hyakuretsu Kyaku (EX),2 Kicks (rapidly),3*2,1*1,17,-3,60+40,H,3+5,X
+Spinning Bird Kick (Short),Hold D...U + Short,12,1*1,21,-2,50+30,H,7+3,X
+Spinning Bird Kick (Forward),Hold D...U + Forward,14*1*15,1*1*1,22,-2,50+25+25,H,7+3+3,X
+Spinning Bird Kick (Roundhouse),Hold D...U + RH,17*1*4(x5),1*1*1(x5),22,-2,50+25(x6),H,5+3(x6),X
+Spinning Bird Kick (EX),Hold D...U + 2 Kicks,12*4*4,1*1*1,22,-2,50+40+50,H,7+3+7,X
 Hazan Shu (Short),HCB + Short,22,2,18,-2,100,H,11,X
 Hazan Shu (Forward),HCB + Forward,24,2,18,-2,110,H,13,X
 Hazan Shu (Roundhouse),HCB + RH,29,2,17,-1,120,H,15,X

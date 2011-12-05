@@ -3,11 +3,11 @@ Trainer::Application.routes.draw do
 
   root :to => 'pages#index'
   
-  resources :characters do
-    resources :combos
+  resources :characters, :only => [:index, :show] do
+    resources :combos, :only => [:show, :create, :new]
   end
 
-  resources :combo_items
+  resources :combo_items, :only => [:create, :new]
  
 
   

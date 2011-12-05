@@ -13,6 +13,13 @@
 			breakSymbol = '|'
 
 
+			`$("div.pbar").each( function() {
+				$(this).progressbar({ value: 0 });
+			})`
+
+			$("div.pbar > div").css("background", "red")
+
+
 
 			###
 			INTIALIZATIONS
@@ -49,9 +56,11 @@
 							if elasped > startUpTime
 									keyFrame = new Date
 									state = "LINK"
-									$('.Msg').append('<br>LINK<br>')
+									$('.Msg').html("LINK")
+									$("#pbar"+i).progressbar({ value: 100 })
+									$("#pbar"+(i+1)+"> div").css("background", "yellow")
 							else
-									$('.Msg').append(frameSymbol)
+									$("#pbar"+i).progressbar({ value: (elasped / startUpTime) * 100 })
 							return
 
 						when "LINK"			        
@@ -60,9 +69,10 @@
 							# check if past link connection time
 							if elasped > connectTime
 								state = "NEUTRAL"
-								$('.Msg').append("<br>FAILED<br>Too slow on move number " + (i+2))
+								$("#pbar"+(i+1)).progressbar({ value: 100 })
+								$('.Msg').html("FAILED: Too slow on move " + (i+2))
 							else
-								$('.Msg').append(frameSymbol)
+								$("#pbar"+(i+1)).progressbar({ value: (elasped / connectTime) * 100 })
 
 							return
 
@@ -82,21 +92,28 @@
 							i = 0
 							keyFrame = new Date
 
+
+							`$(".pbar").progressbar({ value: 0 })`
+
+
+							$("div.pbar > div").css("background", "red")
+
+
 							state = "STARTUP"
-							$('.Msg').html('START UP<br>')
+							$('.Msg').html('START UP')
 
 						when "STARTUP"
-							$('.Msg').append("<br>FAILED<br>Too soon on move number " + (i+2))
+							$('.Msg').html("FAILED: Too soon on move number " + (i+2))
 							state = "NEUTRAL"
 
 						when "LINK"
 							i += 1
 							if i >= startUpPeriods.length
-									$('.Msg').append("<br>SUCCESS<br>Press j to try again")
+									$('.Msg').html("SUCCESS: Press j to try again")
 									state = "NEUTRAL"
 							else
-									$('.Msg').append("<br>START UP<br>")
-
+									$("#pbar"+(i)+"> div").css("background", "red")
+									$('.Msg').html('START UP')
 									startUpTime = startUpPeriods[i] * FRAMES
 									connectTime = connectionPeriods[i] * FRAMES
 									keyFrame = new Date
@@ -105,3 +122,17 @@
 				return
 
 	<% end %>
+
+<div id="bars">
+	<div class="bar">
+		<div class="bar_text">Move #1</div>
+		<div class="pbar" id="pbar0"></div>
+	</div>
+<% @startUps.each_with_index do |s, i| %>
+	<div class="bar">
+		<div class="bar_text"><%= "Move \##{i+2}"%></div>
+		<div class="pbar" id="<%="pbar#{i+1}"%>"></div>
+	</div>
+<% end %>
+</div>
+

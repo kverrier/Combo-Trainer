@@ -1,38 +1,28 @@
 Scratch Wheel (Short),DPM + Short,6,3,36,-19,130,H+L,13,X
 Scratch Wheel (Forward),DPM + Forward,4,2*1,36,-22,90+60,H+L,13+3,O+X
 Scratch Wheel (RH),DPM + RH,3,1*1*2,40,-27,90+40+40,H+L,13+3+3,O+X+X
-Scratch Wheel (EX),DPM + 2 Kicks,3,1*1,-,-,100+40,H+L,13+3,O
--,-,-,2*2,42,-30,40+40,H+L,3+3,X
-Rhino Horn (Short),HCF + Short,14,1*1,-,-,40,H+L,3,X
--,-,-,4,14,-3,140,H+L,19,X
-Rhino Horn (Forward),HCF + Forward,18,2*1,-,-,40,H+L,3,X
--,-,-,4,15,-4,170,H+L,19,X
-Rhino Horn (RH),HCF + RH,23,2*1,-,-,40,H+L,3,X
--,-,-,4,17,-6,160,H+L,19,X
-Rhino Horn (EX),HCF + 2 Kicks,11,2*1,-,-,45,H+L,3,X
--,-,-,4*2,15,-2,100+80,H+L,17+3,X
-Mallet Smash (Jab),HCB + Jab,21,5,-,-,120(80),H,13,X
--,-,-,1,13,0,40,H,5,X
-Mallet Smash (Strong),HCB + Strong,24,4,-,-,130(90),H,13,X
--,-,-,1,12,1,40,H,5,X
-Mallet Smash (Fierce),HCB + Fierce,27,5,-,-,140(100),H,13,X
--,-,-,1,11,4,40,H,5,X
-Mallet Smash (EX),HCB + 2 Punches,21,1,-,-,120,H,13,X
--,-,-,1,10,4,60,H,5,X
-Spinning Scythe (Short),QCB + Short,15,1*1,18,-,60+60,H,3+3,X
--,-,-,3*1,40,-2,20+20,H,7+7,X
+Scratch Wheel (EX),DPM + 2 Kicks,3,1*1,42,-30,100+40,H+L,13+3,O
+Rhino Horn (Short),HCF + Short,14,1*1,14,-3,40,H+L,3,X
+Rhino Horn (Forward),HCF + Forward,18,2,15,-4,40,H+L,3,X
+Rhino Horn (RH),HCF + RH,23,2*1,17,-6,40,H+L,3,X
+Rhino Horn (EX),HCF + 2 Kicks,11,2,15,-2,45,H+L,3,X
+Mallet Smash (Jab),HCB + Jab,21,5,13,0,120(80),H,13,X
+Mallet Smash (Strong),HCB + Strong,24,4,12,1,130(90),H,13,X
+Mallet Smash (Fierce),HCB + Fierce,27,5,11,4,140(100),H,13,X
+Mallet Smash (EX),HCB + 2 Punches,21,1,10,4,120,H,13,X
+Spinning Scythe (Short),QCB + Short,15,1*1,18,40,60+60,H,3+3,X
 Spinning Scythe (Forward),QCB + Forward,16,1*1,22,-,60+65,H,3+3,X
 -,-,-,3*1,47,-6,20+25,H,7+7,X
 Spinning Scythe (RH),QCB + RH,17,1*1,24,-,65+65,H,3+3,X
 -,-,-,3*1,52,-8,25+25,H,7+7,X
-Spinning Scythe (EX),QCB + 2 Kicks,10,1*1*1,-,-,60+60+60,H,3+3+3,X
+Spinning Scythe (EX),QCB + 2 Kicks,10,1*1*1,31,-15,60+60+60,H,3+3+3,X
 -,-,-,1,31,-,40,H,3,O
 -,-,-,3*1,42,-,20+20,H,7+7,X
 -,-,-,3*1,47,-,20+25,H,7+7,X
 -,-,-,3*1,52,-15,25+25,H,7+7,X
 Lynx Tail (Short),RDP + Short,11*9,2*2,35,-17,60+60,L,3+3,X
 Lynx Tail (Forward),RDP + Forward,14*9,2*2,33,-15,70+60,L,3+3,X
-Lynx Tail (RH),RDP + RH,16*9,2*2,-,-,80+10,L,3+3,X
+Lynx Tail (RH),RDP + RH,16*9,2*2,33,-15,80+10,L,3+3,X
 -,-,25*8,2*2,33,-15,10+40,L,3+3,X
-Lynx Tail (EX),RDP + 2 Kicks,10*5*15,3*3*3,-,-,80+10+10,L,3+3+3,X
+Lynx Tail (EX),RDP + 2 Kicks,10*5*15,3*3*3,25,-15,80+10+10,L,3+3+3,X
 -,-,5*19,3*5,25,-15,10+40,L,3+5,X

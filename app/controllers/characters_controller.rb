@@ -4,5 +4,9 @@ class CharactersController < ApplicationController
   	@combos = @character.combos
   end
 
+  def index
+  	@characters = Character.all
+  end
+
 
 end

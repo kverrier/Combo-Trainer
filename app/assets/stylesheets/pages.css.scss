@@ -61,6 +61,7 @@ nav {
 }
 
 #content {
+	margin:auto;
 	width: 800px;
 	padding: 50px;
 	border-radius: 5px;
@@ -106,6 +107,28 @@ h1 {
 
 .Dots {
 	font-size: 80px;
+}
+
+.bar {
+	padding:10px;
+}
+
+.pbar{
+	margin-left:100px;
+}
+
+.connectbar{
+	margin-left:100px;
+}
+
+.bar_text{
+	margin-top:10px;
+	float:left;
+	width:100px;
+}
+
+#bars {
+	margin:10px;
 }
 
 
@@ -181,6 +204,7 @@ form {
 }
 
 .moves {
+	width:100%;
 	text-align:left;
 	border-style:solid;
 	border-width:4px;
