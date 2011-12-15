@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111128233545) do
+ActiveRecord::Schema.define(:version => 20111207183026) do
 
   create_table "characters", :force => true do |t|
     t.string "name"
@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(:version => 20111128233545) do
   create_table "combo_items", :force => true do |t|
     t.integer  "combo_id"
     t.integer  "move_id"
-    t.integer  "votes",      :default => 0
     t.integer  "position"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -28,7 +27,7 @@ ActiveRecord::Schema.define(:version => 20111128233545) do
 
   create_table "combos", :force => true do |t|
     t.string   "name"
-    t.string   "submitter"
+    t.integer  "user_id"
     t.integer  "character_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -44,6 +43,13 @@ ActiveRecord::Schema.define(:version => 20111128233545) do
     t.boolean  "isSpecialCancelable"
     t.boolean  "isSuperCancelable"
     t.string   "move_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "username"
+    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

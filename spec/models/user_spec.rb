@@ -1,4 +1,5 @@
 require 'spec_helper'
 
-describe "PageTests" do
+describe User do
+
 end

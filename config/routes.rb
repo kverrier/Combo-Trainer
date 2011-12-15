@@ -2,16 +2,17 @@ Trainer::Application.routes.draw do
  # get "character/show"
 
   root :to => 'pages#index'
-  
-  resources :characters, :only => [:index, :show] do
-    resources :combos, :only => [:show, :create, :new]
-  end
 
+  resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
+
+  match '/signup', :to => 'users#new'
+  match '/login', :to => 'sessions#new'
+  match '/logout', :to => 'sessions#destroy'
+
+  resources :characters, :only => [:index, :show]
+  resources :combos, :only => [:show, :create, :new]
   resources :combo_items, :only => [:create, :new]
- 
-
-  
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

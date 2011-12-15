@@ -1,14 +1,10 @@
 <h1>Create a Combo</h1>
 
-<%= form_for([@character, @combo]) do |f| %>
+<%= form_for(@combo) do |f| %>
 	<%= render 'shared/error_messages', :target => @combo %>
   <div class="field">
     <%= f.label "Combo Name" %><br />
     <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label "Submitted by" %><br />
-    <%= f.text_field :submitter %>
   </div>
   <div class="actions">
     <%= f.submit "Finish" %>

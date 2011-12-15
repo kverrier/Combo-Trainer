@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Combo Execution Trainer</title>
-		<%= stylesheet_link_tag    "application" %>
-		<%= javascript_include_tag "application" %>
-		<%= javascript_include_tag "jquery-ui-1.8.16.custom.min.js" %>
-		<%= csrf_meta_tags %>
-	</head>
-	<body>
-		<div id="container">
+  <head>
+    <title>Combo Execution Trainer</title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "jquery-ui-1.8.16.custom.min.js" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header"><%= image_tag '3slogo.jpeg' %></div>
 
-			<div id="header"><%= image_tag '3slogo.jpeg' %></div>
+      <%= render 'shared/sidebar'%>
 
-			<%= render 'shared/sidebar'%>
+      <div id="content">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %>
 
-			<div id="content">
-				<%= yield %>
-			</div>
-
-		</div>
-	</body>
+        <%= yield %>
+      </div>
+    </div>
+  </body>
 </html>
