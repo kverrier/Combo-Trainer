@@ -3,7 +3,7 @@ Combo Trainer WebApp
 Overview
 --------
 
-This is a Ruby On Rails WebApp that allows for users to train explicit timing of button sequences, commonly refered to as combos.
+This is a Ruby On Rails WebApp that allows for users to train explicit timing of button sequences, commonly refered to as [combos](http://en.wikipedia.org/wiki/Combo_\(video_gaming\)), for the cult classic fighting game [Street Fighter III: 3rd Strike](http://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike).
 
 Running Version
 ---------------
