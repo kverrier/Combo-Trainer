@@ -7,7 +7,7 @@ This is a Ruby On Rails WebApp that allows for users to train explicit timing of
 
 Running Version
 ---------------
-To visit a live version on the site go [here](http://electric-window-8954.herokuapp.com).
+To visit a live version of the site go [here](http://electric-window-8954.herokuapp.com).
 
 Notes
 -----
