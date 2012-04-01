@@ -22,10 +22,10 @@ from csv files and users create sequences of moves that are stored on
 the server. The sequences are then loaded into a JavaScript training
 engine that interprets the data as events that are put into a discrete
 event simulation buffer, polling at 1/60th of a second (1 video frame).
-User input is cross-referenced to the current state of the simulator
-(i.e.  early, on-time, or late) to give instant quantitative feedback.
-This is repeated for each move in the sequence. Once the simulation is
-finished, the user can repeat the process over and over again for
+User input is cross-referenced to the current state of the simulator to
+give instant feedback (i.e.  early, on-time, or late).  This is repeated
+for each move in the sequence. Once the simulation is finished, the user
+can repeat the process over and over again to practice for future
 consistent accuracy.
 
 ## Notes
@@ -33,10 +33,7 @@ consistent accuracy.
 The hosted live version is slightly different from this source code. In
 this version, I am in the process of adding a user authentication system
 so that user can have their own personal combos. The system works;
-however, there is bit of making sure that the right interface shows up
+however, there is a need to make sure the right interface shows up
 at the right time (e.g. Log Off button only shows if the user is logged
 in).
 
-Also future plans include support for multiple button combos. Currently
-all combos are done with the 'J' key; whereas, the game has 6 buttons
-allocated for different attacks.
