@@ -1,4 +1,4 @@
-#Combo Trainer WebApp
+#Combo Trainer
 
 ---
 
