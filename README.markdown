@@ -34,7 +34,7 @@ consistent accuracy.
 The hosted live version is slightly different from this source code. In
 this version, I am in the process of adding a user authentication system
 so that user can have their own personal combos. The system works;
-however, there is a need to make sure the right interface shows up
+however, there is a need to make sure the right user interface shows up
 at the right time (e.g. Log Off button should only show if the user is
 logged in).
 
