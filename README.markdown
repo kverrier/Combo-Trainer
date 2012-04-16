@@ -17,7 +17,7 @@ version of the site with further explanation on how to "train", visit
 the GitHub page [here](https://github.com/kverrier/Combo-Trainer).
 
 ## Live Versions
-[Latest Version]()
+[Latest Version](http://floating-journey-3753.herokuapp.com/)
 
 [First Build](http://electric-window-8954.herokuapp.com)
 
