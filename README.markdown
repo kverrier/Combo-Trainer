@@ -10,11 +10,6 @@ button sequences, commonly referred to as
 cult classic fighting game [Street Fighter III: 3rd
 Strike](http://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike).
 
-## Current and Running Version
-
-To explore the most up-to-date source code and the link to a live
-version of the site with further explanation on how to "train", visit
-the GitHub page [here](https://github.com/kverrier/Combo-Trainer).
 
 ## Live Versions
 [Latest Version](http://floating-journey-3753.herokuapp.com/)
