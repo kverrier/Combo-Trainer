@@ -1,6 +1,0 @@
-.rvmrc
-*.gem
-.bundle
-*.rbc
-.yardoc
-Gemfile.lock
