@@ -1,12 +1,13 @@
 <h1>Create a Combo</h1>
 
-<%= form_for(@combo) do |f| %>
-	<%= render 'shared/error_messages', :target => @combo %>
-  <div class="field">
-    <%= f.label "Combo Name" %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="actions">
-    <%= f.submit "Finish" %>
-  </div>
-<% end %>
+<div class="offset4 span4">
+
+  <%= render 'shared/error_messages', :target => @combo %>
+
+  <%= simple_form_for @combo, :html => {:class => 'well form-vertical'} do |f| %>
+    <%= f.association :character, :include_blank => false%>
+    <%= f.input :name %>
+    <%= f.button :submit %>
+  <% end %>
+
+</div>

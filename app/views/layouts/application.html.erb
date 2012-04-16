@@ -2,24 +2,24 @@
 <html>
   <head>
     <title>Combo Execution Trainer</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
     <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "application" %>
+    <!--
     <%= javascript_include_tag "jquery-ui-1.8.16.custom.min.js" %>
+    -->
+    <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div id="container">
-      <div id="header"><%= image_tag '3slogo.jpeg' %></div>
+    <%= render 'shared/navbar'%>
 
-      <%= render 'shared/sidebar'%>
+    <%= render 'shared/container'%>
 
-      <div id="content">
-        <% flash.each do |key, value| %>
-          <div class="flash <%= key %>"><%= value %></div>
-        <% end %>
+    <hr />
 
-        <%= yield %>
-      </div>
-    </div>
+    <%= render 'shared/footer'%>
   </body>
 </html>

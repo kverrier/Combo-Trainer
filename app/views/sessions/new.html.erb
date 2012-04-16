@@ -1,19 +1,11 @@
-<h1>Sign In</h1>
 
-<%= form_tag sessions_path do %>
-  <div class="field">
-    <%= label_tag :username %><br />
-    <%= text_field_tag :username, params[:username] %>
-  </div>
-  <div class="field">
-    <%= label_tag :password %><br />
-    <%= password_field_tag :password %>
-  </div>
-  <div class="actions">
-    <%= submit_tag "Login" %>
-  </div>
-<% end %>
+<div class='offset4 span4'>
 
-<h2>H</h2>
+  <%= simple_form_for(:session, :url => sessions_path, :html => {:class => 'well form' }) do |f| %>
+    <%= f.input :username %>
+    <%= f.input :password %>
+    <%= f.button :submit, :value => "Sign In"%>
+    <%= link_to 'New User', signup_path, :class => 'btn btn-primary'%>
+  <% end -%>
 
-<p>New user? <%= link_to "Sign up now!", signup_path %></p>
+</div>

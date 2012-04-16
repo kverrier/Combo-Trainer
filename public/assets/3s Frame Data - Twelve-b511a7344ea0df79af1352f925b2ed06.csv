@@ -1,0 +1,58 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,3,2,7,1,1,1,30,H+L,3,X,O,O
+Strong,6,3,12,-2,-1,0,70,H,11,X,O,O
+Far Strong,9,3,13,-2,-1,0,65,H,9,X,X,X
+Fierce,12,3,17,-3,-1,1,110,H,15,X,X,X
+Crouching Jab,3,1,5,4,4,4,30,H+L,3,X,O,O
+Crouching Strong,5,1,10,-2,4,5,55,H+L,7,X,X,X
+Crouching Fierce,10,6*5*5,13,-8,-1,1,40x3,H+L,5+3+3,X,X,X
+Neutral Jumping Jab,3,12,,,,,30,H,7,X,X,X
+Jumping Jab,4,13,,,,,40,H,7,X,X,X
+Jumping Strong,5,10,,,,,70,H,11,X,X,X
+Jumping Fierce,12,1,,,,,120,H,15,X,X,X
+Short,3,1,10,-1,-1,-1,40,H+L,3,X,O,O
+Forward,6,5,13,-4,-1,0,70,H+L,11,X,X,O
+Roundhouse,17,2,25,-11,-1,1,100,H,13,X,X,X
+Crouching Short,3,3,8,1,1,1,40,L,3,X,O,O
+Crouching Forward,8,1,14,-2,-1,0,60,L,3,X,X,X
+Crouching Roundhouse,13,1*1*1,25,-11,Down,Down,90,L,3,X,X,X
+Jumping Short,2,19,,,,,40,H,5,X,X,X
+Jumping Forward,9,3,,,,,70,H,9,X,X,X
+Jumping Roundhouse,14,5,,,,,120,H,13,X,X,X
+Back + Forward,7,2,14,-2,,,80,H+L,11,X,O,O
+Neutral Throw,2,1,21,,,,25x6,,5x6,X,X,X
+Throw,2,1,21,,,,120,,11,X,X,X
+Universal Overhead,16 ~ 25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,120,H,11,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+N.D.L. (Jab),QCF + Jab,15,14,14,-5,60,H+L,3,X
+N.D.L. (Strong),QCF + Strong,15,16,16,-9,60,H+L,3,X
+N.D.L. (Fierce),QCF + Fierce,16,20,20,-13,60,H+L,3,X
+N.D.L. (EX),QCF + 2 Punches,14,15,15,0,50+30,H+L,3+3,X
+A.X.E. (Jab),QCB + Jab,6,2*6,16,-5,30+30,H,5+3,O+X
+A.X.E. (Strong),QCB + Strong,10,2*2*3,,,40+35+35,H,5+3+3,O+X+X
+,,,2,17,-6,35,H,3,X
+A.X.E. (Fierce),QCB + Fierce,14,2*2*3,,,50+40+40,H,5+3+3,O+X+X
+,,,2*2*,18,-7,40+40,H,3+3,X
+A.X.E. (EX),QCB + 2 Punches,8,2*2*3,,,60+40+40,H,5+3+3,O+X+X
+,,,2*2*3,15,-4,40+40+40,H,3+3+3,X
+Air A.X.E. (Jab),QCB + Jab (Air),9,2*2*3,15,,30+25+25,H,5+3+3,X
+Air A.X.E. (Strong),QCB + Strong (Air),11,2*2*3,,,40+30+30,H,5+3+3,X
+,,,2,15,,30,H,3,X
+Air A.X.E. (Fierce),QCB + Fierce (Air),13,2*2*3,,,50+35+35,H,5+3+3,X
+,,,2*2,15,,35+35,H,3+3,X
+Air A.X.E. (EX),QCB + 2 Punches (Air),6,2*2*3,,,60+35+35,H,5+3+3,X
+,,,2*2*3,15,,35+35+35,H,3+3+3,X
+D.R.A. (Short),QCB + Short (Air),14,-,,,110,H,5,X
+D.R.A. (Forward),QCB + Forward (Air),14,-,,,110,H,5,X
+D.R.A. (RH),QCB + RH (Air),14,-,,,110,H,5,X
+D.R.A. (EX),QCB + 2 Kicks (Air),6,-,20,,70+50,H,5+5,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+X.N.D.L.,QCF x 2 + Punch,4,32,33,-31,60(x3 ~ 8),H+L,3(x3 ~ 8)
+X.F.L.A.T.,(Air) QCF x 2 + Kick,2,,49,-26,30,H,5
+X.F.L.A.T. (Air hit),(Air) QCF x 2 + Kick,2,,49,,30,H,5
+X.C.O.P.Y.,QCF x 2 + Punch,34,,2
+X.C.O.P.Y.,QCF x 2 + Punch,12,,2

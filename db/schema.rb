@@ -21,16 +21,16 @@ ActiveRecord::Schema.define(:version => 20111207183026) do
     t.integer  "combo_id"
     t.integer  "move_id"
     t.integer  "position"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "combos", :force => true do |t|
     t.string   "name"
     t.integer  "user_id"
     t.integer  "character_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "moves", :force => true do |t|
@@ -43,15 +43,16 @@ ActiveRecord::Schema.define(:version => 20111207183026) do
     t.boolean  "isSpecialCancelable"
     t.boolean  "isSuperCancelable"
     t.string   "move_type"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
   end
 
   create_table "users", :force => true do |t|
     t.string   "username"
     t.string   "password_digest"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string   "remember_token"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
 end

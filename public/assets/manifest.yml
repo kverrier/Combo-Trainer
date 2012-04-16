@@ -1,121 +1,144 @@
 ---
-3slogo.jpeg: 3slogo-5817353bb4cb3e9232409ae67315d8ff.jpeg
-character_demo.gif: character_demo-60720b3c9e068f88ad8a0f8142ea23f4.gif
-gifs/index.gif: gifs/index-0489a29601d3bf6783a8703dcd42d0ad.gif
-icons/sf3_kick_hard.png: icons/sf3_kick_hard-5d3ef6ac05698870ec6d9753c8199aee.png
-icons/sf3_kick_light.png: icons/sf3_kick_light-a4283c58e7af4518bbc6b43aa0077b0e.png
-icons/sf3_kick_medium.png: icons/sf3_kick_medium-7f4b0e5c0c2e9213bc7ceba4d35e2e0c.png
-icons/sf3_punch_hard.png: icons/sf3_punch_hard-9f4b7ae9c8af2ba168672a1bbecae295.png
-icons/sf3_punch_light.png: icons/sf3_punch_light-ea610411f473dc9483dc67b8c53e8e81.png
-icons/sf3_punch_medium.png: icons/sf3_punch_medium-a179d15323abcb3256627f26f04e7e67.png
-portraits/akuma-face.gif: portraits/akuma-face-917e70dd4a651e9827113436ae6499f9.gif
-portraits/alex-face.gif: portraits/alex-face-1acd3c86bd053b36d6c281487c78ffbc.gif
-portraits/chun-li-face.gif: portraits/chun-li-face-fc8c37f8f25328567d890f8fc60beeab.gif
-portraits/dudley-face.gif: portraits/dudley-face-0dd649f4adeb0c26a9dc1e069b6d2953.gif
-portraits/elena-face.gif: portraits/elena-face-e390c48082eeac3cec4c299d3d56d57d.gif
-portraits/gill-face.gif: portraits/gill-face-e3a9836092189684ea8cef025bfdae59.gif
-portraits/hugo-face.gif: portraits/hugo-face-fbf84ccd5a1bbea4123552883ef18d5d.gif
-portraits/ibuki-face.gif: portraits/ibuki-face-43b19935684dbc59d7d18ba8f89459c8.gif
-portraits/ken-face.gif: portraits/ken-face-f4f98d2ff7811a3ffa3cf57e28645832.gif
-portraits/makoto-face.gif: portraits/makoto-face-71ac2751497878e753852a0c78e3de90.gif
-portraits/necro-face.gif: portraits/necro-face-c9285cdaa2927fa027fe401d23b4cb8e.gif
-portraits/oro-face.gif: portraits/oro-face-4729b94bd120372330338233190e99d8.gif
-portraits/q-face.gif: portraits/q-face-8656164e3df73c48121ffc2e8dd6ad84.gif
-portraits/remy-face.gif: portraits/remy-face-9858cfd233c58f0bc9c575cdec7d36ef.gif
-portraits/ryu-face.gif: portraits/ryu-face-bcf47705f9af2cd3f06f0a61cdb8ba0c.gif
-portraits/sean-face.gif: portraits/sean-face-b25d649b9d61517cf08f8b8a891b169f.gif
-portraits/twelve-face.gif: portraits/twelve-face-544782a4aa29d5b6bd703c9f2b4f00a7.gif
-portraits/urien-face.gif: portraits/urien-face-2e6be436cd1a46ff08a158e648fc5fe9.gif
-portraits/yang-face.gif: portraits/yang-face-59b6dfa13e97ce57aec71bab0e5d3763.gif
-portraits/yun-face.gif: portraits/yun-face-2576dca579ec649cd6bdb717ae388954.gif
-application.js: application-2c412baa729efb6eb85006554aeecc14.js
-jquery-ui-1.8.16.custom.min.js: jquery-ui-1.8.16.custom.min-437b89b0eb0b2483e2484e304070ce4e.js
-application.css: application-b10ab8f71bff785c94d75a398f4cc3f4.css
-ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png: ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40-070728c175bb385436f052a1547cd294.png
-ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png: ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40-149f0f1f12779ce76e2c9ccc01d06475.png
-ui-lightness/images/ui-bg_flat_10_000000_40x100.png: ui-lightness/images/ui-bg_flat_10_000000_40x100-b445178f2c744b1d511ad862497ffc57.png
-ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png: ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400-778b49de31d268afe2d4f25c33fe90d3.png
-ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png: ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400-0bd6e814d19d7173be8fd975046ccc58.png
-ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png: ui-lightness/images/ui-bg_glass_65_ffffff_1x400-9f0af2ce0f2a9823f83f658e9c94f582.png
-ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png: ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100-d2ce790c9c3b8c60187e7a70b63d9979.png
-ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png: ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100-c0e01015c18340afa1a408a1153054b1.png
-ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png: ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100-74c0517bc983863ec830f1336a14f22b.png
-ui-lightness/images/ui-icons_222222_256x240.png: ui-lightness/images/ui-icons_222222_256x240-390b74b682a6e3601e0265cacd1ac422.png
-ui-lightness/images/ui-icons_228ef1_256x240.png: ui-lightness/images/ui-icons_228ef1_256x240-c415e562a0fcb1754862031bdb3504ef.png
-ui-lightness/images/ui-icons_ef8c08_256x240.png: ui-lightness/images/ui-icons_ef8c08_256x240-fdb2d5b9e05b835150e8a580c821abe2.png
-ui-lightness/images/ui-icons_ffd27a_256x240.png: ui-lightness/images/ui-icons_ffd27a_256x240-8a75c1e907b637f8d384a4940616e107.png
-ui-lightness/images/ui-icons_ffffff_256x240.png: ui-lightness/images/ui-icons_ffffff_256x240-47c682725bc49963b14b9afc06a9d4be.png
-normals/1.csv: normals/1-91a7ec4b9ffb7b50f018be1c3855801d.csv
-normals/10.csv: normals/10-7d287b690a492010e0f3ef13d0374fc5.csv
-normals/11.csv: normals/11-0f44cd8e4263bbb96559ee60c47a3548.csv
-normals/12.csv: normals/12-dc1cf03f8f59fe4bb6e31e400201d847.csv
-normals/13.csv: normals/13-eb66f47a91631ecd50eb71eae73aeb03.csv
-normals/14.csv: normals/14-7b2e081ba2aa192bd770397c14c4bfc8.csv
-normals/15.csv: normals/15-c4223dda08d5e31c8e2ae4f17e8a7dc0.csv
-normals/16.csv: normals/16-b5d6c2b1796d1a49ddfd7ed09d0c8878.csv
-normals/17.csv: normals/17-46a042cf0be4808edc09d2eed6328bf9.csv
-normals/18.csv: normals/18-c390582f59b7d0370277523fa7e0cb3e.csv
-normals/19.csv: normals/19-d8052b8a8fb93dd7b6aaac8777d72589.csv
-normals/2.csv: normals/2-40c58e90cdb8d68404a9bdf5a8f70f28.csv
-normals/3.csv: normals/3-6ab103b6ce45558e01dc8827866bd871.csv
-normals/4.csv: normals/4-3f97a43a9916445e688706d7a2557e64.csv
-normals/5.csv: normals/5-3389de641e170c0d9df9fdcded96d1a2.csv
-normals/6.csv: normals/6-155fe62aa085318ad3adc4f35b3e9cc6.csv
-normals/7.csv: normals/7-e3c44f46d6ad46e3d671e7e37d81564b.csv
-normals/8.csv: normals/8-d77dfa46a45dff71552afaf531db579f.csv
-normals/9.csv: normals/9-860e296ad3ef12be0b2ecbbb66e4904a.csv
-specials/1.csv: specials/1-1cc335da507b0a08509bb620b5c38c35.csv
-specials/10.csv: specials/10-f1f60439b566b3d8a5f2d7658836e060.csv
-specials/11.csv: specials/11-aff9235e6765d33cc68b47f21ffba52c.csv
-specials/12.csv: specials/12-27106e9997b8c3ff8fb2405d70cb04b7.csv
-specials/13.csv: specials/13-e44b89c75c09627ca0ee0d13de3d1860.csv
-specials/14.csv: specials/14-16df623d71cd84a48e135c896fb59c78.csv
-specials/15.csv: specials/15-cdcd9effc944fe1470ef9c6a75804790.csv
-specials/16.csv: specials/16-8199d321b1a31935733aaf9b6f560b1f.csv
-specials/17.csv: specials/17-6b81f2ca0edf06afb2ef4df134587041.csv
-specials/18.csv: specials/18-df33e63f487d9c0a2269158055c01e83.csv
-specials/19.csv: specials/19-32d9ea1f95ef6c234715b553194677b8.csv
-specials/2.csv: specials/2-eba65a80a43ff43f2e939c662a56a380.csv
-specials/3.csv: specials/3-a78ebcad0650dafa0ffd7c1af1c0919e.csv
-specials/4.csv: specials/4-b3384986c47e47f226cdcbaaad930d1c.csv
-specials/5.csv: specials/5-2597d8fe77067b51580231321b155e44.csv
-specials/6.csv: specials/6-5f9604071d01af2de2288ee73a55fb8f.csv
-specials/7.csv: specials/7-39c8200bab07e52123e46751e5bbe87c.csv
-specials/8.csv: specials/8-56a5ceb7e757bd36b9862541fb95cbb9.csv
-specials/9.csv: specials/9-5dc58c47fd1345a1fb9bc5f5ce9b6d76.csv
-supers/1.csv: supers/1-427edc62e3bf948e113895d5a16cea5b.csv
-supers/10.csv: supers/10-2a93c581cc405990f7c4338acf9a7dae.csv
-supers/11.csv: supers/11-9744cee8368288333c13ef6fe93aad30.csv
-supers/12.csv: supers/12-a72d23f6a2e7a821d5b3a2effd445a30.csv
-supers/13.csv: supers/13-86eaf5aa9ece146d6e69efa08d9ade8e.csv
-supers/14.csv: supers/14-f156414c19dbf54f5dc17852cf44ef14.csv
-supers/15.csv: supers/15-5cc44136550ac886f43436d5194b4eab.csv
-supers/16.csv: supers/16-81af9c405a53d53cbc8b58cf78bf24a1.csv
-supers/17.csv: supers/17-529570cd1a81a38aa66f33b22f97821a.csv
-supers/18.csv: supers/18-670c11e4ac9111fa428cf82e7eaa4e39.csv
-supers/19.csv: supers/19-172eed18cf96212e6d7b0fd032c67080.csv
-supers/2.csv: supers/2-49c29dec0fa23d1a660db2448680d92c.csv
-supers/3.csv: supers/3-f5c6ef8739ab7287b66972c9659f1d07.csv
-supers/4.csv: supers/4-ed407ceb8cce54089f0eb290671b4b1e.csv
-supers/5.csv: supers/5-78a7759888c38b4beb7bc648465d9754.csv
-supers/6.csv: supers/6-91ed8fa30b1e6856706958609ea9498c.csv
-supers/7.csv: supers/7-d718f6ae1d3702afa9215fc3a3ef9e37.csv
-supers/8.csv: supers/8-4b102a429e855c60aa70aa979fb27714.csv
-supers/9.csv: supers/9-4be5d1e8a1059dec0226b8692edfdc15.csv
-3s Frame Data - Chun.csv: 3s Frame Data - Chun-79788308da2fd155cc488139221461b9.csv
-3s Frame Data - Dudley.csv: 3s Frame Data - Dudley-c842de451decc0e18fd37fff0148795a.csv
-3s Frame Data - Elena.csv: 3s Frame Data - Elena-8aed0fb902727dac4dee75e730c6661a.csv
-3s Frame Data - Hugo.csv: 3s Frame Data - Hugo-1230c53f49f413c74b73b638695a3171.csv
-3s Frame Data - Ibuki.csv: 3s Frame Data - Ibuki-f2cba397b09574ef87fa65c17543a8cc.csv
-3s Frame Data - Ken.csv: 3s Frame Data - Ken-0db8f800f07bcba1defc32f65d3dd100.csv
-3s Frame Data - Makoto.csv: 3s Frame Data - Makoto-10d7df029d13316b4e3768b5f32bc837.csv
-3s Frame Data - Necro.csv: 3s Frame Data - Necro-12cfa74e853baaeb0fae37d8df484f06.csv
-3s Frame Data - Oro.csv: 3s Frame Data - Oro-8dee2034bca1303b570ecf11e456d660.csv
-3s Frame Data - Q.csv: 3s Frame Data - Q-8f38ff3564cc53baf7be20f647308135.csv
-3s Frame Data - Remy.csv: 3s Frame Data - Remy-8efbff399b286b708401dd2cb4ee134f.csv
-3s Frame Data - Ryu.csv: 3s Frame Data - Ryu-20f3c0ea31aae381c3ec85cd19bb84f2.csv
-3s Frame Data - Sean.csv: 3s Frame Data - Sean-2f4ac91167d9f4053aa0e7bf4114292b.csv
-3s Frame Data - Twelve.csv: 3s Frame Data - Twelve-2169f8b73380b553eb42afc220e0d97d.csv
-3s Frame Data - Urien.csv: 3s Frame Data - Urien-c8669818e7e30d4ac69f5725ea37e71e.csv
-3s Frame Data - Yang.csv: 3s Frame Data - Yang-4f69a7953fae6f9269c5cfdaccc6ace1.csv
-3s Frame Data - Yun.csv: 3s Frame Data - Yun-4a75d3948e58b50b4ca3b048ab90b1f3.csv
+3slogo-black.jpeg: 3slogo-black-8276ab8f04366c9aba391b768b4a2c9d.jpeg
+3slogo.png: 3slogo-6e2d27ca99d36f661d3051205ea76977.png
+character_demo.gif: character_demo-07b96557ecad01468916d47168d9b99d.gif
+characters/akuma.jpeg: characters/akuma-c982c915184b26b2d20d40b7ac61263c.jpeg
+characters/alex.jpeg: characters/alex-e32c3043151256c5779025440d8d4ebc.jpeg
+characters/chun-li.jpeg: characters/chun-li-0796c9aafa1ee98e97c92907084e92d6.jpeg
+characters/dudley.jpeg: characters/dudley-b78ff964e70a99ff4b7118656206c46a.jpeg
+characters/hugo.jpeg: characters/hugo-d87d9a6a540e29da4321d6e3fee0a58b.jpeg
+characters/ken.jpeg: characters/ken-f8ec8786cd52f88b62bd55f8519d1670.jpeg
+characters/makoto.jpeg: characters/makoto-1fe103f0b8e5f10280ccf5779ddaec8d.jpeg
+characters/necro.jpeg: characters/necro-b53a7b8c7b8b08efd7b1aeec89036067.jpeg
+characters/oro.jpeg: characters/oro-70f3bc7eb8b930646acf6b7a2ad5e741.jpeg
+characters/q.jpeg: characters/q-3a7671d27508cd76212b721bd16981b7.jpeg
+characters/remy.jpeg: characters/remy-f4c3379b70e0159c73c7a700d74dc506.jpeg
+characters/ryu.jpeg: characters/ryu-a92ccffef243b8ef3fbc4ca466b74a73.jpeg
+characters/sean.jpeg: characters/sean-f883a75a4e6b3a3824176e57892bb7ab.jpeg
+characters/twelve.jpeg: characters/twelve-acface3520f00ee337efe6812a21cbd5.jpeg
+characters/urien.jpeg: characters/urien-e7d9dd428f41655a9c949b18e00bc49c.jpeg
+characters/yang.jpeg: characters/yang-fa31c86e7716380b56cf0e1585ae1997.jpeg
+gifs/index.gif: gifs/index-637cef70786cdd04d4af3bc12631e804.gif
+icons/sf3_kick_hard.png: icons/sf3_kick_hard-b4900be8058a6b11a00195bcbfbfead2.png
+icons/sf3_kick_light.png: icons/sf3_kick_light-be05a6516d432cc93f5786b65f5de266.png
+icons/sf3_kick_medium.png: icons/sf3_kick_medium-a1e78dcf502c85fedf3944c02388549b.png
+icons/sf3_punch_hard.png: icons/sf3_punch_hard-c4997bb41f95a1ac983357b62a36592b.png
+icons/sf3_punch_light.png: icons/sf3_punch_light-73e36cb2a3f457e1fde9323b1200e888.png
+icons/sf3_punch_medium.png: icons/sf3_punch_medium-47504447fa59363cbe81a0a371427156.png
+portraits/akuma-face.gif: portraits/akuma-face-c32a708fc85f9e2c2bd797b3b48cdf1e.gif
+portraits/alex-face.gif: portraits/alex-face-68b2681caa95ce8836aa33afd6d7d2b1.gif
+portraits/chun-li-face.gif: portraits/chun-li-face-2d0eec7dbc62c50413a4c9da7a37f142.gif
+portraits/dudley-face.gif: portraits/dudley-face-a91fb50987c8dab2e92b305f9ac168a1.gif
+portraits/elena-face.gif: portraits/elena-face-687776c14a3fbf4ed32fbf9929612b69.gif
+portraits/gill-face.gif: portraits/gill-face-00ad5fb8b1ca599ae06f517ec7c31c84.gif
+portraits/hugo-face.gif: portraits/hugo-face-92adb02c879820fe0aa5dd95b676e864.gif
+portraits/ibuki-face.gif: portraits/ibuki-face-e67156581acaf441c8edd7d19a6daa1b.gif
+portraits/ken-face.gif: portraits/ken-face-de7e9e84de8d2e1bf48e02f6b74a837e.gif
+portraits/makoto-face.gif: portraits/makoto-face-416ca0bc37310105b0bffedb4a07042b.gif
+portraits/necro-face.gif: portraits/necro-face-2a1150034a964bee216a6eb14adab8d2.gif
+portraits/oro-face.gif: portraits/oro-face-8a400ab2f47a709a158ea1cc73c39d04.gif
+portraits/q-face.gif: portraits/q-face-be32300370c638dfd958a8a2e88631e6.gif
+portraits/remy-face.gif: portraits/remy-face-6eb36fdec9900db19d46a3dc3a109495.gif
+portraits/ryu-face.gif: portraits/ryu-face-bdccfb4c6657349963fb08072c461604.gif
+portraits/sean-face.gif: portraits/sean-face-7ce434b9b19c5f47b5066dbe9f56bd02.gif
+portraits/twelve-face.gif: portraits/twelve-face-cf98d81f6e59b0708ab638801262f374.gif
+portraits/urien-face.gif: portraits/urien-face-f437584e5e4441862ff3b04cdbe1bd74.gif
+portraits/yang-face.gif: portraits/yang-face-dbc0dcd4a8fde09e8ed66270f4d64846.gif
+portraits/yun-face.gif: portraits/yun-face-bfc19bda632d7e8b7de482bf1740428d.gif
+application.js: application-3e523641ffbbb8f81be93a034ecbab31.js
+application.css: application-ec08182c6682cc460e1e8d46dfedd411.css
+ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png: ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40-5753e211981d527aeabfd9620ca92164.png
+ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png: ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40-a9fe4cb5bd2aa3f06f830332668e8aa1.png
+ui-lightness/images/ui-bg_flat_10_000000_40x100.png: ui-lightness/images/ui-bg_flat_10_000000_40x100-5fe139991b0dc8fb867ad2e766c2c9ec.png
+ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png: ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400-98228a9c6f7c4cf640a0a7c7fd5da578.png
+ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png: ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400-aa1e83b9520181c8114cb0711d0e3d05.png
+ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png: ui-lightness/images/ui-bg_glass_65_ffffff_1x400-9a319acd2cedc947bee5ddbc8fe00cec.png
+ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png: ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100-719ae506deaa268391b62f8daefd782c.png
+ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png: ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100-963fe5cd4fe7456edd115069a774cbc2.png
+ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png: ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100-def8b8a251cb9acc9c4ca2e9fe9048e5.png
+ui-lightness/images/ui-icons_222222_256x240.png: ui-lightness/images/ui-icons_222222_256x240-a1d5162e9b3c2ef72b0ef5bbc70019cf.png
+ui-lightness/images/ui-icons_228ef1_256x240.png: ui-lightness/images/ui-icons_228ef1_256x240-b95d9b8fa4a86d69fdc30baf89b21505.png
+ui-lightness/images/ui-icons_ef8c08_256x240.png: ui-lightness/images/ui-icons_ef8c08_256x240-58958100c54e6ebe16bf2bb020bc7ac9.png
+ui-lightness/images/ui-icons_ffd27a_256x240.png: ui-lightness/images/ui-icons_ffd27a_256x240-6967835c443d8b4629655025ea95860f.png
+ui-lightness/images/ui-icons_ffffff_256x240.png: ui-lightness/images/ui-icons_ffffff_256x240-7a417a6627492c6d98adfb77102fb5be.png
+normals/1.csv: normals/1-edc2dbfdc743c93a89f9d139b083fcca.csv
+normals/10.csv: normals/10-c65063428e5b8f55033276ea3d10ba73.csv
+normals/11.csv: normals/11-a5aa4a6d7c9a5927312322979ba925ae.csv
+normals/12.csv: normals/12-f7d4c48dc47d0146a0f7f487526cee0d.csv
+normals/13.csv: normals/13-f14a85593d8c834bc4152b91cfeec7bd.csv
+normals/14.csv: normals/14-eed8d6c76e7f161d32b0b919647b7073.csv
+normals/15.csv: normals/15-14167f1e1ba02a7700afadbb41ae2704.csv
+normals/16.csv: normals/16-0654555dae10d62711e0c284193ba994.csv
+normals/17.csv: normals/17-0f33de0d13755006c3a4dfcf1a4c19e0.csv
+normals/18.csv: normals/18-5c46e0113c88224b27204accec5cac4e.csv
+normals/19.csv: normals/19-5076280c133e729e0e1551ae8c1c2b08.csv
+normals/2.csv: normals/2-25fb0c74ed92b999a2d7dc0d0c26ca47.csv
+normals/3.csv: normals/3-b24c9bf9666504258a9463a5956d8a7f.csv
+normals/4.csv: normals/4-e1145306f4758d8cdf8ee9460c1c5d14.csv
+normals/5.csv: normals/5-e98c11e8a885fcd110e795fca064ad6b.csv
+normals/6.csv: normals/6-42e4b198dc7c8f84d9cb3a3f7c1a422d.csv
+normals/7.csv: normals/7-3efbac393309c81b877178ffbab2bf08.csv
+normals/8.csv: normals/8-6f68c1b442046209b46f97c8d6db4bbc.csv
+normals/9.csv: normals/9-105ff7dab321300695880a89799925f8.csv
+specials/1.csv: specials/1-706e946cfeb1b404386ab71e394e95eb.csv
+specials/10.csv: specials/10-7afe2ed8198bee2b99cef756f7d7bcf0.csv
+specials/11.csv: specials/11-5a8bf5e7d3afc2eac342654ea051ed85.csv
+specials/12.csv: specials/12-415b2e1077540f71f4b96b2c49c5b8c4.csv
+specials/13.csv: specials/13-151ee7eab3961622e03e32ecffb638d3.csv
+specials/14.csv: specials/14-04390485f2f24cea68dbcc9e14df722e.csv
+specials/15.csv: specials/15-cc5e1797a6d799fb063c022137e6d940.csv
+specials/16.csv: specials/16-64240ac29a88447c4b3667300f5ef05d.csv
+specials/17.csv: specials/17-2af2758ed2b17bd3b9213ed91d5c8906.csv
+specials/18.csv: specials/18-801da4f005b6c403a992777e4cd0cf1c.csv
+specials/19.csv: specials/19-afb0638321ba7463c40aee883d41c648.csv
+specials/2.csv: specials/2-c9546db287b062a272ba748677cfbc47.csv
+specials/3.csv: specials/3-696e628e3724ad67d9e13314aed2776c.csv
+specials/4.csv: specials/4-a0ae708ad9df62e4113729925c392016.csv
+specials/5.csv: specials/5-422d4dd92c4054f6396b055a0b3640e5.csv
+specials/6.csv: specials/6-cdbac0f2782d12994a895cc7c7e7ae0b.csv
+specials/7.csv: specials/7-df51b4f68e8fe57f147ee902eaf7d4ba.csv
+specials/8.csv: specials/8-2d8960dbeb934bf62d9507a9a10777c9.csv
+specials/9.csv: specials/9-ee3e1812bb47df7f6605231bd743537f.csv
+supers/1.csv: supers/1-3900eee1c6f13fe2462d20ee06213883.csv
+supers/10.csv: supers/10-567f5f60aa685a7f491dbdc6cac47cc0.csv
+supers/11.csv: supers/11-f7ce21c98e9a4c5dc0c66f54562e6094.csv
+supers/12.csv: supers/12-425793e8243406c7ca63acd63218782b.csv
+supers/13.csv: supers/13-56edd64eb0f511f8968e21e926d4fefa.csv
+supers/14.csv: supers/14-81d7a84f72b6829388e1132b9a10fb37.csv
+supers/15.csv: supers/15-dc08863c1d439912352e71a9081831d0.csv
+supers/16.csv: supers/16-d3c10188930177a63ff0ad99cc053b9d.csv
+supers/17.csv: supers/17-64bbeb2897503aba10119071e4a9198b.csv
+supers/18.csv: supers/18-27c299c599bc657799269f73c4efa90e.csv
+supers/19.csv: supers/19-7b4727c95970821689672697154bf891.csv
+supers/2.csv: supers/2-14baa442a44118d9d93d4b09a465d5ed.csv
+supers/3.csv: supers/3-f78364de45c2846c1a9fa4fea0e7af79.csv
+supers/4.csv: supers/4-bbfc7adb833687c3ff85f97218f19ba2.csv
+supers/5.csv: supers/5-7861d044586629d15582d0581a4bdb9d.csv
+supers/6.csv: supers/6-a598935bb7f18c0356365e9f88f2de07.csv
+supers/7.csv: supers/7-3acbd123544d8e0fc65c842deee1b9e2.csv
+supers/8.csv: supers/8-414cfa76ea415a8104dc01f5bb5c11be.csv
+supers/9.csv: supers/9-eac28c8b898cdd8abef1ad995f89c802.csv
+3s Frame Data - Chun.csv: 3s Frame Data - Chun-7914bbf5490ea286d8cd1eae222d586e.csv
+3s Frame Data - Dudley.csv: 3s Frame Data - Dudley-8a2ec73f0e53210fc5072b6067ae689e.csv
+3s Frame Data - Elena.csv: 3s Frame Data - Elena-39b51108dd2a1d18e01ef2f26afcc22d.csv
+3s Frame Data - Hugo.csv: 3s Frame Data - Hugo-4f71a533874a8f016f143dbf8f6beff1.csv
+3s Frame Data - Ibuki.csv: 3s Frame Data - Ibuki-6dfd7dc2759933745a24d8da9c830374.csv
+3s Frame Data - Ken.csv: 3s Frame Data - Ken-00a5aaad82ba7eef4b84bb39695e18f1.csv
+3s Frame Data - Makoto.csv: 3s Frame Data - Makoto-9badc4d75f6ba7180921deeba5c44ee0.csv
+3s Frame Data - Necro.csv: 3s Frame Data - Necro-24fc1f5586f2e37801cf8ec74045042b.csv
+3s Frame Data - Oro.csv: 3s Frame Data - Oro-573991d4f85017c6bbfc8e556f93848a.csv
+3s Frame Data - Q.csv: 3s Frame Data - Q-2b9d55f84d948083abd35dc943a33d94.csv
+3s Frame Data - Remy.csv: 3s Frame Data - Remy-8323ca4817703142bbb670394bafd88a.csv
+3s Frame Data - Ryu.csv: 3s Frame Data - Ryu-f9af69cb044b739bf3da066aa6a5962b.csv
+3s Frame Data - Sean.csv: 3s Frame Data - Sean-23054e3974e57d15e3cc7a498d4f9af7.csv
+3s Frame Data - Twelve.csv: 3s Frame Data - Twelve-b511a7344ea0df79af1352f925b2ed06.csv
+3s Frame Data - Urien.csv: 3s Frame Data - Urien-809df23e614bfdb751ef44714a2e745f.csv
+3s Frame Data - Yang.csv: 3s Frame Data - Yang-1273cbbc580ef8106eb4832c0d3f911a.csv
+3s Frame Data - Yun.csv: 3s Frame Data - Yun-e6b0431373318ee29a614bcad025d1d3.csv
+fontawesome-webfont.eot: fontawesome-webfont-eeecec082197cc0255b0c549b4e612ea.eot
+fontawesome-webfont.svg: fontawesome-webfont-8276485587c7ff2e54d7422809134349.svg
+fontawesome-webfont.svgz: fontawesome-webfont-d5b0cb5aed6480abcf670ba04f391ad3.svgz
+fontawesome-webfont.ttf: fontawesome-webfont-a01aacd973fb4d032729f9c498683caa.ttf
+fontawesome-webfont.woff: fontawesome-webfont-b6a0f80a39a7f60a250fad1e8e2ecf8b.woff
+twitter/bootstrap/glyphicons-halflings-white.png: twitter/bootstrap/glyphicons-halflings-white-4fbb6a0b9b4e61912f486ac494a858f1.png
+twitter/bootstrap/glyphicons-halflings.png: twitter/bootstrap/glyphicons-halflings-2ed0cba6eca0f44737ab78f1e58bc11e.png

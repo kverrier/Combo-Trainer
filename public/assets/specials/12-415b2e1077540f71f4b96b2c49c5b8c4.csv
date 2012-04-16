@@ -1,0 +1,21 @@
+Dashing Head Attack (Jab),Hold B...F+ Jab,13,2,16,-2,120,H,11,O
+Dashing Head Attack (Strong),Hold B...F + Strong,15,2,16,-2,140,H,13,O
+Dashing Head Attack (Fierce),Hold B...F + Fierce,19,3,16,-3,155,H,15,O
+Dashing Head Attack (EX),Hold B...F + 2 Punches,14,2,36,-21,160,H,9,O
+Dashing Head Attack (Jab),Hold B...F+ Jab (Hold),25,2,23,-10,100,H,9,X
+Dashing Head Attack (Strong),Hold B...F+ Strong (Hold),29,2,24,-11,115,H,9,X
+Dashing Head Attack (Fierce),Hold B...F+ Fierce (Hold),33,2,25,-12,130,H,9,X
+Dashing Leg Attack (Short),Hold B...F + Short,25,1,29,-13,110,L,3,X
+Dashing Leg Attack (Forward),Hold B...F + Forward,28,1,30,-14,125,L,3,X
+Dashing Leg Attack (RH),Hold B...F + RH,31,1,31,-15,140,L,3,X
+Dashing Leg Attack (EX),Hold B...F + 2 Kicks,27,1,,-18,90,L,3,O
+2nd hit,,2,1,34,,80,H,5,X
+High Speed Barrage (Jab),QCB + Jab,9,1*1*1,26,-6,50x3,H,3x3,X
+High Speed Barrage (Strong),QCB + Strong,8,1*1*1,28,-9,50x3,H,5*3*5,X
+High Speed Barrage (Fierce),QCB + Fierce,9,1*1*1,28,-8,50x3,H,5*3*5,X
+High Speed Barrage (EX),QCB + 2 Punches,6,1*1*1,,,30*30*40,H,3*5*5,X
+4th hit - 6th hit,,,1*2*1,,,40x3,H,5*5*5,X
+7th hit,,,2,36,-23,50,H,5,X
+Capture and Deadly Blow (Short),HCB + Short,12,1,42,,110,,11,X
+Capture and Deadly Blow (Forward),HCB + Forward,13,1,44,,120,,11,X
+Capture and Deadly Blow (RH),HCB + RH,14,1,46,,130,,11,X

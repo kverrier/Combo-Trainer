@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="offset4 span4">
+      <% flash.each do |key, value| %>
+        <div class="flash alert <%= key %>"><%= value %></div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <%= yield %>
+  </div>
+
+  </div>
+</div>

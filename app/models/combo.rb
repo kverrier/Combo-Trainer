@@ -1,14 +1,16 @@
 class Combo < ActiveRecord::Base
-  attr_accessible :name
+  attr_accessible :name, :character_id, :user_id
 
   belongs_to :character
   belongs_to :user
   has_many :combo_items
   has_many :moves, :through => :combo_items
 
+  validates_presence_of :user_id
+  validates_presence_of :character_id
   validates :name, :presence => true, :length => { :maximum => 16 }
-
   def next_moves
+
     moves = last_move ? character.moves.keep_if{|m| last_move.combos_into?(m) } : character.moves
   end
 

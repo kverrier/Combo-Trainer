@@ -1,56 +1,68 @@
 <h1> Select a Move to Add </h1>
 
-<p>
-Every move available here is possible to combo into from the latest move. The only consideration that is missing is a higher level game mechanic that numbers are not publicly shared called hitstun deterioration that is added to prevent infinite combos. With this in mind, be sure to make sure the combo works in the actual game before creating it here.
+<p class="well">
+Every move available here is possible to combo into from the latest move. The
+only consideration that is missing is a higher level game mechanic that numbers
+are not publicly shared called hitstun deterioration that is added to prevent
+infinite combos. With this in mind, be sure to make sure the combo works in the
+actual game before creating it here.
 </p>
 
 <% unless @normals.empty? %>
-<h2> Normals </h2>
-<table class = "moves" summary = "List of Moves" >
-	<tr>
-	  <th>Move Name</th>
-	  <th>Start Up</th>
-	 	<th>Hit</th>
-	 	<th>Recovery</th>
-	 	<th>Hit Adv.</th>
-	 	<th>Special X</th>
-	 	<th>Super X</th>
-
-	</tr>
-	<%= render @normals	%>
-</table>
+  <h2> Normals </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Move Name</th>
+        <th>Start Up</th>
+        <th>Hit</th>
+        <th>Recovery</th>
+        <th>Hit Adv.</th>
+        <th>Special Cancelable</th>
+        <th>Super Cancelable</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @normals	%>
+    </tbody>
+  </table>
 <% end %>
 
 <% unless @specials.empty? %>
-<h2> Specials </h2>
-<table class = "moves" summary = "List of Moves" >
-	<tr>
-	  <th>Move Name</th>
-	 	<th>Start Up</th>
-	  <th>Hit</th>
-	 	<th>Recovery</th>
-	 	<th>Special X</th>
-	 	<th>Super X</th>
-	</tr>
-	<%= render @specials	%>
-</table>
+  <h2> Specials </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Move Name</th>
+        <th>Start Up</th>
+        <th>Hit</th>
+        <th>Recovery</th>
+        <th>Special Cancelable</th>
+        <th>Super Cancelable</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @specials	%>
+    </tbody>
+  </table>
 <% end %>
 
 <% unless @supers.empty? %>
-<h2> Supers </h2>
-<table class = "moves" summary = "List of Moves" >
-	<tr>
-	  <th>Move Name</th>
-	  <th>Start Up</th>
+  <h2> Supers </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Move Name</th>
+        <th>Start Up</th>
 
-	</tr>
-	<%= render @supers	%>
-</table>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @supers	%>
+    </tbody>
+  </table>
 <% end %>
 
 
 <h2>What do these numbers mean?</h2>
 <%= image_tag 'character_demo.gif'%>
-<p>
-
-</p>

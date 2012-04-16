@@ -10,10 +10,17 @@ button sequences, commonly referred to as
 cult classic fighting game [Street Fighter III: 3rd
 Strike](http://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike).
 
-## Running Version
+## Current and Running Version
 
-To visit a live version of the site with further explanation on how to
-"train" enter [here](http://electric-window-8954.herokuapp.com).
+To explore the most up-to-date source code and the link to a live
+version of the site with further explanation on how to "train", visit
+the GitHub page [here](https://github.com/kverrier/Combo-Trainer).
+
+## Live Versions
+[Latest Version]()
+
+[First Build](http://electric-window-8954.herokuapp.com)
+
 
 ## Implementation
 
@@ -27,14 +34,4 @@ give instant feedback (i.e.  early, on-time, or late).  This is repeated
 for each move in the sequence. Once the simulation is finished, the user
 can repeat the practice process as often as desired to establish
 consistent accuracy.
-
-
-## Notes
-
-The hosted live version is slightly different from this source code. In
-this version, I am in the process of adding a user authentication system
-so that user can have their own personal combos. The system works;
-however, there is a need to make sure the right user interface shows up
-at the right time (e.g. Log Off button should only show if the user is
-logged in).
 

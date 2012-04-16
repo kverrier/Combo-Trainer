@@ -1,0 +1,74 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,5,1,8,2,2,2,30,H+L,3,X,O,O
+Strong,8,1,12,0,1,2,50,H,11,X,X,O
+Fierce,15,1,28,-13,-11,-9,100,H,11,X,X,X
+Back + Jab,3,1,6,3,3,3,50,H+L,5,X,O,O
+Back + Strong,4,1,10,1,2,3,70,H,11,X,O,O
+Back + Fierce,11,3,15,-3,Down,Down,130,H+L,15,X,X,X
+Crouching Jab,6,1,4,3,3,3,30,H+L,3,X,O,O
+Crouching Strong,8,1,12,0,1,2,60,H+L,7,X,X,X
+Crouching Fierce,16,1,22,-7,-5,-3,90,H+L,5,X,X,X
+Neutral Jumping Jab,5,5,-,-,-,-,30,H,7,X,X,X
+Neutral Jumping Strong,8,1,-,-,-,-,70,H,11,X,X,X
+Jumping Jab,4,13,-,-,-,-,40,H,7,X,X,X
+Jumping Strong,9,1,-,-,-,-,80,H,11,X,X,X
+Jumping Fierce,13,1,-,-,-,-,100,H,15,X,X,X
+Short,4,1,9,1,1,1,40,H+L,5,X,O,O
+Forward,9,1,14,-1,0,1,70,H+L,3,X,X,X
+Roundhouse,18,1,24,-8,-6,-4,110,H,13,X,X,X
+Back + Short,3,1,7,3,3,3,45,H+L,7,O,O,O
+Back + Forward,5,1,10,3,4,5,80,H,13,X,O,O
+Back + Roundhouse,12,1,16,10,12,14,140,H,17,X,X,X
+Crouching Short,6,1,8,2,2,2,35,L,3,X,O,O
+Crouching Forward,12,1,17,-5,-4,-3,60,L,3,X,X,X
+Crouching Roundhouse,13,1,27,-12,Down,Down,100,L,3,X,X,X
+Jumping Short,2,14,-,-,-,-,30,H,5,X,X,X
+Jumping Forward,10,3,-,-,-,-,70,H,9,X,X,X
+Jumping Roundhouse,15,3,-,-,-,-,120,H,13,X,X,X
+Down Back + Fierce,9,1,14,2,-,-,140,H+L,11,X,X,X
+Drill Short,9,-,-,-,-,-,50+15,H+L,3+3,X,X,X
+Drill Forward,9,-,-,-,-,-,60+20,H+L,3+3,X,X,X
+Drill RH,9,-,-,-,-,-,80+20,H+L,5+5,X,X,X
+Throw,2,1,21,-,-,-,120,-,13,X,X,X
+Back + Throw,2,1,21,-,-,-,100,-,19,X,X,X
+Reverse Throw,2,1,21,-,-,-,200,-,11,X,X,X
+Universal Overhead,16 ~ 25,9,5,-5 ~ +7,0 ~ +8,+1 ~ +9,40,H,3,X,X,X
+Taunt,22,3*1,23,-,-,-,5x2,H+L,0,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Electric Shock (Jab),DPM + Jab,6,1,16,-,60,H,9,O
+-,-,3,1,16,-10,60,H,5,O
+Electric Shock (Strong),DPM + Strong,8,1,-,-,60,H,9,O
+-,-,3*3,1*1,33,-26,60,H,5,O
+Electric Shock (Fierce),DPM + Fierce,10,1,-,-,60,H,9,O
+-,-,-,1x3,35,-24,60,H,5,O
+Snake Fang (Short),HCF + Short,12,1,28,-15,140,-,11,X
+Snake Fang (Forward),HCF + Forward,12,1,30,-17,150,-,13,X
+Snake Fang (RH),HCF + RH,12,1,32,-19,160,-,15,X
+Spinning Punch (Jab),HCF + Jab,6*8,3*3,13,1,50+70,H,7+5,X+O
+Spinning Punch (Strong),HCF + Strong,10*10,2*3,18,-4,50+80,H,7+5,X+O
+Spinning Punch (Fierce),HCF + Fierce,17*13,3*2,-,-18,50+50,H,7+7,X
+-,-,10,3,19,-,80(50),H,5,O
+Spinning Punch (EX),HCF + 2 Punches,8*10*8,3*2*2,-,-9,50+50+50,H,3+3+3,X
+-,,8*9,2*3,23,-,50+50,H,3+3,X+O
+Flying Viper (Jab),QCB + Jab,26,4,17,-3,120,H,11,X
+Flying Viper (Strong),QCB + Strong,26,5,15,-2,140,H,11,X
+Flying Viper (Fierce),QCB + Fierce,28,6,14,-2,160,H,11,X
+Flying Viper (EX),QCB + 2 Punches,24,4*3,10,2,80+120,H,11+3,X
+Raging Cobra (Short),QCB + Short,23,3,17,-6,130,H,7,X
+Raging Cobra (Forward),QCB + Forward,25,3,17,-6,150,H,9,X
+Raging Cobra (RH),QCB + RH,27,3,17,-6,170,H,11,X
+Raging Cobra (EX),QCB + 2 Kicks,25,1*1,17,-3,100+110,H,11+3,X
+
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+Magnetic Storm,QCF x 2 + Punch,2,3,-,-,160,H+L,0
+2/3/2011,-,-,2*2,-,-,30+40,H+L,0
+-,-,-,2*2,-,-,40+40,H+L,0
+-,-,-,7,22,-12,20,H+L,0
+Slam Dance,QCF x 2 + Punch,3,5,8,-,-,-,-
+-,-,-,-,-,-,120+120,-,7+7
+-,-,-,-,-,-,260,-,7
+Electric Snake,QCF x 2 + Punch,4*8*10,1*1*1,39,-11,100+100+150,L,9+9+9

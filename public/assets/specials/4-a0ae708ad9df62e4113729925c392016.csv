@@ -1,0 +1,25 @@
+Jet Uppercut (Jab),DPM + Jab,4,7,28,-23,140(80),H+L,17(3),O
+Jet Uppercut (Strong),DPM + Strong,4,15,28,-30,160(100),H+L,19(3),O
+Jet Uppercut (Fierce),DPM + Fierce,3,1*19,32,-38,40+140(120),H+L,5+17(3),X+O
+Jet Uppercut (EX),DPM + 2 Punches,3,1*19,34,-37,60+160(140),H+L,5+17(3),X
+Machine Gun Blow (Jab),HCF + Jab,8,1*1,18,-3,40+20,H,3+3,X
+Machine Gun Blow (Strong),HCF + Strong,15,1,24,-9,20,H,0,X
+Machine Gun Blow (Fierce),HCF + Fierce,17,1*3,30,-,20+20,H,3+0,X
+-,-,-,3,-,-15,60(40),H,3,X
+Machine Gun Blow (EX),HCF + 2 Punches,16,1*1*1,-,-,40+20+20,H,3+3+0,X
+-,-,-,1*1,-,-,20+20,H,3+0,X
+-,-,-,3,-,-,60(40),H,3,X
+-,-,-,3,28,-15,40,H+L,3,X
+Ducking Rush,HCF + K,-,-,-,-,-,-,-,-
+Ducking Straight,Punch,20/19/21,3,19,-7,160,H,17,O
+Ducking Upper,Kick,19/18/20,1*2,25,-12,50+130,H,5+7,O
+Cross Counter (Jab),HCB + Jab,2,67,19,-,80,H+L,19,X
+Cross Counter (Strong),HCB + Strong,2,48,19,-,100,H+L,19,X
+Cross Counter (Fierce),HCB + Fierce,2,28,19,-,130,H+L,19,X
+Cross Counter (EX),HCB + 2 Punches,4,28,19,-,40+120,H+L,3+17,X
+Short Swing Blow (Short),HCB + Short,17,2,13,0,190,H,19,O
+Short Swing Blow (Forward),HCB + Forward,20,2,13,0,190,H,19,O
+Short Swing Blow (RH),HCB + RH,23,2,13,0,190,H,19,O
+Short Swing Blow (EX),HCB + 2 Kicks,17*9,1*3,-,-,30+30,H,5+5,X
+-,-,11,3,15,-3,40,H+L,15,O
+

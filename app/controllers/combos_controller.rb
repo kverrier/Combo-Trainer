@@ -1,8 +1,10 @@
 class CombosController < ApplicationController
+  before_filter :signed_in_user, :only => [:new, :create]
 
   def show
-    @character = Character.find(params[:character_id])
     @combo = Combo.find(params[:id])
+    @user = @combo.user
+    @character = @combo.character
     @combo_items = @combo.combo_items(:order => :position)
     @next_moves = @combo.next_moves
     @startUps = @combo.start_ups
@@ -10,16 +12,20 @@ class CombosController < ApplicationController
   end
 
   def new
-    @combo = session[:user_id]
+    @combo = Combo.new
   end
 
   def create
-    @character = Character.find(params[:character_id])
-    @combo = @character.combos.build(params[:combo])
+    @user = current_user
+    @combo = @user.combos.build(params[:combo])
     if @combo.save
-      redirect_to character_combo_path(@character, @combo)
+      redirect_to combo_path(@combo)
     else
       render 'new'
     end
+  end
+
+  def index
+    @characters = Character.all
   end
 end

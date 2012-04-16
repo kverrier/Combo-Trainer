@@ -7,11 +7,11 @@ Trainer::Application.routes.draw do
   resources :sessions, :only => [:new, :create, :destroy]
 
   match '/signup', :to => 'users#new'
-  match '/login', :to => 'sessions#new'
-  match '/logout', :to => 'sessions#destroy'
+  match '/signin', :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'#, via: :delete
 
   resources :characters, :only => [:index, :show]
-  resources :combos, :only => [:show, :create, :new]
+  resources :combos, :only => [:show, :index, :create, :new]
   resources :combo_items, :only => [:create, :new]
 
   # The priority is based upon order of creation:

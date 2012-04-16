@@ -1,0 +1,22 @@
+Sean Roll (Jab),QCB + Jab,2,16,9,-,-,-,-,X
+Sean Roll (Strong),QCB + Strong,2,26,9,-,-,-,-,X
+Sean Roll (Fierce),QCB + Fierce,2,40,9,-,-,-,-,X
+Ryuubi Kyaku (Short),QCF + Short,15,7,15,-3,120,H,19,X
+Ryuubi Kyaku (Forward),QCF + Forward,15,7,15,-2,120,H,19,X
+Ryuubi Kyaku (RH),QCF + RH,15,7,15,-3,120,H,19,X
+Ryuubi Kyaku (EX),QCF + 2 Kicks,27,1*1,-,-,60+70,H,7+7,X
+-,-,-,1,15,-1,70,H,7,X
+Tornado Kick (Short),QCB + Short,11*5,1*1,21,-7,50+50,H,5+5,X
+Tornado Kick (Forward),QCB + Forward,14,3,-,-,50,H,5,X
+-,-,7*9,1*1,21,-6,50+50,H,5+5,X
+Tornado Kick (RH),QCB + RH,16,2,-,-,50,H,5,X
+-,-,9*7*7,3*3*1,21,-6,40+40+40,H,5+5+5,X
+Tornado Kick (EX),QCB + 2 Kicks,9,1,-,-,60,H,9,X
+-,-,9*7*7,2*3*1,17,-3,40+40+40,H,5+5+5,X
+Tackle (All Versions),"HCF + Punch, Tap Punch",18/22/26,1,28,-14,100+80,L,11+7,X
+Tackle (EX),"HCF + 2 Punches, Tap Punch",28,1,-,-,40x4,L,7x4,X
+-,-,-,-,28,-14,100,-,7,X
+Dragon Smash (Jab),DPM + Jab,5,5,36,-24,130(90),H+L,11,O
+Dragon Smash (Strong),DPM + Forward,7,7,39,-30,130(90),H+L,11,O
+Dragon Smash (Fierce),DPM + Fierce,9,8,42,-34,130(90),H+L,11,O
+Dragon Smash (EX),DPM + 2 Punches,8,1*10,42,-37,90+90(60),H+L,11,O+X

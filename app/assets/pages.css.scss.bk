@@ -1,0 +1,233 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+	/*height:100%;*/
+}
+
+body {
+  height: 100%;
+  /*background: black;*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+  /*font-family: Georgia;*/
+  text-align:justify;
+
+}
+
+#container {
+	/*width:1000px;*/
+	/*margin: 0 auto 0 auto;*/
+	/*color: #E7E7E7;*/
+	/*background:black;*/
+
+
+}
+
+#header {
+  margin: 0 auto 0 auto;
+  height: 150px;
+	margin-bottom: 10px;
+  text-align:center;
+
+	img {
+    float:center;
+    height:150px
+	}
+} 
+
+nav {
+	margin: 45px;
+	margin-bottom:20px;
+
+  width:600px;
+  font-size:20px;
+
+	text-transform:uppercase;
+	padding:0px;
+
+	a {
+		/* background: #0D4889; */
+		background: -webkit-linear-gradient(top, #0D4889, #061E39);
+
+		border-radius: 5px;
+		padding:10px;
+		margin:5px;
+	}
+
+
+}
+
+#content {
+	margin:auto;
+	width: 800px;
+	padding: 50px;
+	border-radius: 5px;
+
+	background: -webkit-linear-gradient(left, #0D4889, #061E39);
+
+
+} 
+
+a {
+	&:link {color: #E7E7E7; text-decoration:none;}
+	&:visited {color: #E7E7E7; text-decoration:none;}
+	&:hover {color: #E7E7E7; text-decoration:underline;}
+}
+
+
+
+#character_list_home {
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	li {
+		text-align:center
+	}
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+.Msg {
+	text-align: center;
+	font-size: 20px;
+}
+
+.Timer {
+	text-align: center;
+	font-size: 40px;
+}
+
+.Dots {
+	font-size: 80px;
+}
+
+.bar {
+	padding:10px;
+}
+
+.pbar{
+	margin-left:100px;
+}
+
+.connectbar{
+	margin-left:100px;
+}
+
+.bar_text{
+	margin-top:10px;
+	float:left;
+	width:100px;
+}
+
+#bars {
+	margin:10px;
+}
+
+
+
+table.character_combos_table {
+	table-layout:fixed;	
+	text-align:left;
+	border-style:solid;
+	border-width:4px;
+	width: 100%;
+	margin-bottom:50px;
+
+	td {
+
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+
+		.combo_name {
+			width:200px;
+		}
+		.combo_moves {
+			width:500px;
+		}
+		.combo_submitter {
+			width:100px;
+		}	
+		.combo_votes {
+			width:100px;
+		}
+	}
+	
+
+
+}
+
+#character_portrait{
+	img {
+		display: block;
+		margin:auto;
+	}
+}
+
+.character_link {
+	display:block;
+}
+
+.my_button {
+	width:200px;
+	height:40px;
+	margin:auto;
+	font-size: 20px;
+	text-align:center;
+	background:#E7E7E7;	
+	border-radius: 5px;
+	padding-top:10px;
+
+	a {
+		color:black;
+	}
+}
+
+.notice {
+	text-align: center;
+	font-size: 20px;
+	padding:20px;
+	margin:10px;
+	border: solid 1px;
+}
+
+form {
+	margin:auto;
+	text-align:center;
+}
+
+.moves {
+	width:100%;
+	text-align:left;
+	border-style:solid;
+	border-width:4px;
+
+	tr:nth-child(odd)    { background-color:#1114CF; }
+	tr:nth-child(even)    { background-color:#393DFA; }
+
+
+	td {
+
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+
+		.combo_name {
+			width:200px;
+		}
+		.combo_moves {
+			width:500px;
+		}
+		.combo_submitter {
+			width:100px;
+		}	
+		.combo_votes {
+			width:100px;
+		}
+	}
+}

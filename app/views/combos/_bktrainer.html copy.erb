@@ -1,0 +1,139 @@
+<%= tag :meta, :name=> 'start_up_periods', :content=> @startUps%>
+<%= tag :meta, :name=> 'connection_periods', :content=> @connections%>
+
+
+<div class="Msg well">Press j to begin practicing your combo!</div>
+
+
+	<%= coffee_script_tag do %>
+		$(document).ready ->
+			###
+			CONSTANTS
+			###
+			FRAMES = 16.666666 # 1/60 of a second
+			jKey = 106 
+
+			frameSymbol = '*'
+			breakSymbol = '|'
+
+
+			`$("div.bar").each( function() {
+				$(this).progressbar({ value: 0 });
+			})`
+
+			$("div.bar > div").css("background", "red")
+
+			###
+			INTIALIZATIONS
+			###
+			keyFrame = new Date
+			elasped = 0
+			state = "NEUTRAL"
+
+			# [first start-time, first connect-time, ...,]
+			startUpPeriods    = <%= @startUps %>
+			connectionPeriods = <%= @connections %>
+
+			startUpTime = startUpPeriods[0] * FRAMES
+			connectTime = connectionPeriods[0] * FRAMES
+			i = 1
+
+
+			###
+			Database Test Values
+			###
+
+
+			setInterval(
+				( ->
+					$('.Timer').text(elasped / 1000 + " Seconds")
+
+					switch state
+						when "NEUTRAL"
+							return
+
+						when "STARTUP"
+							elasped = new Date - keyFrame
+
+							if elasped > startUpTime
+									keyFrame = new Date
+									state = "LINK"
+									$('.Msg').html("LINK")
+									$("#pbar"+i).progressbar({ value: 100 })
+									$("#pbar"+(i+1)+"> div").css("background", "yellow")
+							else
+									$("#pbar"+i).progressbar({ value: (elasped / startUpTime) * 100 })
+							return
+
+						when "LINK"			        
+							elasped = new Date - keyFrame
+
+							# check if past link connection time
+							if elasped > connectTime
+								state = "NEUTRAL"
+								$("#pbar"+(i+1)).progressbar({ value: 100 })
+								$('.Msg').html("FAILED: Too slow on move " + (i+2))
+							else
+								$("#pbar"+(i+1)).progressbar({ value: (elasped / connectTime) * 100 })
+
+							return
+
+
+
+				)
+				, FRAMES
+			)
+
+
+			$(document).keypress (event) ->
+				if event.which is jKey
+					switch state
+						when "NEUTRAL"
+							startUpTime = startUpPeriods[0] * FRAMES
+							connectTime = connectionPeriods[0] * FRAMES
+							i = 0
+							keyFrame = new Date
+
+
+							`$(".bar").progressbar({ value: 0 })`
+
+
+							$("div.bar > div").css("background", "red")
+
+
+							state = "STARTUP"
+							$('.Msg').html('START UP')
+
+						when "STARTUP"
+							$('.Msg').html("FAILED: Too soon on move number " + (i+2))
+							state = "NEUTRAL"
+
+						when "LINK"
+							i += 1
+							if i >= startUpPeriods.length
+									$('.Msg').html("SUCCESS: Press j to try again")
+									state = "NEUTRAL"
+							else
+									$("#pbar"+(i)+"> div").css("background", "red")
+									$('.Msg').html('START UP')
+									startUpTime = startUpPeriods[i] * FRAMES
+									connectTime = connectionPeriods[i] * FRAMES
+									keyFrame = new Date
+									state = "STARTUP"
+
+				return
+
+	<% end %>
+
+  <div class="span2">Move #1</div>
+  <div class="progress">
+    <div class="bar" id="pbar0"></div>
+  </div>
+
+  <% @startUps.each_with_index do |s, i| %>
+    <div class="span2"><%= "Move \##{i+2}"%></div>
+    <div class="progress">
+      <div class="bar" id="<%="pbar#{i+1}"%>"></div>
+    </div>
+  <% end %>
+

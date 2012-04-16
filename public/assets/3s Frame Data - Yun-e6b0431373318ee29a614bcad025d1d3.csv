@@ -1,0 +1,60 @@
+Move Name,Start-Up,Hit,Recovery,Blocked Advantage,Hit Advantage,Crouching Hit Advantage,Damage,Parry,Stun,Chains into itself,Special Cancel,Super Cancel
+Jab,3,1,6,4,4,4,20,H+L,3,O,O,O
+Strong,4,2,7,6,7,8,60,H,5,X,O,O
+Fierce,6,2*2,13,-2,-1,0,40+60,H,7+7,X,O+X,O+X
+Far Jab,4,1,9,1,1,1,20,H+L,3,O,O,O
+Far Strong,5,3,12,-3,-2,-1,50,H,5,X,X,X
+Far Fierce,9,1,23,-5,-3,-1,130,H,15,X,X,X
+Crouching Jab,4,1,6,4,4,4,20,H+L,3,O,O,O
+Crouching Strong,4,4,6,5,6,7,70,H+L,5,X,O,O
+Crouching Fierce,5*6,1*2,15,1,3,5,30+80,H+L,3+5,X,X,X
+Neutral Jumping Fierce,8,4,-,-,-,-,120,H,15,X,X,X
+Jumping Jab,2,-,-,-,-,-,40,H,7,X,X,X
+Jumping Strong,3,5,-,-,-,-,80,H,9,X,X,X
+Jumping Fierce,5,3,-,-,-,-,100,H,13,X,X,X
+Short,3,2,6,2,2,2,35,H+L,3,X,O,O
+Forward,7,3,15,-2,Down,Down,80,H,9,X,X,X
+Far Forward,9,2,15,-4,-3,-2,80,H,9,X,X,X
+Roundhouse,14,3,22,-5,Down,Down,100,H,11,X,X,X
+Crouching Short,4,1,8,2,2,2,30,L,3,O,O,O
+Crouching Forward,6,2,8,-1,0,1,50,L,3,X,O,O
+Crouching Roundhouse,13,1,19,-5,Down,Down,90,L,3,X,X,X
+Jumping Short,3,11,-,-,-,-,40,H,5,X,X,X
+Jumping Forward,6,6,-,-,-,-,70,H,9,X,X,X
+Jumping Roundhouse,7,4,-,-,-,-,90,H,13,X,X,X
+Towards + Forward,19,5,8,-1,-,-,80,H,11,X,X,X
+Towards + Fierce,17,4,19,-7,-,-,140,H,17,X,X,X
+Dive Kicks,6*8*6,-,-,-,-,-,70,H,7,X,X,X
+Neutral Throw,2,1,21,-,-,-,40x6,-,5x6,X,X,X
+Throw,2,1,21,-,-,-,120,-,9,X,X,X
+Universal Overhead,16 ~ 24,8,6,-5 ~ +2,0 ~ +8,+1 ~ +9,40,H,3,X,X,X
+Taunt,29,5,28,-,-,-,5,H+L,-,X,X,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun,Super Cancel
+Tetsu Zankou (Jab),DPM + Jab,14,5,13,-1,110,H+L,9,O
+Tetsu Zankou (Strong),DPM + Strong,18,5,15,-3,125,H+L,9,O
+Tetsu Zankou (Fierce),DPM + Fierce,22,5,17,-5,140,H+L,9,O
+Tetsu Zankou (EX),DPM + 2 Punches,10,6*5,19,-7,80+80,H+L,9+5,O
+Zesshou Hohou (Jab),QCF + Jab,7,4,22,-11,100,H+L,9(5),X
+Zesshou Hohou (Strong),QCF + Strong,10,10,16,-11,110,H+L,9(5),X
+Zesshou Hohou (Fierce),QCF + Fierce,13,14,12,-11,120,H+L,9(5),X
+Zesshou Hohou (EX),QCF + 2 Punches,13,8*5,12,-2,60+120,H,7+5,X
+Nishou Kyaku (Short),DPM + Short,4,1*3,25,-25,80+50,H+L,7+5,X
+Nishou Kyaku (Forward),DPM + Forward,6,1*3,26,-26,80+60,H+L,7+5,X
+Nishou Kyaku (RH),DPM + RH,8,1*3,28,-28,80+70,H+L,7+5,X
+Nishou Kyaku (EX),DPM + 2 Kicks,4,1*3,29,-28,80+90,H+L,9+5,X
+Kobokushi,QCB + Punch,24,9,4,0,180(140),H+L,23(17),O
+Zenpou Tenshin,HCB + Kick,7,1,26,-,0,-,-,X
+
+
+Move Name,Motion,Start-Up,Hit,Recovery,Blocked Advantage,Damage,Parry,Stun
+You Hou,QCF x 2 + Punch,1,9,-,-,60,H,7
+2,-,10,2,-,-,120,H,9
+3,-,45,2,36,-27,230,H,9
+Sourai Rengeki,QCF x 2 + Punch,3,2,-,-,70,H,3
+2,-,14,1,-,-,70,H,0
+3,-,12,2,-,-,50,H,5
+4,-,10,2,-,-,50,H,0
+5/6/2011,-,16*8,3*1,33,-27,40+40,-,3+3
+Genei Jin,QCF x 2 + Punch,1,-,-,-,-,-,-

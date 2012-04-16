@@ -1,10 +1,23 @@
 class User < ActiveRecord::Base
   attr_accessible :username, :password, :password_confirmation
 
+  has_many :combos
+
+  has_secure_password
+
   validates_presence_of :username
   validates :username, :uniqueness => true
-  has_secure_password
   validates_presence_of :password, :on => :create
 
-  has_many :combos
+
+  before_save :create_remember_token
+
+  private
+
+    def create_remember_token
+      self.remember_token = SecureRandom.urlsafe_base64
+    end
 end
+
+
+

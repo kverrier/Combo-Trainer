@@ -1,0 +1,125 @@
+# Place all the behaviors and hooks related to the matching controller here.
+# All this logic will automatically be available in application.js.
+# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+
+
+$(document).ready ->
+
+  FRAMES = 16.666666 # 1/60 of a second
+  jKey = 106
+  frameSymbol = '*'
+  breakSymbol = '|'
+  # Get values from META tags
+  username = $('meta[name=user_name]').attr('content')
+  startUpPeriods = $('meta[name=start_up_periods]').attr('content').split(" ")
+  connectionPeriods = $('meta[name=connection_periods]').attr('content').split(" ")
+
+  # INTIALIZATIONS
+  keyFrame = new Date
+  elasped = 0
+  state = "NEUTRAL"
+
+
+  startUpTime = startUpPeriods[0] * FRAMES
+  connectTime = connectionPeriods[0] * FRAMES
+  i = 1
+
+  $(document).keypress (event) ->
+    key_handeler(event)
+    return
+
+  key_handeler = (event) ->
+    if event.which is 106 # "j" key value
+      switch state
+        when "NEUTRAL"
+          startUpTime = startUpPeriods[0] * FRAMES
+          connectTime = connectionPeriods[0] * FRAMES
+          i = 0
+          keyFrame = new Date
+
+          $(".bar").css("width", 0)
+          $(".progress").attr("class", "progress progress-warning")
+
+
+          state = "STARTUP"
+          $('.Msg').html('START UP')
+
+        when "STARTUP"
+          $('.Msg').html("FAILED: Too soon on move number " + (i+2))
+          state = "NEUTRAL"
+
+        when "LINK"
+          i += 1
+          if i >= startUpPeriods.length
+            $('.Msg').html("SUCCESS: Press j to try again")
+            state = "NEUTRAL"
+          else
+            $("#progress"+(i)).attr("class", "progress progress-warning")
+            $('.Msg').html('START UP')
+            startUpTime = startUpPeriods[i] * FRAMES
+            connectTime = connectionPeriods[i] * FRAMES
+            keyFrame = new Date
+            state = "STARTUP"
+
+            return
+
+
+
+
+  $(".bar").css("width", 0)
+
+  #$(".progress").attr("class", "progress progress-warning")
+  #$(".progress").attr("class", "progress progress-success")
+  #$(".progress").attr("class", "progress progress-danger")
+
+
+
+  #$("div.bar > div").css("background", "red")
+
+
+
+  ### Polling refresh for progress bars ###
+
+  setInterval(
+    ( ->
+      $('.Timer').text(elasped / 1000 + " Seconds")
+
+      switch state
+        when "NEUTRAL"
+          return
+
+        when "STARTUP"
+          elasped = new Date - keyFrame
+
+          if elasped > startUpTime
+            keyFrame = new Date
+            state = "LINK"
+            $('.Msg').html("LINK")
+
+            $("#pbar"+(i+1)).css("width", "0%")
+            $("#progress"+(i+1)).attr("class", "progress progress-success")
+            $("#pbar"+i).css("width", "100%")
+          else
+            progress_percent = (elasped / startUpTime) * 100
+            $("#pbar"+i).css("width", progress_percent+"%" )
+            return
+
+        when "LINK"
+          elasped = new Date - keyFrame
+
+          # check if past link connection time
+          if elasped > connectTime
+            state = "NEUTRAL"
+            $("#progress"+(i+1)).attr("class", "progress progress-danger")
+            $("#pbar"+(i+1)).css("width", "100%")
+            $('.Msg').html("FAILED: Too slow on move " + (i+2))
+          else
+            progress_percent = (elasped / startUpTime) * 100
+            $("#pbar"+(i+1)).css("width", progress_percent+"%")
+
+            return
+
+    )
+    , FRAMES
+  )
+

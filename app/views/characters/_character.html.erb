@@ -1,4 +1,12 @@
-<li>
-	<%= link_to image_tag("portraits/#{character.name.downcase}-face.gif"), character_path(character)%>
-	<span class="character_link"><%= link_to character.name.capitalize, character_path(character.id) %></span>
+
+<li class="span2">
+  <div class="thumbnail">
+    <!--
+    <%= link_to image_tag("characters/#{character.name.downcase}.jpeg"), character_path(character), :class => "thumbnail"%>
+    -->
+    <%= link_to image_tag("portraits/#{character.name.downcase}-face.gif"), character_path(character), :class => "thumbnail"%>
+    <h5><%= link_to character.name.capitalize, character_path(character.id) %> </h5>
+  </div>
 </li>
+
+

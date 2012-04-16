@@ -1,20 +1,25 @@
-<h1><%= @character.name %>
-<div id="character_portrait" >
-	<%= link_to image_tag("portraits/#{@character.name.downcase}-face.gif"), character_path(@character) %>
-</div>
+<h1 class="span10">
+  <%= @character.name %>
+  <small>Select a combo to practice or create your own</small>
+</h1>
+<%= link_to image_tag("portraits/#{@character.name.downcase}-face.gif"), character_path(@character), :class => "span2"%>
 
-<h2>Select a combo to practice: </h2>
-
-<table class = "character_combos_table" summary = "Character Combo Selection" >
-	<th class= "combo_name">Combo Name</th>
-	<th class="combo_moves">Moves</th>
-	<th class="combo_submitter">Submitter</th>
-
-	<%=render @combos %>
+<table class = "table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th class= "combo_name">Combo Name</th>
+      <th class="combo_moves">Moves</th>
+      <th class="combo_submitter">Submitted by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%=render @combos %>
+  </tbody>
 </table>
 
-
-<div class="my_button">
-	<%= link_to "New Combo", new_character_combo_path(@character) %>
+<div class="offset5">
+  <%= link_to new_combo_path, :class => 'btn btn-primary span2' do %>
+    <i class="icon-plus"></i>
+    new combo
+  <% end -%>
 </div>
-

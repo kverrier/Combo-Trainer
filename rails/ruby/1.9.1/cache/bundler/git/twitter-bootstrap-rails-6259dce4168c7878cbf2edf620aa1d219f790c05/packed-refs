@@ -1,0 +1,4 @@
+# pack-refs with: peeled 
+b45db04cd67b2b5222cff775b49c4054a2e1ae9b refs/heads/static
+b3a0888007525b7c6f9bdb5a7c3190f5edb62d18 refs/heads/master
+11777b11fbc2d5045c4eaa2b9f543163f73fee5c refs/heads/gh-pages

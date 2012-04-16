@@ -1,19 +1,9 @@
 <h1>Sign Up</h1>
 
-<%= form_for @user do |f| %>
-  <%= render 'shared/error_messages', :target => @user %>
+<%= simple_form_for @user, :html => {:class =>'form-vertical'} do |f| -%>
+  <%= f.input :username %>
+  <%= f.input :password %>
+  <%= f.input :password_confirmation %>
+  <%= f.button :submit %>
+<% end -%>
 
-  <div class="field">
-    <%= f.label :username %>
-    <%= f.text_field :username %>
-  </div>
-  <div class="field">
-    <%= f.label :password %>
-    <%= f.password_field :password %>
-  </div>
-  <div class="field">
-    <%= f.label :password_confirmation %>
-    <%= f.password_field :password_confirmation %>
-  </div>
-  <div class="actions"><%= f.submit %></div>
-<% end %>

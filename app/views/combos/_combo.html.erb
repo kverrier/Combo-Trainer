@@ -1,12 +1,11 @@
 <tr>
   <td class="combo_name">
-    <%= link_to combo.name, character_combo_path(@character, combo)%>
+    <%= link_to combo.name, combo_path(combo)%>
   </td>
   <td class="combo_moves">
     <%= combo.combo_items.map{|c| c.move.name}.join ' -> ' %>
   </td>
   <td class="combo_submitter">
-    <%= combo.submitter %>
+    <%= link_to combo.user.username, user_path(combo.user) %>
   </td>
-
 </tr>

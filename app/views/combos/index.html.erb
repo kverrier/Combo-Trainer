@@ -1,0 +1,35 @@
+
+<div class="offset5">
+  <%= link_to new_combo_path, :class => 'btn btn-primary span2' do %>
+    <i class="icon-plus"></i>
+    new combo
+  <% end -%>
+</div>
+
+<% for c in @characters %>
+  <h2 class="span10">
+    <%= c.name %>
+  </h2>
+  <%= link_to image_tag("portraits/#{c.name.downcase}-face.gif"), character_path(c), :class => "span2"%>
+
+
+<table class = "table table-bordered table-striped span12">
+  <thead>
+    <tr>
+      <th class= "combo_name">Combo Name</th>
+      <th class="combo_moves">Moves</th>
+      <th class="combo_submitter">Submitted by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%=render c.combos %>
+  </tbody>
+</table>
+<% end %>
+
+<div class="offset5">
+  <%= link_to new_combo_path, :class => 'btn btn-primary span2' do %>
+    <i class="icon-plus"></i>
+    new combo
+  <% end -%>
+</div>

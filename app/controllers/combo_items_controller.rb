@@ -22,7 +22,7 @@ class ComboItemsController < ApplicationController
 		@combo_item = @combo.combo_items.build(:move_id => @move.id, :position => @combo_items.length)
 
 		if valid_moves.include?(@combo_item.move) and @combo_item.save
-			redirect_to character_combo_path(@combo.character, @combo)
+			redirect_to combo_path(@combo)
 		else
 			render 'new'
 		end
