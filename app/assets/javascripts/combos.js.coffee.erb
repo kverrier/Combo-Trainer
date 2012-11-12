@@ -2,11 +2,25 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
+BACK_KEY    = 97
+UP_KEY      = 119
+DOWN_KEY    = 115
+FORWARD_KEY = 100
+
+LP_KEY = 117
+MP_KEY = 118
+HP_KEY = 119
+
+LK_KEY = 106
+MK_KEY = 107
+HK_KEY = 108
+
+MAX_INPUTS = 2
+
 
 $(document).ready ->
 
   FRAMES = 16.666666 # 1/60 of a second
-  jKey = 106
   frameSymbol = '*'
   breakSymbol = '|'
   # Get values from META tags
@@ -19,17 +33,24 @@ $(document).ready ->
   elasped = 0
   state = "NEUTRAL"
 
+  inputs = new Queue()
 
   startUpTime = startUpPeriods[0] * FRAMES
   connectTime = connectionPeriods[0] * FRAMES
   i = 1
+
+  addToInputs = (input) ->
+    if inputs.getLength is MAX_INPUTS
+      inputs.dequeue
+    inputs.enqueue(input)
+    return
 
   $(document).keypress (event) ->
     key_handeler(event)
     return
 
   key_handeler = (event) ->
-    if event.which is 106 # "j" key value
+    if event.which is LK_KEY
       switch state
         when "NEUTRAL"
           startUpTime = startUpPeriods[0] * FRAMES
@@ -60,19 +81,23 @@ $(document).ready ->
             connectTime = connectionPeriods[i] * FRAMES
             keyFrame = new Date
             state = "STARTUP"
-
             return
-
-
-
+    if event.which is FORWARD_KEY
+      addToInputs("F")
+    if event.addToInputs is BACK_KEY
+      addToInputs("B")
+    if event.which is UP_KEY
+      addToInputs("U")
+    if event.which is DOWN_KEY
+      addToInputs("D")
+    else
+    return
 
   $(".bar").css("width", 0)
 
   #$(".progress").attr("class", "progress progress-warning")
   #$(".progress").attr("class", "progress progress-success")
   #$(".progress").attr("class", "progress progress-danger")
-
-
 
   #$("div.bar > div").css("background", "red")
 
@@ -83,6 +108,8 @@ $(document).ready ->
   setInterval(
     ( ->
       $('.Timer').text(elasped / 1000 + " Seconds")
+
+      $('#inputs').text(inputs.peek)
 
       switch state
         when "NEUTRAL"

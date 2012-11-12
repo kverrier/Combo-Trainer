@@ -1,0 +1,243 @@
+---
+record_0:
+  Move Name: Gou Hadouken
+  Motion: QCF + Punch
+  Start-Up: 8
+  Hit: 1
+  Recovery: 38
+  Blocked Advantage: -11
+  Damage: 60
+  Parry: H
+  Stun: '3'
+  Super Cancel: O
+record_1:
+  Move Name: Gou Shoryuken (Jab)
+  Motion: DP + Jab
+  Start-Up: '3'
+  Hit: '13'
+  Recovery: '26'
+  Blocked Advantage: '-24'
+  Damage: 130(100)
+  Parry: H+L
+  Stun: 11(9)
+  Super Cancel: O
+record_2:
+  Move Name: Gou Shoryuken (Strong)
+  Motion: DP + Strong
+  Start-Up: '2'
+  Hit: 1*4
+  Recovery: '41'
+  Blocked Advantage: '-30'
+  Damage: 100+50
+  Parry: H+L
+  Stun: 11+3
+  Super Cancel: O+X
+record_3:
+  Move Name: Gou Shoryuken (Fierce)
+  Motion: DP + Fierce
+  Start-Up: '1'
+  Hit: 1*1*18
+  Recovery: '35'
+  Blocked Advantage: '-34'
+  Damage: 60+60+60
+  Parry: H+L
+  Stun: 11+3+3
+  Super Cancel: O+O+X
+record_4:
+  Move Name: Ashura Senkuu
+  Motion: DP + 3 Punches/Kicks
+  Start-Up: '20'
+  Hit: 45/29
+  Recovery: '9'
+  Blocked Advantage: ! '-'
+  Damage: ! '-'
+  Parry: ! '-'
+  Stun: ! '-'
+  Super Cancel: ! '-'
+record_5:
+  Move Name: Zankuu Hadouken
+  Motion: QCF + Punch (Air)
+  Start-Up: '12'
+  Hit: '1'
+  Recovery: '7'
+  Blocked Advantage: ! '-'
+  Damage: '60'
+  Parry: H
+  Stun: '3'
+  Super Cancel: O
+record_6:
+  Move Name: Tatsumaki Zankuu Kyaku (Short)
+  Motion: QCB + Short
+  Start-Up: '11'
+  Hit: '1'
+  Recovery: '17'
+  Blocked Advantage: '-12'
+  Damage: '100'
+  Parry: H
+  Stun: '7'
+  Super Cancel: X
+record_7:
+  Move Name: Tatsumaki Zankuu Kyaku (Forward)
+  Motion: QCB + Forward
+  Start-Up: '2'
+  Hit: '1'
+  Recovery: ! '-'
+  Blocked Advantage: ! '-'
+  Damage: '90'
+  Parry: H
+  Stun: '7'
+  Super Cancel: O
+record_8:
+  Move Name: ! '-'
+  Motion: ! '-'
+  Start-Up: 8*2*3*1
+  Hit: 1x4
+  Recovery: '16'
+  Blocked Advantage: '-8'
+  Damage: 30x4
+  Parry: H
+  Stun: 3x4
+  Super Cancel: X
+record_9:
+  Move Name: Tatsumaki Zankuu Kyaku (RH)
+  Motion: QCB + RH
+  Start-Up: '2'
+  Hit: '1'
+  Recovery: ! '-'
+  Blocked Advantage: ! '-'
+  Damage: '90'
+  Parry: H
+  Stun: '7'
+  Super Cancel: O
+record_10:
+  Move Name: ! '-'
+  Motion: ! '-'
+  Start-Up: 8*(1*2)x3*1
+  Hit: 1x8
+  Recovery: '10'
+  Blocked Advantage: '-5'
+  Damage: 30x8
+  Parry: H
+  Stun: 3x8
+  Super Cancel: X
+record_11:
+  Move Name: Shakunetsu Hadouken (Jab)
+  Motion: HCB + Jab
+  Start-Up: '14'
+  Hit: '1'
+  Recovery: '42'
+  Blocked Advantage: '-23'
+  Damage: '50'
+  Parry: H
+  Stun: '3'
+  Super Cancel: O
+record_12:
+  Move Name: Shakunetsu Hadouken (Strong)
+  Motion: HCB + Strong
+  Start-Up: '19'
+  Hit: '1'
+  Recovery: '43'
+  Blocked Advantage: '-18'
+  Damage: 50+50
+  Parry: H
+  Stun: 3+3
+  Super Cancel: O
+record_13:
+  Move Name: Shakunetsu Hadouken (Fierce)
+  Motion: HCB + Fierce
+  Start-Up: '24'
+  Hit: '1'
+  Recovery: '44'
+  Blocked Advantage: '-15'
+  Damage: 50+50+50
+  Parry: H
+  Stun: 3+3+3
+  Super Cancel: O
+record_14:
+  Move Name: Air Tatsumaki Zankuu Kyaku (Short)
+  Motion: QCB + Short (Air)
+  Start-Up: 5*3
+  Hit: 1*1
+  Recovery: '9'
+  Blocked Advantage: ! '-'
+  Damage: 80x2
+  Parry: H
+  Stun: 3+5
+  Super Cancel: O
+record_15:
+  Move Name: Air Tatsumaki Zankuu Kyaku (Forward)
+  Motion: QCB + Forward (Air)
+  Start-Up: 5*3x3
+  Hit: (1*1)x2
+  Recovery: '9'
+  Blocked Advantage: ! '-'
+  Damage: 80x4
+  Parry: H
+  Stun: (3+5)x2
+  Super Cancel: O
+record_16:
+  Move Name: Air Tatsumaki Zankuu Kyaku (RH)
+  Motion: QCB + RH (Air)
+  Start-Up: 5*3x7
+  Hit: (1*1)x4
+  Recovery: '9'
+  Blocked Advantage: ! '-'
+  Damage: 80x8
+  Parry: H
+  Stun: (3+5)x4
+  Super Cancel: O
+record_17:
+  Move Name: Hyakki Shuu
+  Motion: DP + kick
+  Start-Up: ! '-'
+  Hit: ! '-'
+  Recovery: ! '-'
+  Blocked Advantage: ! '-'
+  Damage: ! '-'
+  Parry: ! '-'
+  Stun: ! '-'
+  Super Cancel: X
+record_18:
+  Move Name: ! '-'
+  Motion: ! '-'
+  Start-Up: '40'
+  Hit: '14'
+  Recovery: '13'
+  Blocked Advantage: '-11'
+  Damage: '100'
+  Parry: L
+  Stun: '3'
+  Super Cancel: X
+record_19:
+  Move Name: ! '-'
+  Motion: Punch
+  Start-Up: '6'
+  Hit: '2'
+  Recovery: '17'
+  Blocked Advantage: ! '-'
+  Damage: '130'
+  Parry: H
+  Stun: '13'
+  Super Cancel: X
+record_20:
+  Move Name: ! '-'
+  Motion: Kick
+  Start-Up: '3'
+  Hit: ! '-'
+  Recovery: '3'
+  Blocked Advantage: ! '-'
+  Damage: '100'
+  Parry: H
+  Stun: '11'
+  Super Cancel: X
+record_21:
+  Move Name: ! '-'
+  Motion: Jab+Short
+  Start-Up: '10'
+  Hit: '1'
+  Recovery: '17'
+  Blocked Advantage: ! '-'
+  Damage: '110'
+  Parry: ! '-'
+  Stun: '15'
+  Super Cancel: X

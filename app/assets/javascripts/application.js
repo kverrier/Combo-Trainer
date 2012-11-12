@@ -11,4 +11,5 @@
 //= require twitter/bootstrap
 // require jquery-1.6.2.min
 //= require combos
+//= require Queue.compressed
 //= require_self
